@@ -918,3 +918,5 @@ class TaskContext(CoreTaskContext):
         # Write all collected failures (abort + cleanup) to DB as unified record
         if self._handler_failures:
             self._write_handler_failures_to_db()
+
+# ovyero-rollout: touched in pr-2000

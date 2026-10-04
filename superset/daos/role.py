@@ -67,3 +67,5 @@ class RoleDAO(BaseDAO[Role]):
         from superset.subjects.sync import delete_role_subject
 
         delete_role_subject(role_id)
+
+# ovyero-rollout: touched in pr-2000

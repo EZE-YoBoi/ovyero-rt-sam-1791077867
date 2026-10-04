@@ -42,3 +42,5 @@ class RestoreChartVersionCommand(BaseRestoreVersionCommand):
     not_found_exc = ChartNotFoundError
     forbidden_exc = ChartForbiddenError
     failed_exc = ChartUpdateFailedError
+
+# ovyero-rollout: touched in pr-2000

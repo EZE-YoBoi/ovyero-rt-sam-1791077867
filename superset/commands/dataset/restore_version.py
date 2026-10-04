@@ -39,3 +39,5 @@ class RestoreDatasetVersionCommand(BaseRestoreVersionCommand):
     not_found_exc = DatasetNotFoundError
     forbidden_exc = DatasetForbiddenError
     failed_exc = DatasetUpdateFailedError
+
+# ovyero-rollout: touched in pr-2000

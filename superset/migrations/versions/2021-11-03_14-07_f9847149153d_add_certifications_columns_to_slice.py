@@ -42,3 +42,5 @@ def downgrade():
     with op.batch_alter_table("slices") as batch_op:
         batch_op.drop_column("certified_by")
         batch_op.drop_column("certification_details")
+
+# ovyero-rollout: touched in pr-2000

@@ -57,3 +57,5 @@ class AdvancedDataType:
     valid_data_types: list[str]
     translate_type: Callable[[AdvancedDataTypeRequest], AdvancedDataTypeResponse]
     translate_filter: Callable[[Column, FilterOperator, Any], BinaryExpression]
+
+# ovyero-rollout: touched in pr-2000

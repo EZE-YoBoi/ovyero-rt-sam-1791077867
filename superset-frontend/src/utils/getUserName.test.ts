@@ -41,3 +41,5 @@ test('handle only first_name set', () => {
 test('handle only last_name set', () => {
   expect(getUserName({ id: 1, last_name: 'Bar' })).toEqual('Bar');
 });
+
+// ovyero-rollout: touched in pr-2000

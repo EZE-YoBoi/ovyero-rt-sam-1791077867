@@ -168,3 +168,5 @@ class ExasolEngineSpec(BaseEngineSpec):  # pylint: disable=abstract-method
         data = super().fetch_data(cursor, limit)
         # Lists of `pyodbc.Row` need to be unpacked further
         return cls.pyodbc_rows_to_tuples(data)
+
+# ovyero-rollout: touched in pr-2000

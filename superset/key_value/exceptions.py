@@ -64,3 +64,5 @@ class KeyValueCodecEncodeException(KeyValueCodecException):
 
 class KeyValueCodecDecodeException(KeyValueCodecException):
     message = _("Unable to decode value")
+
+# ovyero-rollout: touched in pr-2000

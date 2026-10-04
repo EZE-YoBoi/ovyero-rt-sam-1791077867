@@ -42,3 +42,5 @@ def upgrade():
 def downgrade():
     op.drop_column("sql_metrics", "d3format")
     op.drop_column("metrics", "d3format")
+
+# ovyero-rollout: touched in pr-2000

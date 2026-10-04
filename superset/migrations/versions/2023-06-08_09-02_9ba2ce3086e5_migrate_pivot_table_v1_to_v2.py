@@ -42,3 +42,5 @@ def downgrade():
     bind = op.get_bind()
     session = db.Session(bind=bind)
     MigratePivotTable.downgrade(session)
+
+# ovyero-rollout: touched in pr-2000

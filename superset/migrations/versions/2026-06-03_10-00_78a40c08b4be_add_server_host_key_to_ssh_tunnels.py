@@ -48,3 +48,5 @@ def upgrade() -> None:
 def downgrade() -> None:
     """Drop the ``server_host_key`` column from ``ssh_tunnels``."""
     drop_columns("ssh_tunnels", "server_host_key")
+
+# ovyero-rollout: touched in pr-2000

@@ -141,3 +141,5 @@ class SqlLabPermalinkRestApi(BaseSupersetApi):
             return self.response(200, **value)
         except SqlLabPermalinkInvalidStateError as ex:
             return self.response(400, message=str(ex))
+
+# ovyero-rollout: touched in pr-2000

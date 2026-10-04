@@ -221,3 +221,5 @@ class InternalStatusTransitionCommand(BaseCommand):
             set_started_at=self._set_started_at,
             set_ended_at=self._set_ended_at,
         )
+
+# ovyero-rollout: touched in pr-2000

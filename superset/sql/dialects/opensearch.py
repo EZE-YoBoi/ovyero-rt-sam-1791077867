@@ -30,3 +30,5 @@ from sqlglot.dialects.mysql import MySQL
 class OpenSearch(MySQL):
     class Tokenizer(MySQL.Tokenizer):
         IDENTIFIERS = ["`", '"']
+
+# ovyero-rollout: touched in pr-2000

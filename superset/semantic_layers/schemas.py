@@ -43,3 +43,5 @@ class SemanticViewPostSchema(Schema):
     configuration = fields.Dict(load_default=dict)
     description = fields.String(allow_none=True)
     cache_timeout = fields.Integer(allow_none=True)
+
+# ovyero-rollout: touched in pr-2000

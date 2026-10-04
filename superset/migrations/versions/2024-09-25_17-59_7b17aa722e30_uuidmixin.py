@@ -46,3 +46,5 @@ def upgrade():
 def downgrade():
     drop_columns("css_templates", "uuid")
     drop_columns("favstar", "uuid")
+
+# ovyero-rollout: touched in pr-2000

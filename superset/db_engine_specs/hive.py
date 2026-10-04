@@ -692,3 +692,5 @@ class HiveEngineSpec(PrestoEngineSpec):
             cursor.execute(sql)
             results = cursor.fetchall()
             return {row[0] for row in results}
+
+# ovyero-rollout: touched in pr-2000

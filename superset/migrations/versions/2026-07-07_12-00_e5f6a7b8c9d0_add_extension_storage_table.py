@@ -107,3 +107,5 @@ def downgrade() -> None:
     op.drop_index("ix_ext_storage_lookup", "extension_storage")
     op.drop_index("ix_ext_storage_extension_id", "extension_storage")
     op.drop_table("extension_storage")
+
+# ovyero-rollout: touched in pr-2000

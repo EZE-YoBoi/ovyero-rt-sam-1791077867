@@ -59,3 +59,5 @@ def cum(
     # the running ``min``/``max``, a value that need not appear in the data.
     df_cum = _append_columns(df, getattr(df_cum, operation)().ffill(), columns)
     return df_cum
+
+# ovyero-rollout: touched in pr-2000

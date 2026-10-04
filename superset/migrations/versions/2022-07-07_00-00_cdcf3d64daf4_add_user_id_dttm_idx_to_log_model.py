@@ -39,3 +39,5 @@ def upgrade():
 
 def downgrade():
     drop_index(index_name=op.f("ix_logs_user_id_dttm"), table_name="logs")
+
+# ovyero-rollout: touched in pr-2000

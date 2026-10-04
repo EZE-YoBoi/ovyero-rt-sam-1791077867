@@ -284,3 +284,5 @@ class QueryRestApi(BaseSupersetModelRestApi):
             return self.response(200, result="OK")
         except SupersetException as ex:
             return self.response(ex.status, message=ex.message)
+
+# ovyero-rollout: touched in pr-2000

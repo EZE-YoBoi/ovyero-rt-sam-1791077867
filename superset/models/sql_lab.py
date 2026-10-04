@@ -751,3 +751,5 @@ class TableSchema(AuditMixinNullable, ExtraJSONMixin, Model):
             "description": description,
             "expanded": self.expanded,
         }
+
+# ovyero-rollout: touched in pr-2000

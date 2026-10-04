@@ -41,3 +41,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("query", "end_result_backend_time")
+
+# ovyero-rollout: touched in pr-2000

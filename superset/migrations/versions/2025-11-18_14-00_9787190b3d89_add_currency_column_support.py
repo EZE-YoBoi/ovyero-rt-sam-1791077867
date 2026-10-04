@@ -46,3 +46,5 @@ def downgrade():
         "tables",
         "currency_code_column",
     )
+
+# ovyero-rollout: touched in pr-2000

@@ -63,3 +63,5 @@ def upgrade():
 def downgrade():
     with op.batch_alter_table("report_schedule") as batch_op:
         batch_op.drop_column("force_screenshot")
+
+# ovyero-rollout: touched in pr-2000

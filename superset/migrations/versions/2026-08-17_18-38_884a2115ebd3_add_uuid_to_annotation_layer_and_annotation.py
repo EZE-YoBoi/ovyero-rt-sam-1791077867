@@ -142,3 +142,5 @@ def downgrade() -> None:
             with op.batch_alter_table(table_name) as batch_op:
                 batch_op.drop_constraint(constraint_name, type_="unique")
         drop_columns(table_name, "uuid")
+
+# ovyero-rollout: touched in pr-2000

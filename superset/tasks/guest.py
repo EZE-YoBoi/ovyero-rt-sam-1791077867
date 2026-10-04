@@ -84,3 +84,5 @@ def get_guest_subscriber_key_for(user_id: int | None) -> str | None:
     "user_id XOR guest_key" rule that ``TaskSubscriber`` enforces in one place.
     """
     return None if user_id else get_current_guest_subscriber_key()
+
+# ovyero-rollout: touched in pr-2000

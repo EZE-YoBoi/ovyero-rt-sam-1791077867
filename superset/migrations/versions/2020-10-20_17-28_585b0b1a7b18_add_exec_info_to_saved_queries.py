@@ -38,3 +38,5 @@ def upgrade():
 def downgrade():
     op.drop_column("saved_query", "rows")
     op.drop_column("saved_query", "last_run")
+
+# ovyero-rollout: touched in pr-2000

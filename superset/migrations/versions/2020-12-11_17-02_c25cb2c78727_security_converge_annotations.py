@@ -114,3 +114,5 @@ def downgrade():
         print(f"An error occurred while downgrading annotation permissions: {ex}")
         session.rollback()
     pass
+
+# ovyero-rollout: touched in pr-2000

@@ -39,3 +39,5 @@ export const selectCanRestoreDashboard = (state: RootState): boolean =>
   !state.dashboardInfo?.is_managed_externally;
 
 export default selectCanRestoreDashboard;
+
+// ovyero-rollout: touched in pr-2000

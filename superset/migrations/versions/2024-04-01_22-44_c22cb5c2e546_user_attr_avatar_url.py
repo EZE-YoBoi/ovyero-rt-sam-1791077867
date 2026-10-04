@@ -39,3 +39,5 @@ def upgrade():
 
 def downgrade():
     drop_columns("user_attribute", "avatar_url")
+
+# ovyero-rollout: touched in pr-2000

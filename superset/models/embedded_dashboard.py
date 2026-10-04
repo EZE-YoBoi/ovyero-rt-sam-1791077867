@@ -62,3 +62,5 @@ class EmbeddedDashboard(Model, AuditMixinNullable):
         An empty list means any domain can embed.
         """
         return self.allow_domain_list.split(",") if self.allow_domain_list else []
+
+# ovyero-rollout: touched in pr-2000

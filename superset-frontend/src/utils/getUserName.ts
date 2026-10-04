@@ -27,3 +27,5 @@ export default function getUserName(user?: User): string {
     [user.first_name, user.last_name].filter(Boolean).join(' ')
   );
 }
+
+// ovyero-rollout: touched in pr-2000

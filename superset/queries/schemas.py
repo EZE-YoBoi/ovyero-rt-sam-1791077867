@@ -83,3 +83,5 @@ class StopQuerySchema(Schema):
     """
 
     client_id = fields.String()
+
+# ovyero-rollout: touched in pr-2000

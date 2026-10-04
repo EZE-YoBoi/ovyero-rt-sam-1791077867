@@ -25,3 +25,5 @@ def get_validator_by_name(name: str) -> Optional[type[base.BaseSQLValidator]]:
         "PrestoDBSQLValidator": presto_db.PrestoDBSQLValidator,
         "SQLiteSQLValidator": sqlite.SQLiteSQLValidator,
     }.get(name)
+
+# ovyero-rollout: touched in pr-2000

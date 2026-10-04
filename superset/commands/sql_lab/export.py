@@ -163,3 +163,5 @@ class SqlResultExportCommand(BaseCommand):
             "count": len(df.index),
             "data": csv_data,
         }
+
+# ovyero-rollout: touched in pr-2000

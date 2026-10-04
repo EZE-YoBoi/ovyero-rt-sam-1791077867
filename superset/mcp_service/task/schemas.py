@@ -159,3 +159,5 @@ def serialize_task_object(task: Any) -> TaskInfo | None:
         changed_on=changed_on,
         created_on=created_on,
     )
+
+# ovyero-rollout: touched in pr-2000

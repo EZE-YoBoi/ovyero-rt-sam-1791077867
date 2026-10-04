@@ -136,3 +136,5 @@ def downgrade():
         batch_op.create_foreign_key(
             "table_schema_database_id_fkey", "dbs", ["database_id"], ["id"]
         )
+
+# ovyero-rollout: touched in pr-2000

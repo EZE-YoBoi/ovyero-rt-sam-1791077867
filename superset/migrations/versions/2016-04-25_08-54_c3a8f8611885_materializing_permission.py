@@ -65,3 +65,5 @@ def downgrade():
     # Use batch_alter_table because dropping columns is not supported in SQLite
     with op.batch_alter_table("slices") as batch_op:
         batch_op.drop_column("perm")
+
+# ovyero-rollout: touched in pr-2000

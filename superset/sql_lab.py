@@ -941,3 +941,5 @@ def cancel_query(query: Query) -> bool:
                 return query.database.db_engine_spec.cancel_query(
                     cursor, query, cancel_query_id
                 )
+
+# ovyero-rollout: touched in pr-2000

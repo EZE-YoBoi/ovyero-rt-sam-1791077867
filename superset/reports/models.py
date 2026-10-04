@@ -454,3 +454,5 @@ class ReportExecutionLog(Model):  # pylint: disable=too-few-public-methods
         Index("ix_report_execution_log_report_schedule_id", report_schedule_id),
         Index("ix_report_execution_log_start_dttm", start_dttm),
     )
+
+# ovyero-rollout: touched in pr-2000

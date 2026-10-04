@@ -85,3 +85,5 @@ def downgrade():
     drop_index("themes", "idx_theme_is_system_default")
     drop_index("themes", "idx_theme_is_system_dark")
     drop_columns("themes", "is_system_dark", "is_system_default")
+
+# ovyero-rollout: touched in pr-2000

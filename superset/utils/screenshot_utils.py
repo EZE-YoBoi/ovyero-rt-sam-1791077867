@@ -1850,3 +1850,5 @@ def take_tiled_screenshot(  # noqa: C901
         # load, so it stays at ERROR/exception level.
         logger.exception("Tiled screenshot failed: %s%s", e, context_suffix)
         return None
+
+# ovyero-rollout: touched in pr-2000

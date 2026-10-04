@@ -73,3 +73,5 @@ class MonetDbEngineSpec(BaseEngineSpec):
         ),
         TimeGrain.YEAR: "CAST(EXTRACT(YEAR FROM {col}) || '-01-01' AS DATE)",
     }
+
+# ovyero-rollout: touched in pr-2000

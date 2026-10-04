@@ -117,3 +117,5 @@ def downgrade():
     # Forego that the columns.column_name be non-nullable.
     with op.batch_alter_table("columns") as batch_op:
         batch_op.alter_column("column_name", existing_type=String(255), nullable=True)
+
+# ovyero-rollout: touched in pr-2000

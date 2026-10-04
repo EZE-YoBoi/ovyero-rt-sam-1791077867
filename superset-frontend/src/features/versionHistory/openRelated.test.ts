@@ -128,3 +128,5 @@ test('closes the claimed tab when the id lookup fails', async () => {
   expect(mockedNavigateOpenedTab).not.toHaveBeenCalled();
   expect(mockedCloseOpenedTab).toHaveBeenCalledWith(claimedTab);
 });
+
+// ovyero-rollout: touched in pr-2000

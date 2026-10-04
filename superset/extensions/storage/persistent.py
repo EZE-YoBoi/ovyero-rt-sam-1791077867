@@ -242,3 +242,5 @@ class PersistentState(CorePersistentState):
     #: Data stored via this accessor is visible to all users of the extension.
     #: WARNING: Do not store user-specific or sensitive data here.
     shared: ClassVar[SharedPersistentStateAccessor] = SharedPersistentStateAccessor()
+
+# ovyero-rollout: touched in pr-2000

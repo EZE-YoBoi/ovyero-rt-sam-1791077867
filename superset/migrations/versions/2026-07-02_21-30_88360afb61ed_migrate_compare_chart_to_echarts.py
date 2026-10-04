@@ -53,3 +53,5 @@ def downgrade() -> None:
     bind = op.get_bind()
     session = db.Session(bind=bind)
     MigrateCompareChart.downgrade(session)
+
+# ovyero-rollout: touched in pr-2000

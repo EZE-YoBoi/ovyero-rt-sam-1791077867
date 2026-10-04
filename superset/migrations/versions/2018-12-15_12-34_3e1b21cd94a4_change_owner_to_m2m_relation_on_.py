@@ -128,3 +128,5 @@ def downgrade():
         batch_op.create_foreign_key(
             "fk_datasources_user_id_ab_user", "ab_user", ["user_id"], ["id"]
         )
+
+# ovyero-rollout: touched in pr-2000

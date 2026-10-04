@@ -104,3 +104,5 @@ class CurrencyType(TypeDecorator):
             return parse_currency_string(value)
 
         return value
+
+# ovyero-rollout: touched in pr-2000

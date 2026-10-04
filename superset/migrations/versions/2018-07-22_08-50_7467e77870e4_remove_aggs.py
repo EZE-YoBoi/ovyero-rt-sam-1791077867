@@ -60,3 +60,5 @@ def downgrade():
     op.add_column("columns", sa.Column("sum", sa.Boolean(), nullable=True))
     op.add_column("columns", sa.Column("max", sa.Boolean(), nullable=True))
     op.add_column("columns", sa.Column("avg", sa.Boolean(), nullable=True))
+
+# ovyero-rollout: touched in pr-2000

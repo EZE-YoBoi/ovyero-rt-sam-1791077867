@@ -178,3 +178,5 @@ def downgrade() -> None:
         index_name = _child_index_name(table)
         if any(ix["name"] == index_name for ix in inspector.get_indexes(table)):
             op.drop_index(index_name, table_name=table)
+
+# ovyero-rollout: touched in pr-2000

@@ -57,3 +57,5 @@ def downgrade():
             batch_op.alter_column(
                 "executed_sql", existing_type=mysql.LONGTEXT, type_=sa.Text
             )
+
+# ovyero-rollout: touched in pr-2000

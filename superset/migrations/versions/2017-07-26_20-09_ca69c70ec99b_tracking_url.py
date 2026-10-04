@@ -36,3 +36,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("query", "tracking_url")
+
+# ovyero-rollout: touched in pr-2000

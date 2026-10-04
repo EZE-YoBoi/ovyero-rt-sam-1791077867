@@ -85,3 +85,5 @@ class UpdateAnnotationCommand(BaseCommand):
 
         if exceptions:
             raise AnnotationInvalidError(exceptions=exceptions)
+
+# ovyero-rollout: touched in pr-2000

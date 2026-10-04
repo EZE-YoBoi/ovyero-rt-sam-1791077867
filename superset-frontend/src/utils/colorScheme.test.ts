@@ -228,3 +228,5 @@ test('applyColors with a fresh label list only resets the targeted labels', () =
   expect(forcedItems.A).toBeUndefined();
   expect(forcedItems.B).toBe('#oldB');
 });
+
+// ovyero-rollout: touched in pr-2000

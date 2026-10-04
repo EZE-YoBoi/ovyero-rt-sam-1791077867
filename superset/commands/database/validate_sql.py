@@ -199,3 +199,5 @@ class ValidateSQLCommand(BaseCommand):
                     level=ErrorLevel.ERROR,
                 ),
             )
+
+# ovyero-rollout: touched in pr-2000

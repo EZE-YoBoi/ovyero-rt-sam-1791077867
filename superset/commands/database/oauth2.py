@@ -151,3 +151,5 @@ class OAuth2StoreTokenCommand(BaseCommand):
             self._database = database
         else:
             raise DatabaseNotFoundError("Database not found")
+
+# ovyero-rollout: touched in pr-2000

@@ -370,3 +370,5 @@ class RedisSentinelCacheBackend(RedisCommandsMixin, RedisSentinelCache):
             ),
         }
         return cls(**kwargs)
+
+# ovyero-rollout: touched in pr-2000

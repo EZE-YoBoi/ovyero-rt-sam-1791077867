@@ -681,3 +681,5 @@ class ClickHouseConnectEngineSpec(BasicParametersMixin, ClickHouseEngineSpec):
         # bare outer SELECT to satisfy it without altering or dropping any of
         # the mutator's comments.
         return f"SELECT * FROM (\n{sql}\n) AS __superset_type_probe LIMIT 0"  # noqa: S608
+
+# ovyero-rollout: touched in pr-2000

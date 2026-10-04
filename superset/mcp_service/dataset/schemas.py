@@ -1379,3 +1379,5 @@ def serialize_dataset_object(dataset: Any) -> DatasetInfo | None:
         metrics=metrics,
         is_favorite=getattr(dataset, "is_favorite", None),
     )
+
+# ovyero-rollout: touched in pr-2000

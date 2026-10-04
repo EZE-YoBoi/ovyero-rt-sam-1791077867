@@ -249,3 +249,5 @@ def resample(  # pylint: disable=too-many-arguments
         if method in ("ffill", "bfill"):
             _df = getattr(_df, method)()
     return _df
+
+# ovyero-rollout: touched in pr-2000

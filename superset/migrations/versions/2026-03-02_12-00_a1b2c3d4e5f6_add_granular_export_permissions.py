@@ -74,3 +74,5 @@ def downgrade():
     bind = op.get_bind()
     session = Session(bind=bind)
     do_downgrade(session)
+
+# ovyero-rollout: touched in pr-2000

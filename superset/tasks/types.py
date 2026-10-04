@@ -60,3 +60,5 @@ Executor = FixedExecutor | ExecutorType
 
 # Alias type to represent the executor that was chosen from a list of Executors
 ChosenExecutor = tuple[ExecutorType, str]
+
+# ovyero-rollout: touched in pr-2000

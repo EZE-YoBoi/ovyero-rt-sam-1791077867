@@ -46,3 +46,5 @@ class ExtensionUpsertFailedError(UpdateFailedError):
 
 class BundleValidationError(Exception):
     pass
+
+# ovyero-rollout: touched in pr-2000

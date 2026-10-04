@@ -165,3 +165,5 @@ class Db2EngineSpec(BaseEngineSpec):
         name = cls.denormalize_name(database.get_dialect(), schema)
         escaped = name.replace('"', '""')
         return [f'set current_schema "{escaped}"']
+
+# ovyero-rollout: touched in pr-2000

@@ -572,3 +572,5 @@ def downgrade() -> None:
     bind = op.get_bind()
     if bind.dialect.name == "postgresql":
         op.execute("DROP SEQUENCE IF EXISTS version_transaction_id_seq")
+
+# ovyero-rollout: touched in pr-2000

@@ -67,3 +67,5 @@ def install_mcp_session_scoping() -> None:
             "db.session has no scopefunc-based registry; "
             "MCP per-call session scoping not installed"
         )
+
+# ovyero-rollout: touched in pr-2000

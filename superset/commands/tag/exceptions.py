@@ -94,3 +94,5 @@ class TaggedObjectNotFoundError(CommandException):
                     object_type: {object_type} \
                     and tag name: "{tag_name}" could not be found'
         super().__init__(message)
+
+# ovyero-rollout: touched in pr-2000

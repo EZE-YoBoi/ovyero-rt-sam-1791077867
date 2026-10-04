@@ -44,3 +44,5 @@ def aggregate(
     else:
         df_groupby = df.groupby(lambda _: True)
     return df_groupby.agg(**aggregate_funcs).reset_index(drop=not groupby)
+
+# ovyero-rollout: touched in pr-2000

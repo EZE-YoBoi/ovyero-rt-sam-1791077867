@@ -156,3 +156,5 @@ def _run_instance_info() -> InstanceInfo:
         result.current_user = serialize_user_object(user)
 
     return result
+
+# ovyero-rollout: touched in pr-2000

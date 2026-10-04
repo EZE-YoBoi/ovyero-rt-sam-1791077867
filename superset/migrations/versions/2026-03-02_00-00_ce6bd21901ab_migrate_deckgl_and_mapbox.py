@@ -216,3 +216,5 @@ def downgrade() -> None:
     session = db.Session(bind=bind)
     MigrateMapBox.downgrade(session)
     _migrate_deckgl_slices(session, upgrade=False)
+
+# ovyero-rollout: touched in pr-2000

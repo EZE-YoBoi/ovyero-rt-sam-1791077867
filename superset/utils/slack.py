@@ -768,3 +768,5 @@ def get_user_avatar(email: str, client: WebClient = None) -> str:
         raise SlackClientError("Profile image is not available.")
 
     return avatar_url
+
+# ovyero-rollout: touched in pr-2000

@@ -40,3 +40,5 @@ class QueryFilter(BaseFilter):  # pylint: disable=too-few-public-methods
         if not security_manager.can_access_all_queries():
             query = query.filter(Query.user_id == get_user_id())
         return query
+
+# ovyero-rollout: touched in pr-2000

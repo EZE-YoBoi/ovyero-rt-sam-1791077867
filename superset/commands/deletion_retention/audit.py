@@ -539,3 +539,5 @@ def reconcile_pending(stale_before: datetime | None = None) -> dict[str, int]:
     finally:
         session.close()
     return {"reconciled": reconciled, "absent": absent, "failed": failed}
+
+# ovyero-rollout: touched in pr-2000

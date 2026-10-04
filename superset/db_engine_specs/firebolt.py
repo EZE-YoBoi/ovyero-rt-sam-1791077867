@@ -96,3 +96,5 @@ class FireboltEngineSpec(BaseEngineSpec):
     @classmethod
     def epoch_to_dttm(cls) -> str:
         return "from_unixtime({col})"
+
+# ovyero-rollout: touched in pr-2000

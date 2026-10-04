@@ -238,3 +238,5 @@ def restore_dashboard_references(
             target.pop("datasourceRef")
             target["datasetId"] = semantic_info[uuid]["datasource_id"]
             target["datasourceType"] = "semantic_view"
+
+# ovyero-rollout: touched in pr-2000

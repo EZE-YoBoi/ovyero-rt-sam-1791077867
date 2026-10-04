@@ -201,3 +201,5 @@ security_manager: SupersetSecurityManager = LocalProxy(lambda: appbuilder.sm)
 ssh_manager_factory = SSHManagerFactory()
 stats_logger_manager = BaseStatsLoggerManager()
 talisman = Talisman()
+
+# ovyero-rollout: touched in pr-2000

@@ -1262,3 +1262,5 @@ def _validate_orderby(query_object: ValidatedQueryObject) -> None:
     dimension_names = {dimension.name for dimension in semantic_view.get_dimensions()}
     if not elements <= metric_names | dimension_names:
         raise ValueError("All order by elements must be defined in the Semantic View.")
+
+# ovyero-rollout: touched in pr-2000

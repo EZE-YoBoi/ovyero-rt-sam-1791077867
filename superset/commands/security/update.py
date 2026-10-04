@@ -114,3 +114,5 @@ class UpdateRLSRuleCommand(BaseCommand):
             raise ValidationError(
                 {"subjects": ["Regular RLS filters require at least one subject."]}
             )
+
+# ovyero-rollout: touched in pr-2000

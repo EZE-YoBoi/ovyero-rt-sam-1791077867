@@ -117,3 +117,5 @@ def bootstrap_sqllab_data(user_id: int | None) -> dict[str, Any]:
         "active_tab": active_tab.to_dict() if active_tab else None,
         "databases": databases,
     }
+
+# ovyero-rollout: touched in pr-2000

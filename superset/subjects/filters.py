@@ -277,3 +277,5 @@ class EditableFilter(BaseFilter):  # pylint: disable=too-few-public-methods
             relation_table=self.editors_table,
             fk_column=self.editors_fk_column,
         )
+
+# ovyero-rollout: touched in pr-2000

@@ -277,3 +277,5 @@ class HistogramChartPlugin(BaseChartPlugin):
         )
 
         return generate_histogram_vega_lite_preview(data, form_data)
+
+# ovyero-rollout: touched in pr-2000

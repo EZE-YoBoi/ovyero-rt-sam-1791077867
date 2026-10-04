@@ -127,3 +127,5 @@ class MarshmallowKeyValueCodec(JsonKeyValueCodec):
             return self.schema.load(obj)
         except ValidationError as ex:
             raise KeyValueCodecEncodeException(message=str(ex)) from ex
+
+# ovyero-rollout: touched in pr-2000

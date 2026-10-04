@@ -43,3 +43,5 @@ def upgrade():
 def downgrade():
     op.drop_column("dashboard_email_schedules", "slack_channel")
     op.drop_column("slice_email_schedules", "slack_channel")
+
+# ovyero-rollout: touched in pr-2000

@@ -2229,3 +2229,5 @@ test('vertical filter bar shows every selected value without an overflow indicat
   expect(screen.getByText('girl')).toBeVisible();
   expect(screen.queryByText(/^\+ \d+ \.\.\.$/)).not.toBeInTheDocument();
 });
+
+// ovyero-rollout: touched in pr-2000

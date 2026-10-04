@@ -230,3 +230,5 @@ test('createChartFromSnapshot rejects a version with no viz type or dataset', as
   ).rejects.toThrow(/does not record a visualization type and dataset/);
   expect(fetchMock.callHistory.calls('glob:*/api/v1/chart/')).toHaveLength(0);
 });
+
+// ovyero-rollout: touched in pr-2000

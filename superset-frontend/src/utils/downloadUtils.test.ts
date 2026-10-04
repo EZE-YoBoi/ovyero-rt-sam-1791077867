@@ -250,3 +250,5 @@ test('restoreVirtualization dispatches the restore event', () => {
     expect.objectContaining({ type: RESTORE_VIRTUALIZATION_EVENT }),
   );
 });
+
+// ovyero-rollout: touched in pr-2000

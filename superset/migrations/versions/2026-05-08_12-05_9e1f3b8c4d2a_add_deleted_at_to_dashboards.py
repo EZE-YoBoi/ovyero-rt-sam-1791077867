@@ -201,3 +201,5 @@ def _restore_slug_constraint(bind: Connection) -> None:
             )
         if table_has_index(TABLE_NAME, PARTIAL_SLUG_INDEX_NAME):
             op.execute(f"ALTER TABLE {TABLE_NAME} DROP INDEX {PARTIAL_SLUG_INDEX_NAME}")
+
+# ovyero-rollout: touched in pr-2000

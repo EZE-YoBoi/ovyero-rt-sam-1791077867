@@ -97,3 +97,5 @@ def downgrade():
     op.drop_table("alert_owner")
     op.drop_table("alert_logs")
     op.drop_table("alerts")
+
+# ovyero-rollout: touched in pr-2000

@@ -52,3 +52,5 @@ def naive_utcnow() -> datetime:
     ordering.
     """
     return datetime.now(timezone.utc).replace(tzinfo=None)
+
+# ovyero-rollout: touched in pr-2000

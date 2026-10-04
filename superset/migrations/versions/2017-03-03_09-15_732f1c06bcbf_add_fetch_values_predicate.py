@@ -44,3 +44,5 @@ def upgrade():
 def downgrade():
     op.drop_column("tables", "fetch_values_predicate")
     op.drop_column("datasources", "fetch_values_from")
+
+# ovyero-rollout: touched in pr-2000

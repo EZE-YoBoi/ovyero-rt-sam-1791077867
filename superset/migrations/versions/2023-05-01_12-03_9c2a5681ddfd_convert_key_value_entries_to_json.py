@@ -93,3 +93,5 @@ def downgrade():
     ):
         value = json.loads(entry.value) or {}
         entry.value = pickle.dumps(value)
+
+# ovyero-rollout: touched in pr-2000

@@ -61,3 +61,5 @@ class AnnotationLayerNameUniquenessValidationError(ValidationError):
 
     def __init__(self) -> None:
         super().__init__([_("Name must be unique")], field_name="name")
+
+# ovyero-rollout: touched in pr-2000

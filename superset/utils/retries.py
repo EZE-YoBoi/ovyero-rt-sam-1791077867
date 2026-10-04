@@ -40,3 +40,5 @@ def retry_call(  # pylint: disable=too-many-arguments
     fargs = fargs or []
     fkwargs = fkwargs or {}
     return decorated(*fargs, **fkwargs)
+
+# ovyero-rollout: touched in pr-2000

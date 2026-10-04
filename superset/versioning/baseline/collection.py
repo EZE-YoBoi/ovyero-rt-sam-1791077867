@@ -164,3 +164,5 @@ def shadow_row_count(session: Session, obj: Any, version_table: Any) -> int | No
         )
         incr_capture_error("shadow_count")
         return None
+
+# ovyero-rollout: touched in pr-2000

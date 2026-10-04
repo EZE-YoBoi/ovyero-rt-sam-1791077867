@@ -407,3 +407,5 @@ class RLSRestApi(BaseSupersetModelRestApi):
             )
         except RLSRuleNotFoundError:
             return self.response_404()
+
+# ovyero-rollout: touched in pr-2000

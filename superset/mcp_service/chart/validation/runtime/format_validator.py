@@ -231,3 +231,5 @@ class FormatTypeValidator:
             return ",.2f"  # Two decimals with thousands separator
         else:
             return ""  # Let Superset decide
+
+# ovyero-rollout: touched in pr-2000

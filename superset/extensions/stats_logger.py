@@ -29,3 +29,5 @@ class BaseStatsLoggerManager:
     @property
     def instance(self) -> BaseStatsLogger:
         return self._stats_logger
+
+# ovyero-rollout: touched in pr-2000

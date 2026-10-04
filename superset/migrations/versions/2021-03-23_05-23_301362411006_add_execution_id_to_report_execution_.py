@@ -39,3 +39,5 @@ def upgrade():
 def downgrade():
     with op.batch_alter_table("report_execution_log") as batch_op:
         batch_op.drop_column("uuid")
+
+# ovyero-rollout: touched in pr-2000

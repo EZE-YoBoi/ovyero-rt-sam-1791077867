@@ -279,3 +279,5 @@ class CanAccessQueryValidator:
 class SqlQueryRender:
     def render(self, execution_context: SqlJsonExecutionContext) -> str:
         raise NotImplementedError()
+
+# ovyero-rollout: touched in pr-2000

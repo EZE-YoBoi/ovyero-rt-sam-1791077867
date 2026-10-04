@@ -103,3 +103,5 @@ def downgrade():
     with op.batch_alter_table("dashboards") as batch_op:
         batch_op.drop_column("external_url")
         batch_op.drop_column("is_managed_externally")
+
+# ovyero-rollout: touched in pr-2000

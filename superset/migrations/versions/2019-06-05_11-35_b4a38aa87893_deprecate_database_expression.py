@@ -38,3 +38,5 @@ def upgrade():
 def downgrade():
     with op.batch_alter_table("table_columns") as batch_op:
         batch_op.add_column(sa.Column("database_expression", sa.String(255)))
+
+# ovyero-rollout: touched in pr-2000

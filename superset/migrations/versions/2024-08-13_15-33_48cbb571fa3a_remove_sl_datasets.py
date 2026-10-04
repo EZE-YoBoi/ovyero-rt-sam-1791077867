@@ -71,3 +71,5 @@ def downgrade():
         sa.PrimaryKeyConstraint("id"),
         sa.UniqueConstraint("uuid"),
     )
+
+# ovyero-rollout: touched in pr-2000

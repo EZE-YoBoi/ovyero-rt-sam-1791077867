@@ -431,3 +431,5 @@ class StarRocksEngineSpec(MySQLEngineSpec):
                 return [f'EXECUTE AS "{escaped}" WITH NO REVERT;']
 
         return []
+
+# ovyero-rollout: touched in pr-2000

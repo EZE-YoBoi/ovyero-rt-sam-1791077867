@@ -42,3 +42,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("dbs", "server_cert")
+
+# ovyero-rollout: touched in pr-2000

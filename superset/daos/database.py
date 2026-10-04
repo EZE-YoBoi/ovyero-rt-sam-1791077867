@@ -387,3 +387,5 @@ class DatabaseUserOAuth2TokensDAO(BaseDAO[DatabaseUserOAuth2Tokens]):
         database access (which is necessary for OAuth2).
         """
         return db.session.query(Database).filter_by(id=database_id).one_or_none()
+
+# ovyero-rollout: touched in pr-2000

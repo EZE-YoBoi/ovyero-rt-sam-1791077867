@@ -190,3 +190,5 @@ class AthenaEngineSpec(BaseEngineSpec):
             awsathena+rest://athena.{region_name}.amazonaws.com:443/{schema_name}?catalog_name={catalog_name}&s3_staging_dir={s3_staging_dir}
         """
         return sqlalchemy_uri.database
+
+# ovyero-rollout: touched in pr-2000

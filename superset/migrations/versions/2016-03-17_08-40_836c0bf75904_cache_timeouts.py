@@ -44,3 +44,5 @@ def downgrade():
     op.drop_column("slices", "cache_timeout")
     op.drop_column("dbs", "cache_timeout")
     op.drop_column("datasources", "cache_timeout")
+
+# ovyero-rollout: touched in pr-2000

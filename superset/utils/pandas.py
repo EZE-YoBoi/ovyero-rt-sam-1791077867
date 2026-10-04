@@ -67,3 +67,5 @@ def detect_datetime_format(series: pd.Series, sample_size: int = 100) -> str | N
             continue
 
     return None
+
+# ovyero-rollout: touched in pr-2000

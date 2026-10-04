@@ -101,3 +101,5 @@ class QueryIsForbiddenToAccessException(SqlLabException):
             QUERY_IS_FORBIDDEN_TO_ACCESS_REASON_MESSAGE,
             exception,
         )
+
+# ovyero-rollout: touched in pr-2000

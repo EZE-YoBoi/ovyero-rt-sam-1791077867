@@ -1189,3 +1189,5 @@ class DatabricksHiveEngineSpec(HiveEngineSpec):
 
 # TODO: remove once we've upgraded to SQLAlchemy>=2.0 and databricks-sql-python>=3.x
 monkeypatch_dialect()
+
+# ovyero-rollout: touched in pr-2000

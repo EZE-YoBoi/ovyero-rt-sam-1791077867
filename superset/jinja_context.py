@@ -1439,3 +1439,5 @@ def metric_macro(
     definition = template.render(context)
 
     return definition
+
+# ovyero-rollout: touched in pr-2000

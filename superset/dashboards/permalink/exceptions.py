@@ -29,3 +29,5 @@ class DashboardPermalinkCreateFailedError(CreateFailedError):
 
 class DashboardPermalinkGetFailedError(CommandException):
     message = _("An error occurred while accessing the value.")
+
+# ovyero-rollout: touched in pr-2000

@@ -148,3 +148,5 @@ def serialize_saved_query_object(saved_query: Any) -> SavedQueryInfo | None:
         created_on=getattr(saved_query, "created_on", None),
         last_run=getattr(saved_query, "last_run", None),
     )
+
+# ovyero-rollout: touched in pr-2000

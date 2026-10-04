@@ -75,3 +75,5 @@ def downgrade():
         batch_op.drop_constraint("uq_rls_name", type_="unique")
         batch_op.drop_column("description")
         batch_op.drop_column("name")
+
+# ovyero-rollout: touched in pr-2000

@@ -148,3 +148,5 @@ test('a related record without impact names shows no tooltip', async () => {
   ).rejects.toThrow();
   expect(screen.queryByRole('tooltip')).not.toBeInTheDocument();
 });
+
+// ovyero-rollout: touched in pr-2000

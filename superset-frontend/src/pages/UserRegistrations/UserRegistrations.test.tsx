@@ -59,3 +59,5 @@ describe('UserRegistrations', () => {
     expect(screen.queryByText('Registration hash')).not.toBeInTheDocument();
   });
 });
+
+// ovyero-rollout: touched in pr-2000

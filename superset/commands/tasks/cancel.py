@@ -387,3 +387,5 @@ class CancelTaskCommand(BaseCommand):
             principal detached while the principal's other clients keep it running)
         """
         return self._action_taken
+
+# ovyero-rollout: touched in pr-2000

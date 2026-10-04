@@ -210,3 +210,5 @@ def _insert_synthetic_slice_baseline(
     conn: Any, slice_ver_table: sa.Table, slice_row: Any, tx_id: int
 ) -> None:
     insert_baseline_shadow_row(conn, slice_ver_table, slice_row, tx_id)
+
+# ovyero-rollout: touched in pr-2000

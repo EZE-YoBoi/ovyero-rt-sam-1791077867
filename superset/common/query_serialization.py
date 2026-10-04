@@ -129,3 +129,5 @@ def load_serialized_query(payload: SerializedQuery) -> "QueryContext":
         custom_cache_timeout=payload["custom_cache_timeout"],
         preserve_null_row_limit=bool(payload.get("preserve_null_row_limit")),
     )
+
+# ovyero-rollout: touched in pr-2000

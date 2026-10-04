@@ -198,3 +198,5 @@ Error: %(text)s
             table = f"```\n{tabulated}\n```"
 
         return self._message_template(table=table, content=content)
+
+# ovyero-rollout: touched in pr-2000

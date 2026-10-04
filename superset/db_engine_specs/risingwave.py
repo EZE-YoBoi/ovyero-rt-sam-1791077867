@@ -51,3 +51,5 @@ class RisingWaveDbEngineSpec(PostgresEngineSpec):
         "default_port": 4566,
         "docs_url": "https://github.com/risingwavelabs/sqlalchemy-risingwave",
     }
+
+# ovyero-rollout: touched in pr-2000

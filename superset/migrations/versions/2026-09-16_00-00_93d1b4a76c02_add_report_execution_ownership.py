@@ -53,3 +53,5 @@ def downgrade() -> None:
         for name in ("execution_window", "execution_owner"):
             if name in existing:
                 batch_op.drop_column(name)
+
+# ovyero-rollout: touched in pr-2000

@@ -305,3 +305,5 @@ class UploadCommand(BaseCommand):
             raise DatabaseUploadNotSupported()
 
         self.validate_file_size(self._file)
+
+# ovyero-rollout: touched in pr-2000

@@ -730,3 +730,5 @@ def _snapshot_read_connection() -> Iterator[sa.engine.Connection]:
             sa.event.listen(conn, "begin", lambda c: c.exec_driver_sql("BEGIN"))
         with conn.begin():
             yield conn
+
+# ovyero-rollout: touched in pr-2000

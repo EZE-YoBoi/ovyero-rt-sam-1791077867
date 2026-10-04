@@ -75,3 +75,5 @@ class BaseNotification:  # pylint: disable=too-few-public-methods
 
     def send(self) -> None:
         raise NotImplementedError()
+
+# ovyero-rollout: touched in pr-2000

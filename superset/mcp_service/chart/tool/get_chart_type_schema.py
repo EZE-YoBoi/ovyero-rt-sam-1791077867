@@ -375,3 +375,5 @@ def get_chart_type_schema(
     """
     with event_logger.log_context(action="mcp.get_chart_type_schema.lookup"):
         return _get_chart_type_schema_impl(chart_type, include_examples)
+
+# ovyero-rollout: touched in pr-2000

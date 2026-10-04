@@ -45,3 +45,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("dbs", "allow_csv_upload")
+
+# ovyero-rollout: touched in pr-2000

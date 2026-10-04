@@ -25,3 +25,5 @@ class SqlLabPermalinkValue(TypedDict):
     sql: str
     autorun: bool
     templateParams: Optional[str]
+
+# ovyero-rollout: touched in pr-2000

@@ -175,3 +175,5 @@ def downgrade():
         batch_op.drop_constraint(UQ, type_="unique")
     drop_index(TABLE, INDEX)
     drop_columns(TABLE, COLUMN)
+
+# ovyero-rollout: touched in pr-2000

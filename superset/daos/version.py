@@ -80,3 +80,5 @@ class VersionDAO:
 
     # --- write side (restore.py) ------------------------------------------
     restore_version = staticmethod(restore_version)
+
+# ovyero-rollout: touched in pr-2000

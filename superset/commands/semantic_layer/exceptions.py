@@ -74,3 +74,5 @@ class SemanticViewCreateFailedError(CreateFailedError):
 
 class SemanticViewDeleteFailedError(DeleteFailedError):
     message = _("Semantic view could not be deleted.")
+
+# ovyero-rollout: touched in pr-2000

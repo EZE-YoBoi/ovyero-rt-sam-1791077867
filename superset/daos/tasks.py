@@ -935,3 +935,5 @@ class TaskDAO(BaseDAO[Task]):
             )
 
         return rows_updated > 0
+
+# ovyero-rollout: touched in pr-2000

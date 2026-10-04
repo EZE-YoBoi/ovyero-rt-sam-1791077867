@@ -166,3 +166,5 @@ class ChartDAO(BaseDAO[Slice]):
         )
         if fav:
             db.session.delete(fav)
+
+# ovyero-rollout: touched in pr-2000

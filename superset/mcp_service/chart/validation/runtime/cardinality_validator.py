@@ -193,3 +193,5 @@ class CardinalityValidator:
             return ["line", "scatter"]
         else:
             return ["table", "pivot_table", "heatmap"]
+
+# ovyero-rollout: touched in pr-2000

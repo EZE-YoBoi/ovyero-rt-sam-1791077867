@@ -52,3 +52,5 @@ class CaptureUnitOfWork(UnitOfWork):
             self.pending_statements.clear()
             return
         super().process_after_flush(session)
+
+# ovyero-rollout: touched in pr-2000

@@ -45,3 +45,5 @@ OAUTH2_CONFIG_ERROR_MESSAGE = (
     "or provider error. "
     "Please contact your Superset administrator."
 )
+
+# ovyero-rollout: touched in pr-2000

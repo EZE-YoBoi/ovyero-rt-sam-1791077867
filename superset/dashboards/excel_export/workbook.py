@@ -322,3 +322,5 @@ def build_workbook(  # pylint: disable=too-many-arguments
     finally:
         writer.close()
     return errored
+
+# ovyero-rollout: touched in pr-2000

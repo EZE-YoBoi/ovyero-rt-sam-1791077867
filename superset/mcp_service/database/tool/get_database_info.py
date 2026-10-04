@@ -150,3 +150,5 @@ async def get_database_info(
             error_type="InternalError",
             timestamp=datetime.now(timezone.utc),
         )
+
+# ovyero-rollout: touched in pr-2000

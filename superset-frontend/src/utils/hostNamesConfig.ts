@@ -54,3 +54,5 @@ function getDomainsConfig(): string[] {
 export const availableDomains: string[] = getDomainsConfig();
 
 export const allowCrossDomain: boolean = availableDomains.length > 1;
+
+// ovyero-rollout: touched in pr-2000

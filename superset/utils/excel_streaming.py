@@ -248,3 +248,5 @@ class StreamingXlsxWriter:
             # Excel requires at least one worksheet for a valid file.
             self._workbook.add_worksheet("Export")
         self._workbook.close()
+
+# ovyero-rollout: touched in pr-2000

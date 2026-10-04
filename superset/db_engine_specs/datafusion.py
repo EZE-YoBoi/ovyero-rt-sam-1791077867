@@ -106,3 +106,5 @@ class DataFusionEngineSpec(BaseEngineSpec):
             dttm_formatted = dttm.isoformat(sep=" ", timespec="microseconds")
             return f"TIMESTAMP '{dttm_formatted}'"
         return None
+
+# ovyero-rollout: touched in pr-2000

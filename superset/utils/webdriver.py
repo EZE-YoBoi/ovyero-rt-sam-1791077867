@@ -1430,3 +1430,5 @@ class WebDriverPlaywright(WebDriverProxy):
         finally:
             context.close()
         return img
+
+# ovyero-rollout: touched in pr-2000

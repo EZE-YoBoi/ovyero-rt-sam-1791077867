@@ -565,3 +565,5 @@ class CoordinationService:
                     "Signal listener on %s errored; retrying after backoff", channel
                 )
                 stop_event.wait(timeout=_STREAM_ERROR_BACKOFF_SECONDS)
+
+# ovyero-rollout: touched in pr-2000

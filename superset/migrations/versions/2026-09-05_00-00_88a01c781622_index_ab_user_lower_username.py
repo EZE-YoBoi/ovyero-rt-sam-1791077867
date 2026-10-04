@@ -143,3 +143,5 @@ def downgrade() -> None:
         # the downgrade robust if the upgrade only partially applied.
         if _index_exists(bind):
             op.drop_index(INDEX_NAME, table_name=TABLE_NAME)
+
+# ovyero-rollout: touched in pr-2000

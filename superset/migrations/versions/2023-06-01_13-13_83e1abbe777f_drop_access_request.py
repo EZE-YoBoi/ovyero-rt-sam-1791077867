@@ -50,3 +50,5 @@ def downgrade():
         sa.ForeignKeyConstraint(["created_by_fk"], ["ab_user.id"]),
         sa.PrimaryKeyConstraint("id"),
     )
+
+# ovyero-rollout: touched in pr-2000

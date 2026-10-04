@@ -926,3 +926,5 @@ def upgrade() -> None:
 
 def downgrade():
     Base.metadata.drop_all(bind=op.get_bind(), tables=new_tables)
+
+# ovyero-rollout: touched in pr-2000

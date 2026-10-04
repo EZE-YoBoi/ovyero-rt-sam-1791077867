@@ -94,3 +94,5 @@ def _looks_like_fab_field(name: str) -> bool:
     These are typically snake_case and don't start with underscore.
     """
     return bool(name) and not name.startswith("_") and name.replace("_", "").isalnum()
+
+# ovyero-rollout: touched in pr-2000

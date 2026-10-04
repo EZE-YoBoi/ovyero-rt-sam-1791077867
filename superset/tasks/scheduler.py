@@ -737,3 +737,5 @@ def _execute_task_body(  # noqa: C901
             TaskManager.publish_completion(native_uuid, final_status)
 
     return {"status": final_status, "task_uuid": task_uuid}
+
+# ovyero-rollout: touched in pr-2000

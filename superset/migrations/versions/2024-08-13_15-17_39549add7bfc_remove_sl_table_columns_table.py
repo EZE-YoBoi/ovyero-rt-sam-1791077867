@@ -55,3 +55,5 @@ def downgrade():
         ),
         sa.PrimaryKeyConstraint("table_id", "column_id"),
     )
+
+# ovyero-rollout: touched in pr-2000

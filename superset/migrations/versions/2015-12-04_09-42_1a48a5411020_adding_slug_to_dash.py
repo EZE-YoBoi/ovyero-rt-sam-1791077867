@@ -41,3 +41,5 @@ def upgrade():
 def downgrade():
     op.drop_constraint(None, "dashboards", type_="unique")
     op.drop_column("dashboards", "slug")
+
+# ovyero-rollout: touched in pr-2000

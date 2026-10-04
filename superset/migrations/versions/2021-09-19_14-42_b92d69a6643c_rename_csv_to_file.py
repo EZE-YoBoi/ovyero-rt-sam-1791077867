@@ -67,3 +67,5 @@ def downgrade():
             new_column_name="allow_csv_upload",
             existing_type=sa.Boolean(),
         )
+
+# ovyero-rollout: touched in pr-2000

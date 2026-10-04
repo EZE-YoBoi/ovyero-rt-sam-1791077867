@@ -254,3 +254,5 @@ class SemanticViewDAO(BaseDAO[SemanticView], AbstractSemanticViewDAO):
             )
             .one_or_none()
         )
+
+# ovyero-rollout: touched in pr-2000

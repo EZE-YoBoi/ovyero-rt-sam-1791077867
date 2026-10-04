@@ -44,3 +44,5 @@ def upgrade():
 def downgrade():
     op.drop_column("table_columns", "python_date_format")
     op.drop_column("table_columns", "database_expression")
+
+# ovyero-rollout: touched in pr-2000

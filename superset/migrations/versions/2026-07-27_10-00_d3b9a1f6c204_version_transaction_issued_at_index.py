@@ -46,3 +46,5 @@ def upgrade() -> None:
 def downgrade() -> None:
     """Remove the retention cutoff index."""
     drop_index(TABLE_NAME, INDEX_NAME)
+
+# ovyero-rollout: touched in pr-2000

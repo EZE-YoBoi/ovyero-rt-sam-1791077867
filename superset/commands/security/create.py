@@ -92,3 +92,5 @@ class CreateRLSRuleCommand(BaseCommand):
                 default_to_user=False,
             )
             self._properties["subjects"] = subjects
+
+# ovyero-rollout: touched in pr-2000

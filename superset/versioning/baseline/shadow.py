@@ -100,3 +100,5 @@ def insert_baseline_shadow_row(
     col_values[version_table.c.end_transaction_id] = None
     col_values[version_table.c.operation_type] = 0
     conn.execute(version_table.insert().values(col_values))
+
+# ovyero-rollout: touched in pr-2000

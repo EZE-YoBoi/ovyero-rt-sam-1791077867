@@ -86,3 +86,5 @@ def downgrade() -> None:
     drop_index("purge_audit_log", "ix_purge_audit_log_status_created_on")
     drop_index("purge_audit_log", "ix_purge_audit_log_entity_uuid")
     drop_table("purge_audit_log")
+
+# ovyero-rollout: touched in pr-2000

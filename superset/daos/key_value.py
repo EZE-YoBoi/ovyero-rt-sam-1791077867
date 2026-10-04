@@ -182,3 +182,5 @@ class KeyValueDAO(BaseDAO[KeyValueEntry]):
             return entry
 
         raise KeyValueUpdateFailedError()
+
+# ovyero-rollout: touched in pr-2000

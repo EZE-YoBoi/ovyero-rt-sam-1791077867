@@ -246,3 +246,5 @@ class DruidEngineSpec(BaseEngineSpec):
         if cursor_type == "STRING" and pa_mapped is not None and pa_mapped != "STRING":
             return pa_mapped
         return cursor_type or pa_mapped
+
+# ovyero-rollout: touched in pr-2000

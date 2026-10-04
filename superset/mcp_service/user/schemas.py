@@ -218,3 +218,5 @@ def serialize_user_object(
         roles=roles,
         changed_on=getattr(user, "changed_on", None),
     )
+
+# ovyero-rollout: touched in pr-2000

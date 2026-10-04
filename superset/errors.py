@@ -246,3 +246,5 @@ class SupersetError:
         if self.extra:
             rv["extra"] = self.extra  # type: ignore
         return rv
+
+# ovyero-rollout: touched in pr-2000

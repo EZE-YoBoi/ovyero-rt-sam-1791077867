@@ -64,3 +64,5 @@ def downgrade():
         index_name="ix_report_execution_log_report_schedule_id",
         table_name="report_execution_log",
     )
+
+# ovyero-rollout: touched in pr-2000

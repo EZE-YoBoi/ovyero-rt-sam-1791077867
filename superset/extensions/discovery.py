@@ -91,3 +91,5 @@ def discover_and_load_extensions(
 
     except Exception as e:
         logger.error("Error discovering extensions in %s: %s", extensions_path, e)
+
+# ovyero-rollout: touched in pr-2000

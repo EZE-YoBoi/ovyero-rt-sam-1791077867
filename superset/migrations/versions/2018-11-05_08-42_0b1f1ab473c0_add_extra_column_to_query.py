@@ -38,3 +38,5 @@ def upgrade():
 def downgrade():
     with op.batch_alter_table("query") as batch_op:
         batch_op.drop_column("extra_json")
+
+# ovyero-rollout: touched in pr-2000

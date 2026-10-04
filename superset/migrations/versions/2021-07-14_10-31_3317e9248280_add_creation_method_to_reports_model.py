@@ -48,3 +48,5 @@ def downgrade():
     with op.batch_alter_table("report_schedule") as batch_op:
         batch_op.drop_index("ix_creation_method")
         batch_op.drop_column("creation_method")
+
+# ovyero-rollout: touched in pr-2000

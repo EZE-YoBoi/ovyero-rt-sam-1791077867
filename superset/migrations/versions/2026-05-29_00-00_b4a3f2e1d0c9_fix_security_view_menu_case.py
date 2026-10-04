@@ -123,3 +123,5 @@ def downgrade() -> None:
     # There is no safe way to determine the original state (whether the row was
     # lowercase or whether there were two rows), so downgrade is a no-op.
     pass
+
+# ovyero-rollout: touched in pr-2000

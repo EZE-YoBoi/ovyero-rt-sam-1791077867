@@ -109,3 +109,5 @@ def upgrade():
 def downgrade():
     op.drop_table("tagged_object")
     op.drop_table("tag")
+
+# ovyero-rollout: touched in pr-2000

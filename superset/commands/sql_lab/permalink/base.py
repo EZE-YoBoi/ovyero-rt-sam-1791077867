@@ -33,3 +33,5 @@ class BaseSqlLabPermalinkCommand(BaseCommand, ABC):
     @property
     def salt(self) -> str:
         return get_permalink_salt(SharedKey.SQLLAB_PERMALINK_SALT)
+
+# ovyero-rollout: touched in pr-2000

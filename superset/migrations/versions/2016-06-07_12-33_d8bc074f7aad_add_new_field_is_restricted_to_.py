@@ -79,3 +79,5 @@ def downgrade():
 
     with op.batch_alter_table("metrics", schema=None) as batch_op:
         batch_op.drop_column("is_restricted")
+
+# ovyero-rollout: touched in pr-2000

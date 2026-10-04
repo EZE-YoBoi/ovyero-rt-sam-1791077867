@@ -74,3 +74,5 @@ def schema_allows_file_upload(
         # case-variant sibling.
         return schema in schemas
     return security_manager.can_access_database(database)
+
+# ovyero-rollout: touched in pr-2000

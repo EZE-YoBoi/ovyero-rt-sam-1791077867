@@ -816,3 +816,5 @@ class StarRocks(_StarRocks):
             **_StarRocks.Tokenizer.KEYWORDS,
             **dict.fromkeys(_STARROCKS_COMMAND_KEYWORDS, TokenType.COMMAND),
         }
+
+# ovyero-rollout: touched in pr-2000

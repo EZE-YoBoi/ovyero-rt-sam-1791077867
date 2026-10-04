@@ -401,3 +401,5 @@ class SupersetResultSet:
             }
             columns.append(column)
         return columns
+
+# ovyero-rollout: touched in pr-2000

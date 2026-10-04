@@ -29,3 +29,5 @@ class DatasetColumnDeleteFailedError(CommandException):
 
 class DatasetColumnForbiddenError(CommandException):
     message = _("Changing this dataset is forbidden.")
+
+# ovyero-rollout: touched in pr-2000

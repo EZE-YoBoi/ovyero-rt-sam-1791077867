@@ -25,3 +25,5 @@ from superset.mcp_service.semantic_layer.tool.get_table import get_table  # noqa
 from superset.mcp_service.semantic_layer.tool.list_metrics import (  # noqa: F401
     list_metrics,
 )
+
+# ovyero-rollout: touched in pr-2000

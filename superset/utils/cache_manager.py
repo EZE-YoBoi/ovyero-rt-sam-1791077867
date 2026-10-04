@@ -323,3 +323,5 @@ class CacheManager:
         Returns None if DISTRIBUTED_COORDINATION_CONFIG is not configured.
         """
         return self._distributed_coordination
+
+# ovyero-rollout: touched in pr-2000

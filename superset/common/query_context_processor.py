@@ -963,3 +963,5 @@ class QueryContextProcessor:
 
         for query in self._query_context.queries:
             query.validate()
+
+# ovyero-rollout: touched in pr-2000

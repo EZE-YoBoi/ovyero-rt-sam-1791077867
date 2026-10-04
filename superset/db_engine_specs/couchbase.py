@@ -287,3 +287,5 @@ class CouchbaseEngineSpec(BasicParametersMixin, BaseEngineSpec):
         Return the configured schema.
         """
         return parse.unquote(sqlalchemy_uri.database)
+
+# ovyero-rollout: touched in pr-2000

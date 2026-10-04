@@ -58,3 +58,5 @@ def downgrade():
         )
         batch_op.drop_column("filter_type")
         batch_op.drop_column("group_key")
+
+# ovyero-rollout: touched in pr-2000

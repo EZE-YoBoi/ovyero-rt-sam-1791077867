@@ -149,3 +149,5 @@ def get_chart_digest(chart: Slice) -> str | None:
     unique_string = _adjust_string_with_rls(unique_string, [chart.table], executor)
 
     return hash_from_str(unique_string)
+
+# ovyero-rollout: touched in pr-2000

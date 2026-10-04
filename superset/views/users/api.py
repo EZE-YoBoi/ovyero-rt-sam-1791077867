@@ -284,3 +284,5 @@ class UserRestApi(BaseSupersetApi):
 
         # No avatar found, return a "no-content" response
         return Response(status=204)
+
+# ovyero-rollout: touched in pr-2000

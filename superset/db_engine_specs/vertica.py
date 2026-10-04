@@ -52,3 +52,5 @@ class VerticaEngineSpec(PostgresBaseEngineSpec):
         "notes": "Supports load balancer backup host configuration.",
         "docs_url": "http://www.vertica.com/",
     }
+
+# ovyero-rollout: touched in pr-2000

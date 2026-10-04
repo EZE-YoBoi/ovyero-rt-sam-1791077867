@@ -602,3 +602,5 @@ class Databend(Postgres):
             )
             sql = super().generate(expression, copy=copy)
             return f"{settings} {sql}" if settings else sql
+
+# ovyero-rollout: touched in pr-2000

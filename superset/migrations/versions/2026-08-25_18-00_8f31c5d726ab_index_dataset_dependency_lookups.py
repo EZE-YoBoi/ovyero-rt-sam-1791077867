@@ -49,3 +49,5 @@ def downgrade() -> None:
     """Remove dataset impact lookup indexes."""
     drop_index("dashboard_slices", _DASHBOARD_SLICE_INDEX)
     drop_index("slices", _SLICE_DATASOURCE_INDEX)
+
+# ovyero-rollout: touched in pr-2000

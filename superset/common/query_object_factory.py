@@ -169,3 +169,5 @@ class QueryObjectFactory:  # pylint: disable=too-few-public-methods
     # light version of the view.utils.core
     # import view.utils require application context
     # Todo: move it and the view.utils.core to utils package
+
+# ovyero-rollout: touched in pr-2000

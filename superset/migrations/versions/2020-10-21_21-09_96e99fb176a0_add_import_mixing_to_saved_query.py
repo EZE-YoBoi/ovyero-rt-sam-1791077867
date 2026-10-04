@@ -92,3 +92,5 @@ def downgrade():
     with op.batch_alter_table("saved_query") as batch_op:
         batch_op.drop_constraint("uq_saved_query_uuid", type_="unique")
         batch_op.drop_column("uuid")
+
+# ovyero-rollout: touched in pr-2000

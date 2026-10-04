@@ -44,3 +44,5 @@ def downgrade():
     op.drop_column("clusters", "broker_user")
     op.drop_column("clusters", "broker_pass")
     # ### end Alembic commands ###
+
+# ovyero-rollout: touched in pr-2000

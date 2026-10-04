@@ -49,3 +49,5 @@ def downgrade():
     downgrade_catalog_perms(engines={"postgresql"})
     drop_columns("slices", "catalog_perm")
     drop_columns("tables", "catalog_perm")
+
+# ovyero-rollout: touched in pr-2000

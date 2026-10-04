@@ -36,3 +36,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("dashboards", "json_metadata")
+
+# ovyero-rollout: touched in pr-2000

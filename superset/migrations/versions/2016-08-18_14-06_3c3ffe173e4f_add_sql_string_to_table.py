@@ -36,3 +36,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("tables", "sql")
+
+# ovyero-rollout: touched in pr-2000

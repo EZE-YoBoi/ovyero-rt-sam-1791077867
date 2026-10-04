@@ -131,3 +131,5 @@ def register_baseline_listener() -> None:
             _emit_baseline_error_metric()
 
     setattr(db.session, _REGISTERED_SENTINEL, True)
+
+# ovyero-rollout: touched in pr-2000

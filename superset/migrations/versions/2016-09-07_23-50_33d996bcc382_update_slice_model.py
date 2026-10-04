@@ -72,3 +72,5 @@ def downgrade():
         session.commit()
     session.close()
     op.drop_column("slices", "datasource_id")
+
+# ovyero-rollout: touched in pr-2000

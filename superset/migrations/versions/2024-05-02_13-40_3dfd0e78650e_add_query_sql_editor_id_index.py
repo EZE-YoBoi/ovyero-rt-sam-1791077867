@@ -45,3 +45,5 @@ def upgrade():
 
 def downgrade():
     drop_index(index_name=op.f(index), table_name=table)
+
+# ovyero-rollout: touched in pr-2000

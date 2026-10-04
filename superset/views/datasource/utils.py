@@ -269,3 +269,5 @@ def _fetch_samples_via_cursor(
         "coltypes": coltypes,
         "status": QueryStatus.SUCCESS,
     }
+
+# ovyero-rollout: touched in pr-2000

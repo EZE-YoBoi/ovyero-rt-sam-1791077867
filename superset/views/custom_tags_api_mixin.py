@@ -116,3 +116,5 @@ class CustomTagsOptimizationMixin:
                     item["tags"] = item.pop("custom_tags")
 
         super().pre_get_list(data)  # type: ignore
+
+# ovyero-rollout: touched in pr-2000

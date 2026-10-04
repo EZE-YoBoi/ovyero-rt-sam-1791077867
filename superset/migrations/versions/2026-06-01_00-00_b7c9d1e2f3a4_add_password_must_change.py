@@ -45,3 +45,5 @@ def upgrade() -> None:
 
 def downgrade() -> None:
     drop_columns("user_attribute", "password_must_change")
+
+# ovyero-rollout: touched in pr-2000

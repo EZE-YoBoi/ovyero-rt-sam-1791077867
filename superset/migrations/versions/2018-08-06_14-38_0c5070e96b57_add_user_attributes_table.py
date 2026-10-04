@@ -50,3 +50,5 @@ def upgrade():
 
 def downgrade():
     op.drop_table("user_attribute")
+
+# ovyero-rollout: touched in pr-2000

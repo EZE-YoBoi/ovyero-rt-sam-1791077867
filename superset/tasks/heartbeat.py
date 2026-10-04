@@ -165,3 +165,5 @@ def task_heartbeat(  # noqa: C901
         yield controller
     finally:
         stop.set()
+
+# ovyero-rollout: touched in pr-2000

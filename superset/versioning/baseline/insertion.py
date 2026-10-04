@@ -169,3 +169,5 @@ def _baseline_children_for_parent(
     if handler is None:
         return
     handler(session, parent_obj, tx_id)
+
+# ovyero-rollout: touched in pr-2000

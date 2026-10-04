@@ -52,3 +52,5 @@ def upgrade() -> None:
 def downgrade() -> None:
     """Drop the ``include_cta`` column from ``report_schedule``."""
     drop_columns("report_schedule", "include_cta")
+
+# ovyero-rollout: touched in pr-2000

@@ -66,3 +66,5 @@ const LeftCell = ({ row, rowType, url }: LeftCellProps): ReactElement => {
 };
 
 export default LeftCell;
+
+// ovyero-rollout: touched in pr-2000

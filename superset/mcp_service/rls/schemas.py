@@ -178,3 +178,5 @@ def serialize_rls_filter_object(rls_filter: Any) -> RlsFilterInfo | None:
         group_key=getattr(rls_filter, "group_key", None),
         changed_on=getattr(rls_filter, "changed_on", None),
     )
+
+# ovyero-rollout: touched in pr-2000

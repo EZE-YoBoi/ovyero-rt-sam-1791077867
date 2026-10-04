@@ -262,3 +262,5 @@ class ImpalaEngineSpec(BaseEngineSpec):
             return False
 
         return bool(response and response.status_code == 200)
+
+# ovyero-rollout: touched in pr-2000

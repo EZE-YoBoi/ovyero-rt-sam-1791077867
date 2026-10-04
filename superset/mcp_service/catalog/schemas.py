@@ -129,3 +129,5 @@ class CatalogResponse(BaseModel):
         "size bound, a name/description was shortened, or an oversized URL omitted",
     )
     message: str | None = Field(None, description="Explanation when restricted")
+
+# ovyero-rollout: touched in pr-2000

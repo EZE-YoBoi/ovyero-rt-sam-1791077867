@@ -76,3 +76,5 @@ def downgrade():
         raise Exception(f"Error downgrading legacy viz types: {e}") from e
     finally:
         session.close()
+
+# ovyero-rollout: touched in pr-2000

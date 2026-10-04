@@ -55,3 +55,5 @@ def downgrade():
         op.drop_column("clusters", "verbose_name")
     except Exception as ex:
         logger.exception(ex)
+
+# ovyero-rollout: touched in pr-2000

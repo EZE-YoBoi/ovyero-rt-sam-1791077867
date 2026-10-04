@@ -273,3 +273,5 @@ def find_cached_objects_in_session(
         for item in items
         if isinstance(item, cls) and (item.id in ids if ids else item.uuid in uuids)
     )
+
+# ovyero-rollout: touched in pr-2000

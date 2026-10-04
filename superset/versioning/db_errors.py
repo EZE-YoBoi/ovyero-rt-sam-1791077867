@@ -142,3 +142,5 @@ def is_missing_table_error(exc: DBAPIError) -> bool:
     # SQLite has no error codes on OperationalError; the message is the
     # documented, stable signal.
     return "no such table" in str(orig if orig is not None else exc).lower()
+
+# ovyero-rollout: touched in pr-2000

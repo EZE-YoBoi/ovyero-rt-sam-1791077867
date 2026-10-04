@@ -48,3 +48,5 @@ def downgrade():
         "clusters",
         sa.Column("coordinator_endpoint", sa.String(length=256), nullable=True),
     )
+
+# ovyero-rollout: touched in pr-2000

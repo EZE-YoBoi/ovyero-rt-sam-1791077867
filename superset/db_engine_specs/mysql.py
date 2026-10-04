@@ -885,3 +885,5 @@ class MySQLEngineSpec(BasicParametersMixin, BaseEngineSpec):
                 return
 
         super().df_to_sql(database, table, df, to_sql_kwargs)
+
+# ovyero-rollout: touched in pr-2000

@@ -414,3 +414,5 @@ export function relatedHeadline(record: ActivityRecord): string {
   // the sentence it lands in, and many languages require that.
   return record.summary || t('Item updated: %s', entityDisplayName(record));
 }
+
+// ovyero-rollout: touched in pr-2000

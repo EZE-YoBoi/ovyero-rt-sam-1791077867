@@ -158,3 +158,5 @@ async def create_theme(
         logger.exception("Unexpected error in create_theme")
         await ctx.error("Unexpected error: %s" % (type(exc).__name__,))
         raise
+
+# ovyero-rollout: touched in pr-2000

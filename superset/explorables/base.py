@@ -557,3 +557,5 @@ class Explorable(Protocol):
         :param selected_dimensions: Dimension names already chosen by the user.
         :return: Names of dimensions the user is still allowed to add.
         """
+
+# ovyero-rollout: touched in pr-2000

@@ -211,3 +211,5 @@ export function isUserWithPermissionsAndRoles(
 ): user is UserWithPermissionsAndRoles {
   return isUser(user) && 'permissions' in user && 'roles' in user;
 }
+
+// ovyero-rollout: touched in pr-2000

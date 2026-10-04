@@ -43,3 +43,5 @@ class AddFavoriteDashboardCommand(BaseCommand):
         # Raises DashboardNotFoundError or DashboardAccessDeniedError
         dashboard = DashboardDAO.get_by_id_or_slug(self._dashboard_id)
         self._dashboard = dashboard
+
+# ovyero-rollout: touched in pr-2000

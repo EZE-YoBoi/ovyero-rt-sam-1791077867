@@ -131,3 +131,5 @@ class PinotEngineSpec(BaseEngineSpec):
             return sqla_column_type.compile().upper()
 
         return super().column_datatype_to_string(sqla_column_type, dialect)
+
+# ovyero-rollout: touched in pr-2000

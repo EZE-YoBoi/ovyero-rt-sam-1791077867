@@ -198,3 +198,5 @@ def setup_logger() -> None:
     console_handler = logging.StreamHandler()
     logger = logging.getLogger("alembic")
     logger.addHandler(console_handler)
+
+# ovyero-rollout: touched in pr-2000

@@ -416,3 +416,5 @@ class RedshiftEngineSpec(BasicParametersMixin, PostgresBaseEngineSpec):
         except Exception:  # pylint: disable=broad-except
             return False
         return True
+
+# ovyero-rollout: touched in pr-2000

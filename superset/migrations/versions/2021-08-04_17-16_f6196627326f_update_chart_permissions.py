@@ -71,3 +71,5 @@ def downgrade():
     except SQLAlchemyError as ex:
         print(f"An error occurred while downgrading permissions: {ex}")
         session.rollback()
+
+# ovyero-rollout: touched in pr-2000

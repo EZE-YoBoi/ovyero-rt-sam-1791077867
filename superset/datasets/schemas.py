@@ -609,3 +609,5 @@ class DatasetDrillInfoSchema(Schema):
                 "metrics": serialized.get("metrics", []),
             }
         return serialized
+
+# ovyero-rollout: touched in pr-2000

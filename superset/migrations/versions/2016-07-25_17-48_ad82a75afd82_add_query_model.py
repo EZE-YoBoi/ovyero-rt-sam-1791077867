@@ -73,3 +73,5 @@ def upgrade():
 def downgrade():
     op.drop_table("query")
     op.drop_column("dbs", "select_as_create_table_as")
+
+# ovyero-rollout: touched in pr-2000

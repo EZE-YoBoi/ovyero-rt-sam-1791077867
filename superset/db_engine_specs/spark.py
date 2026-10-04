@@ -60,3 +60,5 @@ class SparkEngineSpec(HiveEngineSpec):
         "connection_string": "spark://hive@{hostname}:{port}/{database}",
         "default_port": 10000,
     }
+
+# ovyero-rollout: touched in pr-2000

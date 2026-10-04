@@ -44,3 +44,5 @@ test('does not flag a theme without a usable algorithm', () => {
   expect(hasConflictingAlgorithm('{"token": {}}', true)).toBe(false);
   expect(hasConflictingAlgorithm('not json', true)).toBe(false);
 });
+
+// ovyero-rollout: touched in pr-2000

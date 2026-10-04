@@ -247,3 +247,5 @@ class QueryEstimationCommand(BaseCommand):
         )
         cost = query_cost_formatter(cost)
         return cost
+
+# ovyero-rollout: touched in pr-2000

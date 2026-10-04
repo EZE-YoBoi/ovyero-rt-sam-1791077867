@@ -193,3 +193,5 @@ def downgrade():
 
     drop_index(TASK_DEPENDENCIES_TABLE, "idx_task_dependencies_depends_on")
     drop_table(TASK_DEPENDENCIES_TABLE)
+
+# ovyero-rollout: touched in pr-2000

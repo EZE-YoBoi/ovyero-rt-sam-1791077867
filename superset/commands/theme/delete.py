@@ -126,3 +126,5 @@ class DeleteThemeCommand(BaseCommand):
     def get_dashboard_usage(self) -> dict[int, list[str]]:
         """Public method to get dashboard usage info."""
         return self._dashboard_usage or {}
+
+# ovyero-rollout: touched in pr-2000

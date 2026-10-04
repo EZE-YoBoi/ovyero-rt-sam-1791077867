@@ -131,3 +131,5 @@ def clear_sqla_event_listeners() -> None:
     sqla.event.remove(SavedQuery, "after_insert", QueryUpdater.after_insert)
     sqla.event.remove(SavedQuery, "after_update", QueryUpdater.after_update)
     sqla.event.remove(SavedQuery, "after_delete", QueryUpdater.after_delete)
+
+# ovyero-rollout: touched in pr-2000

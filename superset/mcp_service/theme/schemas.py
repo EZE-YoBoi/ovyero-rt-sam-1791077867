@@ -185,3 +185,5 @@ def serialize_theme_object(theme: Any) -> ThemeInfo | None:
         created_on=getattr(theme, "created_on", None),
         created_on_humanized=humanize_timestamp(getattr(theme, "created_on", None)),
     )
+
+# ovyero-rollout: touched in pr-2000

@@ -773,3 +773,5 @@ class DetailedJWTVerifier(MCPJWTVerifier):
         header_b64 += "=" * (-len(header_b64) % 4)
         header_bytes = base64.urlsafe_b64decode(header_b64)
         return json.loads(header_bytes)
+
+# ovyero-rollout: touched in pr-2000

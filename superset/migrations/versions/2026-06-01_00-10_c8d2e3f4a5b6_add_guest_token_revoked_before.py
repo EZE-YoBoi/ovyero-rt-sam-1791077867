@@ -42,3 +42,5 @@ def upgrade():
 
 def downgrade():
     drop_columns("embedded_dashboards", "guest_token_revoked_before")
+
+# ovyero-rollout: touched in pr-2000

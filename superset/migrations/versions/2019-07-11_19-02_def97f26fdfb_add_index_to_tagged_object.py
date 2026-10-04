@@ -37,3 +37,5 @@ def upgrade():
 
 def downgrade():
     op.drop_index(op.f("ix_tagged_object_object_id"), table_name="tagged_object")
+
+# ovyero-rollout: touched in pr-2000

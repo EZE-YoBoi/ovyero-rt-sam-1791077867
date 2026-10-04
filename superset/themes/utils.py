@@ -242,3 +242,5 @@ def validate_font_urls(font_urls: Any) -> list[str]:
         _validate_single_font_url(i, url, allowed_domains)
         for i, url in enumerate(font_urls)
     ]
+
+# ovyero-rollout: touched in pr-2000

@@ -480,3 +480,5 @@ class BaseChartPlugin:
     def _with_context(what: str, context: str | None) -> str:
         """Combine a 'what' label and optional context with an en-dash."""
         return f"{what} – {context}" if context else what
+
+# ovyero-rollout: touched in pr-2000

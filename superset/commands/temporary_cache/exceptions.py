@@ -47,3 +47,5 @@ class TemporaryCacheAccessDeniedError(ForbiddenError):
 
 class TemporaryCacheResourceNotFoundError(ForbiddenError):
     message = _("Resource was not found.")
+
+# ovyero-rollout: touched in pr-2000

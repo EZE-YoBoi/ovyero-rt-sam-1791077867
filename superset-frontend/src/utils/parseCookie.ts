@@ -27,3 +27,5 @@ export default function parseCookie(cookie = document.cookie): CookieMap {
       .map(x => x.split('=')),
   );
 }
+
+// ovyero-rollout: touched in pr-2000

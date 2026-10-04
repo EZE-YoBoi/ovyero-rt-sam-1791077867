@@ -72,3 +72,5 @@ def downgrade():
             del params["percent_calculation_type"]
             slc.params = json.dumps(params)
     session.close()
+
+# ovyero-rollout: touched in pr-2000

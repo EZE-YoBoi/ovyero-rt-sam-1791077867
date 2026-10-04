@@ -390,3 +390,5 @@ class QueryContextFactory:  # pylint: disable=too-few-public-methods
             for filter_object in query_object.filter:
                 if filter_object["op"] == "TEMPORAL_RANGE":
                     filter_object["val"] = query_object.time_range
+
+# ovyero-rollout: touched in pr-2000

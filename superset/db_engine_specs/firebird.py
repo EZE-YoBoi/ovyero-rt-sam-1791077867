@@ -107,3 +107,5 @@ class FirebirdEngineSpec(BaseEngineSpec):
         if isinstance(sqla_type, types.Time):
             return f"CAST('{dttm.time().isoformat()}' AS TIME)"
         return None
+
+# ovyero-rollout: touched in pr-2000

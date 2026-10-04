@@ -39,3 +39,5 @@ def apply_time_grain_to_base_axis(
     for column in query.get("columns") or []:
         if isinstance(column, dict) and column.get("columnType") == "BASE_AXIS":
             column["timeGrain"] = time_grain
+
+# ovyero-rollout: touched in pr-2000

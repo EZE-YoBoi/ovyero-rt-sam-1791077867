@@ -232,3 +232,5 @@ def register_ws_channel_cookie(app: Flask) -> None:
             max_age=app.config["WEBSOCKET_JWT_EXPIRATION_SECONDS"],
         )
         return response
+
+# ovyero-rollout: touched in pr-2000

@@ -154,3 +154,5 @@ class LogRestApi(LogMixin, BaseSupersetModelRestApi):
         payload = LogDAO.get_recent_activity(actions, distinct, page, page_size)
 
         return self.response(200, result=payload)
+
+# ovyero-rollout: touched in pr-2000

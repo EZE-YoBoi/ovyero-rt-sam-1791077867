@@ -215,3 +215,5 @@ class GuestUser(AnonymousUserMixin):
         self.groups: list[Group] = []  # Guest users don't belong to any groups
         self.resources = token["resources"]
         self.rls = token.get("rls_rules", [])
+
+# ovyero-rollout: touched in pr-2000

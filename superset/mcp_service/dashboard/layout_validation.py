@@ -364,3 +364,5 @@ def rebuild_parent_chains(layout: dict[str, Any]) -> dict[str, Any]:
                 if isinstance(child_id, str):
                     stack.append((child_id, child_ancestors))
     return rebuilt
+
+# ovyero-rollout: touched in pr-2000

@@ -132,3 +132,5 @@ def extension_context(manifest: Manifest) -> Iterator[ConcreteExtensionContext]:
     ctx = ConcreteExtensionContext(manifest)
     with use_context(ctx):
         yield ctx
+
+# ovyero-rollout: touched in pr-2000

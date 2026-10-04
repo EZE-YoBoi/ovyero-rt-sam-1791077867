@@ -786,3 +786,5 @@ class TrinoEngineSpec(PrestoBaseEngineSpec):
             indexes=cls._filter_iceberg_partition_indexes(indexes),
             **kwargs,
         )
+
+# ovyero-rollout: touched in pr-2000

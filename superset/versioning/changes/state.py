@@ -245,3 +245,5 @@ def bulk_insert_records(
             )
     if rows:
         session.connection().execute(version_changes_table.insert(), rows)
+
+# ovyero-rollout: touched in pr-2000

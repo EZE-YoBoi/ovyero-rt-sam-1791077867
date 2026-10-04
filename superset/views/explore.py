@@ -64,3 +64,5 @@ class ExplorePermalinkView(BaseSupersetView):
     # pylint: disable=unused-argument
     def permalink(self, key: str) -> FlaskResponse:
         return super().render_app_template()
+
+# ovyero-rollout: touched in pr-2000

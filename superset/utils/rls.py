@@ -351,3 +351,5 @@ def collect_rls_predicates_for_sql(
         # the cache key still varies by user even though we don't know the
         # actual predicates.
         return [f"rls-predicate-parse-failed-for-user-{_get_cache_identity()}"]
+
+# ovyero-rollout: touched in pr-2000

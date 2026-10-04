@@ -2405,3 +2405,5 @@ def get_user_agent(database: Database, source: QuerySource | None) -> str:
         return user_agent_func(database, source)
 
     return DEFAULT_USER_AGENT
+
+# ovyero-rollout: touched in pr-2000

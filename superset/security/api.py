@@ -477,3 +477,5 @@ class UserRegistrationsRestAPI(BaseSupersetModelRestApi):
         "last_name",
         "registration_date",
     ]
+
+# ovyero-rollout: touched in pr-2000

@@ -176,3 +176,5 @@ def guest_embedded_dashboard_filter() -> Optional[ColumnElement[bool]]:
         # dashboards, never a plain internal id.
         conditions.append(and_(Dashboard.id.in_(int_ids), Dashboard.embedded.any()))
     return or_(*conditions) if conditions else false()
+
+# ovyero-rollout: touched in pr-2000

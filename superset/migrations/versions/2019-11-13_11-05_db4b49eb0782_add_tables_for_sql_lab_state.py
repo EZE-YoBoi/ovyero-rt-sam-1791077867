@@ -93,3 +93,5 @@ def downgrade():
     op.drop_index(op.f("ix_tab_state_id"), table_name="tab_state")
     op.drop_table("tab_state")
     # ### end Alembic commands ###
+
+# ovyero-rollout: touched in pr-2000

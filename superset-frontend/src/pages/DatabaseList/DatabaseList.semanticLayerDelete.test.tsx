@@ -550,3 +550,5 @@ test('failed authorized upload lookup leaves uploads disabled', async () => {
     fetchMock.callHistory.calls('glob:*/api/v1/database/?q=*'),
   ).toHaveLength(1);
 });
+
+// ovyero-rollout: touched in pr-2000

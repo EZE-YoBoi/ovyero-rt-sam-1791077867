@@ -39,3 +39,5 @@ export const canDownloadData = (roles?: UserRoles | null): boolean =>
   isFeatureEnabled(FeatureFlag.GranularExportControls)
     ? findPermission('can_export_data', 'Superset', roles)
     : findPermission('can_csv', 'Superset', roles);
+
+// ovyero-rollout: touched in pr-2000

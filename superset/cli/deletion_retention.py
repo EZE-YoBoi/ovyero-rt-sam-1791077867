@@ -174,3 +174,5 @@ def force_purge(uuid: UUID, entity_type: str | None) -> None:
         f"dashboard_slices removed: {result.get('removed_dashboard_slices', 0)}; "
         f"version rows removed: {result.get('version_rows_removed', 0)}."
     )
+
+# ovyero-rollout: touched in pr-2000

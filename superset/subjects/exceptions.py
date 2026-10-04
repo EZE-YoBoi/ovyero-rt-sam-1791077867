@@ -23,3 +23,5 @@ class SubjectsNotFoundValidationError(ValidationError):
 
     def __init__(self, field_name: str = "subjects") -> None:
         super().__init__([_("Subjects are invalid")], field_name=field_name)
+
+# ovyero-rollout: touched in pr-2000

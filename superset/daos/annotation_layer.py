@@ -78,3 +78,5 @@ class AnnotationLayerDAO(BaseDAO[AnnotationLayer]):
         if layer_id:
             query = query.filter(AnnotationLayer.id != layer_id)
         return not db.session.query(query.exists()).scalar()
+
+# ovyero-rollout: touched in pr-2000

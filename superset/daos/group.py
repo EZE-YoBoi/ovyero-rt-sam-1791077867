@@ -63,3 +63,5 @@ class GroupDAO(BaseDAO[Group]):
         from superset.subjects.sync import delete_group_subject
 
         delete_group_subject(group_id)
+
+# ovyero-rollout: touched in pr-2000

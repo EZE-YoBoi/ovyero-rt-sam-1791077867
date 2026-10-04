@@ -428,3 +428,5 @@ test('ensureAppRoot should fall back to "/" when path is null and no application
   expect(ensureAppRoot(null)).toBe('/');
   expect(ensureAppRoot(undefined)).toBe('/');
 });
+
+// ovyero-rollout: touched in pr-2000

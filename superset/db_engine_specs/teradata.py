@@ -72,3 +72,5 @@ class TeradataEngineSpec(BaseEngineSpec):
             "AT 0)) AT 0) + (({col} MOD 86400) * INTERVAL '00:00:01' "
             "HOUR TO SECOND) AS TIMESTAMP(0))"
         )
+
+# ovyero-rollout: touched in pr-2000

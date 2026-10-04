@@ -755,3 +755,5 @@ class QueryObject:  # pylint: disable=too-many-instance-attributes
         resolved["time_range_start"] = self.from_dttm
         resolved["time_range_end"] = self.to_dttm
         return resolved
+
+# ovyero-rollout: touched in pr-2000

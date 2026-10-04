@@ -52,3 +52,5 @@ def upgrade():
 
 def downgrade():
     op.drop_table("user_favorite_tag")
+
+# ovyero-rollout: touched in pr-2000

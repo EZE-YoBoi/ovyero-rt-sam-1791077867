@@ -19,3 +19,5 @@
 
 // navigator.webdriver is true when browser is controlled by a bot
 export const isCurrentUserBot = () => window?.navigator?.webdriver;
+
+// ovyero-rollout: touched in pr-2000

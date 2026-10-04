@@ -603,3 +603,5 @@ def check_for_oauth2(database: Database) -> Iterator[None]:
         ):
             database.db_engine_spec.start_oauth2_dance(database)
         raise
+
+# ovyero-rollout: touched in pr-2000

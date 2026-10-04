@@ -188,3 +188,5 @@ class SqlExecutionResultsCommand(BaseCommand):
             obj = apply_display_max_row_configuration_if_require(obj, self._rows)
 
         return obj
+
+# ovyero-rollout: touched in pr-2000

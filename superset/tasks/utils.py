@@ -507,3 +507,5 @@ def serialize_properties(props: TaskProperties) -> str:
     :returns: JSON string
     """
     return json.dumps(props)
+
+# ovyero-rollout: touched in pr-2000

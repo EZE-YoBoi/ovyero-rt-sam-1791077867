@@ -722,3 +722,5 @@ def downgrade_schema_perms(
 
     for pvm, new_name in pvms_to_rename:
         pvm.view_menu.name = new_name
+
+# ovyero-rollout: touched in pr-2000

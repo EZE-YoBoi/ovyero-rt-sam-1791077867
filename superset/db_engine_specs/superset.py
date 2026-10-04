@@ -54,3 +54,5 @@ class SupersetEngineSpec(ShillelaghEngineSpec):
             "feature flag. Allows cross-database queries using virtual tables."
         ),
     }
+
+# ovyero-rollout: touched in pr-2000

@@ -36,3 +36,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("columns", "dimension_spec_json")
+
+# ovyero-rollout: touched in pr-2000

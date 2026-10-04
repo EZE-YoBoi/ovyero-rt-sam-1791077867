@@ -44,3 +44,5 @@ def upgrade() -> None:
 def downgrade() -> None:
     """Remove the purge-audit pruning index."""
     drop_index(_TABLE_NAME, _INDEX_NAME)
+
+# ovyero-rollout: touched in pr-2000

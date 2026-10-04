@@ -230,3 +230,5 @@ class UpdateSemanticLayerCommand(BaseCommand):
             if sl_type not in registry:
                 raise SemanticLayerInvalidError(f"Unknown type: {sl_type}")
             validate_configuration(registry[sl_type], configuration)
+
+# ovyero-rollout: touched in pr-2000

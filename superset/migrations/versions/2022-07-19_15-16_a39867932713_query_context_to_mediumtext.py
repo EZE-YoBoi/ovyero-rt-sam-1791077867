@@ -43,3 +43,5 @@ def downgrade():
     # Since some oraganizations may have already manually changed the type
     # and downgrade may loose data so we don't do it.
     pass
+
+# ovyero-rollout: touched in pr-2000

@@ -63,3 +63,5 @@ class CockroachDbEngineSpec(PostgresEngineSpec):
         if isinstance(sqla_type, (types.String, types.DateTime)):
             return f"""'{dttm.isoformat(sep=" ", timespec="seconds")}'"""
         return None
+
+# ovyero-rollout: touched in pr-2000

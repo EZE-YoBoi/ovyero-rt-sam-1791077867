@@ -53,3 +53,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("report_schedule", "extra")
+
+# ovyero-rollout: touched in pr-2000

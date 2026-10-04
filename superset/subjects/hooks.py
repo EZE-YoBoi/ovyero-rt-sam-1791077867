@@ -81,3 +81,5 @@ def register_subject_hooks() -> None:
     group_creating.connect(_on_group_creating)
     group_updating.connect(_on_group_updating)
     logger.info("Subject sync hooks registered")
+
+# ovyero-rollout: touched in pr-2000

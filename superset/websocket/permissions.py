@@ -32,3 +32,5 @@ def can_access_realtime_notifications() -> bool:
         REALTIME_NOTIFICATION_PERMISSION,
         REALTIME_NOTIFICATION_RESOURCE,
     )
+
+# ovyero-rollout: touched in pr-2000

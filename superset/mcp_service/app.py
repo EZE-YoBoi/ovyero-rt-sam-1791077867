@@ -1133,3 +1133,5 @@ def init_fastmcp_server(
 
     logger.info("Configured FastMCP instance: %s (auth=%s)", name, auth is not None)
     return mcp
+
+# ovyero-rollout: touched in pr-2000

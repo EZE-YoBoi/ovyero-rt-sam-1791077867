@@ -172,3 +172,5 @@ class BubbleChartPlugin(BaseChartPlugin):
         )
 
         return generate_bubble_vega_lite_preview(data, form_data)
+
+# ovyero-rollout: touched in pr-2000

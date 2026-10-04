@@ -21,3 +21,5 @@ declare module 'dom-to-image-more' {
   import domToImage = require('dom-to-image-more');
   export = domToImage;
 }
+
+// ovyero-rollout: touched in pr-2000

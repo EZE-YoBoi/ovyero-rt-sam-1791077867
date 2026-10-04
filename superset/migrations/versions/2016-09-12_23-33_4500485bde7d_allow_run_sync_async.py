@@ -41,3 +41,5 @@ def downgrade():
         op.drop_column("dbs", "allow_run_async")
     except Exception:  # noqa: S110
         pass
+
+# ovyero-rollout: touched in pr-2000

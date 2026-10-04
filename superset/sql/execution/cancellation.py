@@ -168,3 +168,5 @@ def _handle_error(context: Any) -> None:
         execution._superset_cancellation_scope = None
         error = context.original_exception
         manager.__exit__(type(error), error, error.__traceback__)
+
+# ovyero-rollout: touched in pr-2000

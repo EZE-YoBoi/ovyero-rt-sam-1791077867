@@ -43,3 +43,5 @@ class ExtensionStorageFilter(BaseFilter):  # pylint: disable=too-few-public-meth
         if context is None:
             return query.filter(ExtensionStorage.extension_id.is_(None))
         return query.filter(ExtensionStorage.extension_id == context.extension.id)
+
+# ovyero-rollout: touched in pr-2000

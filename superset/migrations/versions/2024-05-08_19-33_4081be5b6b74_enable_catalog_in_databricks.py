@@ -38,3 +38,5 @@ def upgrade():
 
 def downgrade():
     downgrade_catalog_perms(engines={"databricks"})
+
+# ovyero-rollout: touched in pr-2000

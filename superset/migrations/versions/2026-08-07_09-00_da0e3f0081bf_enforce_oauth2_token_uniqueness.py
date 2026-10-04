@@ -95,3 +95,5 @@ def downgrade() -> None:
     drop_index(TABLE_NAME, INDEX_NAME)
     create_index(TABLE_NAME, INDEX_NAME, ["user_id", "database_id"])
     drop_index(TABLE_NAME, TMP_INDEX_NAME)
+
+# ovyero-rollout: touched in pr-2000

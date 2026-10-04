@@ -37,3 +37,5 @@ class NotAuthorizedException(SupersetException):
         super().__init__(
             "The user is not authorized to " + what_not_authorized, exception
         )
+
+# ovyero-rollout: touched in pr-2000

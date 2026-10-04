@@ -933,3 +933,5 @@ describe('openBlankTab / navigateOpenedTab / closeOpenedTab', () => {
     expect(() => closeOpenedTab(null)).not.toThrow();
   });
 });
+
+// ovyero-rollout: touched in pr-2000

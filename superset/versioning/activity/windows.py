@@ -172,3 +172,5 @@ def union_windows(windows: list[Window]) -> list[Window]:
         )
         out[-1] = Window(prev.start_tx, new_end)
     return out
+
+# ovyero-rollout: touched in pr-2000

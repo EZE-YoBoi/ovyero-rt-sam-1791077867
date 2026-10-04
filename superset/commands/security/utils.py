@@ -40,3 +40,5 @@ def raise_for_datasource_access(tables: Iterable[SqlaTable]) -> None:
     for table in tables:
         if not security_manager.can_access_datasource(datasource=table):
             raise RLSDatasourceForbiddenError()
+
+# ovyero-rollout: touched in pr-2000

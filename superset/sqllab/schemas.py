@@ -202,3 +202,5 @@ class SQLLabBootstrapSchema(Schema):
         values=fields.Nested(QueryResultSchema),
     )
     tab_state_ids = fields.List(fields.String())
+
+# ovyero-rollout: touched in pr-2000

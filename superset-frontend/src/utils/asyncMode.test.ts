@@ -89,3 +89,5 @@ test('per-dashboard override wins over the default', () => {
   setDefault(true);
   expect(resolveAsyncMode('force_off')).toBe(false);
 });
+
+// ovyero-rollout: touched in pr-2000

@@ -37,3 +37,5 @@ class SqlJsonPayloadSchema(Schema):
     select_as_cta = fields.Boolean(allow_none=True)
     runAsync = fields.Boolean(allow_none=True)  # noqa: N815
     expand_data = fields.Boolean(allow_none=True)
+
+# ovyero-rollout: touched in pr-2000

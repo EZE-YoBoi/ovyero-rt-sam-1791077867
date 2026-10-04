@@ -40,3 +40,5 @@ def downgrade():
         batch_op_sql_metrics.drop_column("warning_text")
     with op.batch_alter_table("metrics") as batch_op_metrics:
         batch_op_metrics.drop_column("warning_text")
+
+# ovyero-rollout: touched in pr-2000

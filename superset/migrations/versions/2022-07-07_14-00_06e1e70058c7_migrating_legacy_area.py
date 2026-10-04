@@ -42,3 +42,5 @@ def downgrade():
     bind = op.get_bind()
     session = db.Session(bind=bind)
     MigrateAreaChart.downgrade(session)
+
+# ovyero-rollout: touched in pr-2000

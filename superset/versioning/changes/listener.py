@@ -590,3 +590,5 @@ def register_change_record_listener() -> None:
     event.listen(db.session, "before_commit", finalize_change_records)
     event.listen(db.session, "after_transaction_end", _reset_after_outer_transaction)
     setattr(db.session, _REGISTERED_SENTINEL, True)
+
+# ovyero-rollout: touched in pr-2000

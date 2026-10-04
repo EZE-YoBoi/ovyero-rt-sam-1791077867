@@ -85,3 +85,5 @@ class ImportV1AnnotationLayerSchema(Schema):
     uuid = fields.UUID(required=True)
     version = fields.String(required=True)
     annotation = fields.List(fields.Nested(ImportV1AnnotationSchema), load_default=list)
+
+# ovyero-rollout: touched in pr-2000

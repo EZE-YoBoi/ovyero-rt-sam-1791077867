@@ -49,3 +49,5 @@ class DeleteAnnotationLayerCommand(BaseCommand):
             raise AnnotationLayerNotFoundError()
         if AnnotationLayerDAO.has_annotations(self._model_ids):
             raise AnnotationLayerDeleteIntegrityError()
+
+# ovyero-rollout: touched in pr-2000

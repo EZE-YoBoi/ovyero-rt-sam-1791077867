@@ -41,3 +41,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("query", "start_running_time")
+
+# ovyero-rollout: touched in pr-2000

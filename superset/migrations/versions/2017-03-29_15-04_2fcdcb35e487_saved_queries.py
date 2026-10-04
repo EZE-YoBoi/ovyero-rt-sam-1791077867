@@ -54,3 +54,5 @@ def upgrade():
 
 def downgrade():
     op.drop_table("saved_query")
+
+# ovyero-rollout: touched in pr-2000

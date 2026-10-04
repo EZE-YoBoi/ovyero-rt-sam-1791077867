@@ -1458,3 +1458,5 @@ def mcp_auth_hook(  # noqa: C901
     new_wrapper._mcp_auth_protected = True  # type: ignore[attr-defined]
 
     return new_wrapper
+
+# ovyero-rollout: touched in pr-2000

@@ -441,3 +441,5 @@ async def get_catalog(request: GetCatalogRequest, ctx: Context) -> CatalogRespon
         )
     )
     return response
+
+# ovyero-rollout: touched in pr-2000

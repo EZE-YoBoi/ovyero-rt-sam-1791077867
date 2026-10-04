@@ -49,3 +49,5 @@ def mark_database_engine_error(context: ExceptionContext) -> None:
         exception = context.original_exception
     with suppress(Exception):
         setattr(exception, _DATABASE_ENGINE_ERROR_MARKER, True)
+
+# ovyero-rollout: touched in pr-2000

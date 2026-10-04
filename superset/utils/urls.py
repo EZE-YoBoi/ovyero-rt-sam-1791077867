@@ -93,3 +93,5 @@ def is_secure_url(url: str) -> bool:
     """
     parsed_url = urlparse(url)
     return parsed_url.scheme == "https"
+
+# ovyero-rollout: touched in pr-2000

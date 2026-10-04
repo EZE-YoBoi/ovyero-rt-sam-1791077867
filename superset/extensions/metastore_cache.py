@@ -221,3 +221,5 @@ class SupersetMetastoreCache(BaseCache):
         from superset.daos.key_value import KeyValueDAO
 
         return KeyValueDAO.delete_entry(RESOURCE, self.get_key(key))
+
+# ovyero-rollout: touched in pr-2000

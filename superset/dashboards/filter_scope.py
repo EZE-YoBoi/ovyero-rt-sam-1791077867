@@ -273,3 +273,5 @@ def derive_json_metadata(dashboard: Dashboard, json_metadata: str) -> str:
     if not isinstance(metadata, dict):
         return json_metadata
     return json.dumps(derive_metadata_scopes(dashboard, metadata))
+
+# ovyero-rollout: touched in pr-2000

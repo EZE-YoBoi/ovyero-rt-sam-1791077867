@@ -1634,3 +1634,5 @@ class QualifiedTableSchema(Schema):
         load_default=None,
         metadata={"description": "The table catalog"},
     )
+
+# ovyero-rollout: touched in pr-2000

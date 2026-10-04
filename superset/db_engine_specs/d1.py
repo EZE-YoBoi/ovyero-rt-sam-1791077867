@@ -173,3 +173,5 @@ class CloudflareD1EngineSpec(SqliteEngineSpec):
             return str(errors[0].get("message") or message)
 
         return message
+
+# ovyero-rollout: touched in pr-2000

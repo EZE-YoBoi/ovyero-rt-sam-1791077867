@@ -105,3 +105,5 @@ async def find_users(request: FindUsersRequest, ctx: Context) -> FindUsersRespon
         "Resolved user query: matches=%s, truncated=%s" % (len(users), truncated)
     )
     return FindUsersResponse(users=users, count=len(users), truncated=truncated)
+
+# ovyero-rollout: touched in pr-2000

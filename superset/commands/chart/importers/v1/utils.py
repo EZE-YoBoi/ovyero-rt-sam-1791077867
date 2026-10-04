@@ -644,3 +644,5 @@ def _resolve_query_context_annotations(
             chart_uuid=config.get("uuid"),
         )
     config["query_context"] = json.dumps(query_context)
+
+# ovyero-rollout: touched in pr-2000

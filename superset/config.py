@@ -3728,3 +3728,5 @@ for env_var in ENV_VAR_KEYS:
 # users set just LOGO_TARGET_PATH without also overriding the whole theme.
 sync_theme_logo_href(THEME_DEFAULT, LOGO_TARGET_PATH)
 sync_theme_logo_href(THEME_DARK, LOGO_TARGET_PATH)
+
+# ovyero-rollout: touched in pr-2000

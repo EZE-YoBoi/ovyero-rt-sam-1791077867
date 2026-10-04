@@ -42,3 +42,5 @@ def downgrade():
         batch_op.alter_column(
             "sqlalchemy_uri", existing_type=sa.VARCHAR(length=1024), nullable=True
         )
+
+# ovyero-rollout: touched in pr-2000

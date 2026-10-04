@@ -97,3 +97,5 @@ def downgrade():
                         type_=sa.Text(),
                         existing_nullable=item not in NOT_NULL_COLUMNS,
                     )
+
+# ovyero-rollout: touched in pr-2000

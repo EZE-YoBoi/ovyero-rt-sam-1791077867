@@ -37,3 +37,5 @@ def upgrade():
 
 def downgrade():
     op.drop_index(op.f("ix_query_results_key"), table_name="query")
+
+# ovyero-rollout: touched in pr-2000

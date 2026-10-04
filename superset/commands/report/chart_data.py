@@ -192,3 +192,5 @@ def request_chart_data(
             raise ChartDataRequestError(category, status) from None
         time.sleep(delay)
     return None  # pragma: no cover
+
+# ovyero-rollout: touched in pr-2000

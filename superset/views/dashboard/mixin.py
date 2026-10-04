@@ -83,3 +83,5 @@ class DashboardMixin:  # pylint: disable=too-few-public-methods
 
     def pre_delete(self, item: "DashboardMixin") -> None:
         security_manager.raise_for_editorship(item)
+
+# ovyero-rollout: touched in pr-2000

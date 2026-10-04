@@ -22,3 +22,5 @@ class SqlJsonExecutionStatus(Enum):
     HAS_RESULTS = 2
     QUERY_IS_RUNNING = 3
     FAILED = 4
+
+# ovyero-rollout: touched in pr-2000

@@ -163,3 +163,5 @@ def raise_for_soft_deleted_slug_collision(slug: str | None, cause: Exception) ->
     raise DashboardInvalidError(
         exceptions=[DashboardSlugReservedValidationError(slug, holder)]
     ) from cause
+
+# ovyero-rollout: touched in pr-2000
