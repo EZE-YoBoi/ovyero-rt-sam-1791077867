@@ -143,3 +143,16 @@ PROJECT.md
 oxc-custom-build/
 *.code-workspace
 *.duckdb
+# AIOS
+node_modules/
+aios_user_config.json
+ovyero_user_config.json
+aios-hook.js
+aios-mcp-server.js
+.mcp.json
+CONOUT$
+CONIN$
+.aios/
+/aios/
+.ovyero/
+/ovyero_artifacts/

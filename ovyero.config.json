@@ -1,0 +1,48 @@
+{
+  "schema_version": "aios.v5.3.config",
+  "project": "superset",
+  "version": "5.3.0",
+  "governanceServer": "https://aios-governance-staging.up.railway.app",
+  "projectType": "production",
+  "paths": [
+    {
+      "pattern": "tests/**",
+      "profile": "test_harness"
+    }
+  ],
+  "type": "consumer",
+  "mode": "remote",
+  "exclude": [
+    "node_modules",
+    ".git",
+    "dist/",
+    "build/",
+    "coverage/",
+    ".next/",
+    "out/",
+    "vendor/",
+    "__pycache__/",
+    "venv/",
+    ".venv/",
+    ".cache/",
+    "*.db",
+    "*.db-shm",
+    "*.db-wal",
+    "*.log",
+    "*.min.js",
+    "*.lock",
+    "aios_user_config.json",
+    "ovyero_user_config.json",
+    "aios-hook.js",
+    "ovyero-hook.js",
+    "aios-mcp-server.js",
+    "ovyero-mcp-server.js",
+    ".mcp.json"
+  ],
+  "_aios_v53_detection_notes": [
+    "Auto-detected 2026-10-04 by aios v5.3.0 installer.",
+    "Python web framework detected in pyproject.toml/requirements.txt -> projectType `production`",
+    "`tests/` directory present -> added `tests/**` -> `test_harness` profile (style critics signal-only, security still gates)",
+    "Edit freely. AIOS re-reads this file on every commit. To suppress these notes, delete the `_aios_v53_detection_notes` array."
+  ]
+}

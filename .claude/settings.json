@@ -9,6 +9,15 @@
             "command": "jq -r '.tool_input.command // \"\"' | grep -qE '^git commit' && cd \"$CLAUDE_PROJECT_DIR\" && echo '🔍 Running pre-commit before commit...' && pre-commit run || true"
           }
         ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:/Users/elewe/AppData/Local/Temp/claude/c--Users-elewe-Downloads-aios-v5-1-Creation/c9a94208-4b72-4be5-9ea8-db9a09eedc5d/scratchpad/sam-project/superset/.claude/hooks/aios-pretool.js\""
+          }
+        ]
       }
     ]
   }
