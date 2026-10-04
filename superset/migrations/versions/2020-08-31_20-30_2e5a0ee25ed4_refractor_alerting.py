@@ -152,3 +152,5 @@ def downgrade():
     op.drop_table("sql_observers")
     op.drop_table("alert_validators")
     # ### end Alembic commands ###
+
+# ovyero-rollout: touched in pr-2000

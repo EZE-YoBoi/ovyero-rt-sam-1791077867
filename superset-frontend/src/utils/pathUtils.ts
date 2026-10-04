@@ -114,3 +114,5 @@ export function stripAppRoot(path: string): string {
   if (path.startsWith(`${root}/`)) return path.slice(root.length);
   return path;
 }
+
+// ovyero-rollout: touched in pr-2000

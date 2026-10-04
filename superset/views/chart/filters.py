@@ -29,3 +29,5 @@ class SliceFilter(BaseFilter):  # pylint: disable=too-few-public-methods
             return query
 
         return query.filter(get_dataset_access_filters(self.model))
+
+# ovyero-rollout: touched in pr-2000

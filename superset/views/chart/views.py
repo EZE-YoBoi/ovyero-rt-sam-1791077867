@@ -35,3 +35,5 @@ class SliceModelView(BaseSupersetView):
     @has_access
     def list(self) -> FlaskResponse:
         return super().render_app_template()
+
+# ovyero-rollout: touched in pr-2000

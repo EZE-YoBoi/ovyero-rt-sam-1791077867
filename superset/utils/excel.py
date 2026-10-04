@@ -245,3 +245,5 @@ def apply_column_types(
         # casting that ``iloc`` assignment attempts.
         df.isetitem(idx, series)
     return df
+
+# ovyero-rollout: touched in pr-2000

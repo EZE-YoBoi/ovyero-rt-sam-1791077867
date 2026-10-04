@@ -176,3 +176,5 @@ test('a new password without confirmation blocks saving', async () => {
   expect(fetchMock.callHistory.calls(userEndpoint)).toHaveLength(0);
   expect(props.onSave).not.toHaveBeenCalled();
 });
+
+// ovyero-rollout: touched in pr-2000

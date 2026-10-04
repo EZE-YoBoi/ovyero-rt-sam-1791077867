@@ -62,3 +62,5 @@ class Dremio(SqlglotDremio):
             **DremioGenerator.TRANSFORMS,
             DremioRegexpSplit: rename_func("REGEXP_SPLIT"),
         }
+
+# ovyero-rollout: touched in pr-2000

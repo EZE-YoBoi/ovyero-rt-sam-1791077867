@@ -142,3 +142,5 @@ class ChartGenerationResponse(BaseModel):
     performance: Dict[str, Any] | None = Field(None, description="Performance metadata")
     schema_version: str = Field(default="2.0", description="Response schema version")
     api_version: str = Field(default="v1", description="API version")
+
+# ovyero-rollout: touched in pr-2000

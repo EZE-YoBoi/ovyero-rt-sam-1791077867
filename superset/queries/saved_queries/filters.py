@@ -102,3 +102,5 @@ class SavedQueryFilter(BaseFilter):  # pylint: disable=too-few-public-methods
                 SavedQuery.created_by == g.user  # pylint: disable=comparison-with-callable
             )
         return query
+
+# ovyero-rollout: touched in pr-2000

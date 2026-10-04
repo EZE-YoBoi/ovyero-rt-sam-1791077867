@@ -88,3 +88,5 @@ ENTITY_KIND_BY_CLASS_NAME: dict[str, str] = {
     "Dashboard": "dashboard",
     "SqlaTable": "dataset",
 }
+
+# ovyero-rollout: touched in pr-2000

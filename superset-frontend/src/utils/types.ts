@@ -23,3 +23,5 @@ export type OnlyKeyWithType<T, V> = keyof {
 
 export const isIterable = (obj: any): obj is Iterable<any> =>
   obj != null && typeof obj[Symbol.iterator] === 'function';
+
+// ovyero-rollout: touched in pr-2000

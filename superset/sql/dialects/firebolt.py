@@ -164,3 +164,5 @@ class FireboltOld(Firebolt):
             op_sql = f"{op_sql} JOIN" if op_sql else "JOIN"
 
             return f"{self.seg(op_sql)} {this_sql}{match_cond}{on_sql}"
+
+# ovyero-rollout: touched in pr-2000

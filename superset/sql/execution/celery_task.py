@@ -503,3 +503,5 @@ def _execute_sql_statements(
     db.session.commit()  # pylint: disable=consider-using-transaction
 
     return payload
+
+# ovyero-rollout: touched in pr-2000

@@ -721,3 +721,5 @@ class GSheetsEngineSpec(ShillelaghEngineSpec):
         database.extra = json.dumps(extra)
         db.session.add(database)
         db.session.commit()  # pylint: disable=consider-using-transaction
+
+# ovyero-rollout: touched in pr-2000

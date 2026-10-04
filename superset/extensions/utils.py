@@ -385,3 +385,5 @@ def get_extensions() -> dict[str, LoadedExtension]:
                 )
 
     return extensions
+
+# ovyero-rollout: touched in pr-2000

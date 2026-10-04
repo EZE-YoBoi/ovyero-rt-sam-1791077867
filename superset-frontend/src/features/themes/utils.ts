@@ -46,3 +46,5 @@ export const hasConflictingAlgorithm = (
 
   return algorithms.includes(ThemeAlgorithm.DARK) !== isDarkSlot;
 };
+
+// ovyero-rollout: touched in pr-2000

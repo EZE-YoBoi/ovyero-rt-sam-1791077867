@@ -42,3 +42,5 @@ def downgrade():
         op.drop_column("query", "tmp_schema_name")
     except Exception:  # noqa: S110
         pass
+
+# ovyero-rollout: touched in pr-2000

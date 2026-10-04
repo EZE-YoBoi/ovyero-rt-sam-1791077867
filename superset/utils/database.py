@@ -214,3 +214,5 @@ def apply_mariadb_ddl_fix() -> None:
         return text
 
     compiler.DDLCompiler.visit_create_sequence = patched_visit_create_sequence
+
+# ovyero-rollout: touched in pr-2000

@@ -331,3 +331,5 @@ def initialize_core_api_dependencies() -> None:
     inject_semantic_layer_implementations()
     inject_storage_implementations()
     inject_extension_context()
+
+# ovyero-rollout: touched in pr-2000

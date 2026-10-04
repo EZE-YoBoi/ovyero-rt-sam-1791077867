@@ -70,3 +70,5 @@ def authorize_query(query_context: Any, dashboard_id: int, chart: Any) -> None:
         query_context.form_data = {"dashboardId": dashboard_id, "slice_id": chart.id}
     except (AttributeError, TypeError):
         logger.warning("Could not attach embedded dashboard context to query_context")
+
+# ovyero-rollout: touched in pr-2000

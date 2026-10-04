@@ -44,3 +44,5 @@ def upgrade():
 def downgrade():
     with op.batch_alter_table("dbs") as batch_op:
         batch_op.drop_column("configuration_method")
+
+# ovyero-rollout: touched in pr-2000

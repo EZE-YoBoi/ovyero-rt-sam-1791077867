@@ -61,3 +61,5 @@ def downgrade():
     op.drop_index(op.f("ix_key_value_expires_on"), table_name="key_value")
     op.drop_index(op.f("ix_key_value_uuid"), table_name="key_value")
     op.drop_table("key_value")
+
+# ovyero-rollout: touched in pr-2000

@@ -47,3 +47,5 @@ def upgrade():
 
 def downgrade():
     op.drop_table("logs")
+
+# ovyero-rollout: touched in pr-2000

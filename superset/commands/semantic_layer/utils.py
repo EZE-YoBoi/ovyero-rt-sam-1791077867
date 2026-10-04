@@ -54,3 +54,5 @@ def validate_configuration(
             type(ex).__name__,
         )
         raise SemanticLayerInvalidError("Provider rejected the configuration") from None
+
+# ovyero-rollout: touched in pr-2000

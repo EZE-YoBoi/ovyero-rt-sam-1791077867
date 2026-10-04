@@ -58,3 +58,5 @@ class AscendEngineSpec(ImpalaEngineSpec):
         TimeGrain.QUARTER: "DATE_TRUNC('quarter', {col})",
         TimeGrain.YEAR: "DATE_TRUNC('year', {col})",
     }
+
+# ovyero-rollout: touched in pr-2000

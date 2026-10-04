@@ -26,3 +26,5 @@ class ExecutorNotFoundError(SupersetException):
 
 class InvalidExecutorError(SupersetException):
     message = _("Invalid executor type")
+
+# ovyero-rollout: touched in pr-2000

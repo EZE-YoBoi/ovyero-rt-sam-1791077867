@@ -347,3 +347,5 @@ class AzureSynapseSpec(MssqlEngineSpec):
             "{server}.database.windows.net:1433/{database}"
         ),
     }
+
+# ovyero-rollout: touched in pr-2000

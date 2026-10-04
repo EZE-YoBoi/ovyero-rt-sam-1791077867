@@ -31,3 +31,5 @@ export default interface Database {
   disable_drill_to_detail?: boolean;
   allow_multi_catalog?: boolean;
 }
+
+// ovyero-rollout: touched in pr-2000

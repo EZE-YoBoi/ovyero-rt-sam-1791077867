@@ -276,3 +276,5 @@ class QueryCacheManager:
         region: CacheRegion = CacheRegion.DEFAULT,
     ) -> bool:
         return bool(_cache[region].get(key)) if key else False
+
+# ovyero-rollout: touched in pr-2000

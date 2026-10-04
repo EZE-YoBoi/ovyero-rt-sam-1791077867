@@ -402,3 +402,5 @@ class TagDAO(BaseDAO[Tag]):
                 db.session.expire(tag, ["objects"])
 
         db.session.add_all(tagged_objects)
+
+# ovyero-rollout: touched in pr-2000

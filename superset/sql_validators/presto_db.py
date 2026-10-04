@@ -177,3 +177,5 @@ class PrestoDBSQLValidator(BaseSQLValidator):
             logger.debug("Validation found %i error(s)", len(annotations))
 
         return annotations
+
+# ovyero-rollout: touched in pr-2000

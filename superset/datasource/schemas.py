@@ -264,3 +264,5 @@ class DatasourceQuerySchema(Schema):
     def validate_not_empty(self, data: dict[str, object], **_kwargs: object) -> None:
         if not data.get("metrics") and not data.get("dimensions"):
             raise ValidationError("Provide at least one metric or dimension.")
+
+# ovyero-rollout: touched in pr-2000

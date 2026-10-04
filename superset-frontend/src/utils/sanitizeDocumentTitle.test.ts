@@ -33,3 +33,5 @@ test('removes DEL and C1 controls', () => {
 test('leaves normal text unchanged', () => {
   expect(sanitizeDocumentTitle('Dashboard 你好')).toBe('Dashboard 你好');
 });
+
+// ovyero-rollout: touched in pr-2000

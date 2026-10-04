@@ -658,3 +658,5 @@ class AWSIAMAuthMixin:
         connect_args["sslmode"] = "verify-ca"
 
         logger.debug("Redshift IAM authentication configured successfully")
+
+# ovyero-rollout: touched in pr-2000

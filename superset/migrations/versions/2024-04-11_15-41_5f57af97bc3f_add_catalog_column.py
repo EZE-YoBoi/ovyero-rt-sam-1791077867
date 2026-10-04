@@ -41,3 +41,5 @@ def upgrade():
 def downgrade():
     for table in reversed(tables):
         drop_columns(table, "catalog")
+
+# ovyero-rollout: touched in pr-2000

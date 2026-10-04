@@ -1811,3 +1811,5 @@ class FavStar(UUIDMixin, Model):
     class_name = Column(String(50))
     obj_id = Column(Integer)
     dttm = Column(DateTime, default=datetime.utcnow)
+
+# ovyero-rollout: touched in pr-2000

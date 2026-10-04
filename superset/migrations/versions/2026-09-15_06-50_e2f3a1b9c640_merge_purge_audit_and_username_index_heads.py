@@ -33,3 +33,5 @@ def upgrade() -> None:
 
 def downgrade() -> None:
     """Restore both parent heads without changing schema or data."""
+
+# ovyero-rollout: touched in pr-2000

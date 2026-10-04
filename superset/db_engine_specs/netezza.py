@@ -61,3 +61,5 @@ class NetezzaEngineSpec(PostgresBaseEngineSpec):
     @classmethod
     def epoch_to_dttm(cls) -> str:
         return "(timestamp 'epoch' + {col} * interval '1 second')"
+
+# ovyero-rollout: touched in pr-2000

@@ -62,3 +62,5 @@ class UserAttribute(Model, AuditMixinNullable):
     # rest of the app (enforced by the before-request hook in
     # superset.security.password_change when ENABLE_FORCE_PASSWORD_CHANGE is on).
     password_must_change = Column(Boolean, nullable=False, default=False)
+
+# ovyero-rollout: touched in pr-2000

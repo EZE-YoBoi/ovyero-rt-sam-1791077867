@@ -35,3 +35,5 @@ class ObjectTypeConverter(BaseConverter):
 
     def to_url(self, value: Any) -> str:
         return value.name
+
+# ovyero-rollout: touched in pr-2000

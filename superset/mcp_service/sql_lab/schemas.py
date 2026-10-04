@@ -325,3 +325,5 @@ class SqlLabResponse(_SchemaFieldNormalizer):
     schema_name: str | None = Field(None, description="Schema selected", alias="schema")
     title: str | None = Field(None, description="Query title")
     error: str | None = Field(None, description="Error message if failed")
+
+# ovyero-rollout: touched in pr-2000

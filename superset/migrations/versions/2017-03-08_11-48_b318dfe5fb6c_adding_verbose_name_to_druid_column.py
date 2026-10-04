@@ -38,3 +38,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("columns", "verbose_name")
+
+# ovyero-rollout: touched in pr-2000

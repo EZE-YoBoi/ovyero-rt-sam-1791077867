@@ -140,3 +140,5 @@ def downgrade() -> None:
     # Dropping the table removes the backfilled rows, so there is nothing else
     # to undo.
     drop_table(THEME_EDITORS)
+
+# ovyero-rollout: touched in pr-2000

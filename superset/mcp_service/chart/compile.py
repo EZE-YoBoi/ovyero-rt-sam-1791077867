@@ -432,3 +432,5 @@ def validate_and_compile(
         return CompileResult(success=True)
 
     return _compile_chart(form_data, dataset.id)
+
+# ovyero-rollout: touched in pr-2000

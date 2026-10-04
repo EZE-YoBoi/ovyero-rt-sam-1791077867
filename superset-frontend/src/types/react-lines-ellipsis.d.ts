@@ -45,3 +45,5 @@ declare module 'react-lines-ellipsis/lib/responsiveHOC' {
     WrappedComponent: React.ComponentType<P>,
   ) => React.ComponentClass<P>;
 }
+
+// ovyero-rollout: touched in pr-2000

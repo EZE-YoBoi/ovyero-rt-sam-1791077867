@@ -38,3 +38,5 @@ class AnnotationLayerView(BaseSupersetView):
     @permission_name("read")
     def get(self, pk: int) -> FlaskResponse:  # pylint: disable=unused-argument
         return super().render_app_template()
+
+# ovyero-rollout: touched in pr-2000

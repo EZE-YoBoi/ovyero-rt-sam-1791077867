@@ -830,3 +830,5 @@ def _tombstone_states_for_kind(
                 "deletion_state": "soft_deleted" if live[entity_id] else None,
             }
     return states
+
+# ovyero-rollout: touched in pr-2000

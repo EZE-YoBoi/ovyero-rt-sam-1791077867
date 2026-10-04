@@ -43,3 +43,5 @@ class KeyValueEntry(CoreKeyValue, AuditMixinNullable, ImportExportMixin):
 
     def is_expired(self) -> bool:
         return self.expires_on is not None and self.expires_on <= datetime.now()
+
+# ovyero-rollout: touched in pr-2000

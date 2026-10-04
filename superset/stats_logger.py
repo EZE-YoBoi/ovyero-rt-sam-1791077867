@@ -129,3 +129,5 @@ except Exception as e:  # pylint: disable=broad-except  # noqa: S110
             on instantiation of the StatsdStatsLogger.
             """
             raise _saved_exception
+
+# ovyero-rollout: touched in pr-2000

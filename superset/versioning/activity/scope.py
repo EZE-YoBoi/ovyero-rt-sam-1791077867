@@ -136,3 +136,5 @@ def _resolve_chart_scope(slice_id: int) -> list[EntityWindows]:
     for dataset_id, window in datasets_used_by_chart(slice_id):
         scope.append(("SqlaTable", dataset_id, [window]))
     return merge_entity_windows(scope)
+
+# ovyero-rollout: touched in pr-2000

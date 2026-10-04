@@ -69,3 +69,5 @@ def upgrade():
 def downgrade():
     if table_has_column("tables", "always_filter_main_dttm"):
         op.drop_column("tables", "always_filter_main_dttm")
+
+# ovyero-rollout: touched in pr-2000

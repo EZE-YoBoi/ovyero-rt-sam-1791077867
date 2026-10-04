@@ -1352,3 +1352,5 @@ test('keeps the on-screen capture size as a floor when the clone is not larger',
 
   document.body.removeChild(container);
 });
+
+// ovyero-rollout: touched in pr-2000

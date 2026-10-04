@@ -92,3 +92,5 @@ class TaskFilter(BaseFilter):  # pylint: disable=too-few-public-methods
         )
 
         return query.filter(is_subscribed)
+
+# ovyero-rollout: touched in pr-2000

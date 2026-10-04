@@ -544,3 +544,5 @@ sqla.event.listen(Slice, "before_update", set_related_perm)
 if is_feature_enabled("THUMBNAILS_SQLA_LISTENERS"):
     sqla.event.listen(Slice, "after_insert", event_after_chart_changed)
     sqla.event.listen(Slice, "after_update", event_after_chart_changed)
+
+# ovyero-rollout: touched in pr-2000

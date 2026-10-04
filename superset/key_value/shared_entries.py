@@ -107,3 +107,5 @@ def get_permalink_salt(key: SharedKey) -> str:
         salt = random_key(48)
         set_shared_value(key, value=salt)
     return salt
+
+# ovyero-rollout: touched in pr-2000

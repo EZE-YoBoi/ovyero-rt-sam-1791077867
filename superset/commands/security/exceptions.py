@@ -35,3 +35,5 @@ class RLSDatasourceForbiddenError(ForbiddenError):
 
 class RuleDeleteFailedError(DeleteFailedError):
     message = _("RLS rules could not be deleted.")
+
+# ovyero-rollout: touched in pr-2000

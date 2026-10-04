@@ -452,3 +452,5 @@ class ChartTypeSuggester:
         return descriptions.get(
             chart_type, f"Visualizes data using {chart_type} format"
         )
+
+# ovyero-rollout: touched in pr-2000

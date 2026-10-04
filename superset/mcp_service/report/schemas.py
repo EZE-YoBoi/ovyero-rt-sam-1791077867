@@ -212,3 +212,5 @@ def serialize_report_object(report: Any) -> ReportInfo | None:
         created_on=getattr(report, "created_on", None),
         created_on_humanized=humanize_timestamp(getattr(report, "created_on", None)),
     )
+
+# ovyero-rollout: touched in pr-2000

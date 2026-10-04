@@ -38,3 +38,5 @@ def upgrade():
 def downgrade():
     with op.batch_alter_table("slices") as batch_op:
         batch_op.drop_column("query_context")
+
+# ovyero-rollout: touched in pr-2000

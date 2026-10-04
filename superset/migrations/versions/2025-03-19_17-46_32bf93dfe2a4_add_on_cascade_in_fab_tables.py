@@ -109,3 +109,5 @@ def downgrade():
     create_fks_for_table(
         "ab_user_role_role_id_fkey", "ab_user_role", "ab_role", ["role_id"], ["id"]
     )
+
+# ovyero-rollout: touched in pr-2000

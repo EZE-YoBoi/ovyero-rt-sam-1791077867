@@ -358,3 +358,5 @@ def get_chart_configs_resource() -> str:
     from superset.utils import json
 
     return json.dumps(resource_data, indent=2)
+
+# ovyero-rollout: touched in pr-2000

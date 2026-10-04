@@ -37,3 +37,5 @@ def rank(
     else:
         df["rank"] = df[metric].rank(pct=True)
     return df
+
+# ovyero-rollout: touched in pr-2000

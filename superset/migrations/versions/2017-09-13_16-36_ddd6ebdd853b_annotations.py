@@ -76,3 +76,5 @@ def downgrade():
     op.drop_index("ti_dag_state", table_name="annotation")
     op.drop_table("annotation")
     op.drop_table("annotation_layer")
+
+# ovyero-rollout: touched in pr-2000

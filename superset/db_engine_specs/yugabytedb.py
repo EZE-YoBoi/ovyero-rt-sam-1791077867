@@ -61,3 +61,5 @@ class YugabyteDBEngineSpec(PostgresBaseEngineSpec):
         "notes": "Uses the PostgreSQL driver. psycopg2 comes bundled with Superset.",
         "docs_url": "https://docs.yugabyte.com/",
     }
+
+# ovyero-rollout: touched in pr-2000

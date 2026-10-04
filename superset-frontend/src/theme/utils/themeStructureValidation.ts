@@ -189,3 +189,5 @@ export function validateTheme(themeConfig: AnyThemeConfig): ValidationResult {
     warnings,
   };
 }
+
+// ovyero-rollout: touched in pr-2000

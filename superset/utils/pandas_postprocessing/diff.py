@@ -48,3 +48,5 @@ def diff(
     df_diff = df[columns.keys()]
     df_diff = df_diff.diff(periods=periods, axis=axis)
     return _append_columns(df, df_diff, columns)
+
+# ovyero-rollout: touched in pr-2000

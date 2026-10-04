@@ -66,3 +66,5 @@ def get_codec(name: str) -> KeyValueCodec:
         return _CODECS[name]
     except KeyError:
         raise UnknownCodecError(f"Unknown codec: {name!r}") from None
+
+# ovyero-rollout: touched in pr-2000

@@ -233,3 +233,5 @@ class InteractivePivotChartPlugin(BaseChartPlugin):
             ],
             error_code="INTERACTIVE_PIVOT_VALIDATION_ERROR",
         )
+
+# ovyero-rollout: touched in pr-2000

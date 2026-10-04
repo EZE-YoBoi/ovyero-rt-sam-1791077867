@@ -80,3 +80,5 @@ class UserDAO(BaseDAO[User]):
         from superset.subjects.sync import delete_user_subject
 
         delete_user_subject(user_id)
+
+# ovyero-rollout: touched in pr-2000

@@ -548,3 +548,5 @@ def remove_chart_from_dashboard(  # noqa: C901 — complexity is structural (lay
             permission_denied=False,
             error=f"Failed to remove chart from dashboard: {str(e)}",
         )
+
+# ovyero-rollout: touched in pr-2000

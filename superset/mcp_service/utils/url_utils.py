@@ -105,3 +105,5 @@ def get_mcp_service_url() -> str:
 
     # Development fallback - direct access to MCP service on port 5008
     return "http://localhost:5008"
+
+# ovyero-rollout: touched in pr-2000

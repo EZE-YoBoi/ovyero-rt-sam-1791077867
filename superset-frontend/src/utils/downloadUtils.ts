@@ -209,3 +209,5 @@ export async function forceLoadAllCharts(
 export function restoreVirtualization(): void {
   window.dispatchEvent(new Event(RESTORE_VIRTUALIZATION_EVENT));
 }
+
+// ovyero-rollout: touched in pr-2000

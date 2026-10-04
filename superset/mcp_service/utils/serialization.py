@@ -223,3 +223,5 @@ JsonSafeValues = list[Annotated[Any, BeforeValidator(sanitize_json_value)]]
 RowCount = Annotated[int, BeforeValidator(coerce_int)]
 #: A nullable row count reported by the query engine.
 OptionalRowCount = Annotated[int | None, BeforeValidator(coerce_optional_int)]
+
+# ovyero-rollout: touched in pr-2000

@@ -286,3 +286,5 @@ def _resolve_visibility(
             else:
                 visible[(api_kind, entity_id)] = entity_id in visible_ids
     return visible
+
+# ovyero-rollout: touched in pr-2000

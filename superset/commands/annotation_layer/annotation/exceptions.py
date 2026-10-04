@@ -66,3 +66,5 @@ class AnnotationUpdateFailedError(CreateFailedError):
 
 class AnnotationDeleteFailedError(DeleteFailedError):
     message = _("Annotations could not be deleted.")
+
+# ovyero-rollout: touched in pr-2000

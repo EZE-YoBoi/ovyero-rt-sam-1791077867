@@ -159,3 +159,5 @@ class ExtensionEphemeralDAO:
         user_id = None if shared else get_current_user_id("ephemeral_state")
         cache_key = build_storage_key(extension_id, key, user_id, shared)
         cache_manager.extension_ephemeral_state_cache.delete(cache_key)
+
+# ovyero-rollout: touched in pr-2000

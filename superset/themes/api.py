@@ -883,3 +883,5 @@ class ThemeRestApi(BaseSupersetModelRestApi):
         from superset.views.base import get_theme_bootstrap_data
 
         return self.response(200, result=get_theme_bootstrap_data()["theme"])
+
+# ovyero-rollout: touched in pr-2000

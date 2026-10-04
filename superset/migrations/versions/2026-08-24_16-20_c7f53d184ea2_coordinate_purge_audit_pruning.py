@@ -58,3 +58,5 @@ def upgrade() -> None:
 def downgrade() -> None:
     """Remove the audit/pruning coordination row and table."""
     drop_table(_TABLE_NAME)
+
+# ovyero-rollout: touched in pr-2000

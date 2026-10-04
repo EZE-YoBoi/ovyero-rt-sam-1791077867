@@ -100,3 +100,5 @@ async def get_role_info(
             % (request.identifier, str(e), type(e).__name__)
         )
         raise
+
+# ovyero-rollout: touched in pr-2000

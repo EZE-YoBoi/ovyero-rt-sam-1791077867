@@ -79,3 +79,5 @@ class Annotation(Model, AuditMixinNullable, ImportExportMixin):
 
     def __repr__(self) -> str:
         return str(self.short_descr)
+
+# ovyero-rollout: touched in pr-2000

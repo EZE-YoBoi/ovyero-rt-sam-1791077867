@@ -192,3 +192,5 @@ class QueryContext:
 
     def raise_for_access(self) -> None:
         self._processor.raise_for_access()
+
+# ovyero-rollout: touched in pr-2000

@@ -61,3 +61,5 @@ def downgrade() -> None:
     # Keep the expanded precision so rollback never truncates audit ordering
     # evidence written after upgrade.
     drop_index("purge_audit_log", _INDEX_NAME)
+
+# ovyero-rollout: touched in pr-2000

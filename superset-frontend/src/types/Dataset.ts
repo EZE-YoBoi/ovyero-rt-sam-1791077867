@@ -40,3 +40,5 @@ export default interface Dataset {
   is_sqllab_view?: boolean;
   is_managed_externally?: boolean;
 }
+
+// ovyero-rollout: touched in pr-2000

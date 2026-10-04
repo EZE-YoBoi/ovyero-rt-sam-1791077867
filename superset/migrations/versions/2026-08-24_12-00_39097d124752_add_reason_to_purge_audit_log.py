@@ -58,3 +58,5 @@ def upgrade() -> None:
 def downgrade() -> None:
     """Drop the ``reason`` column from ``purge_audit_log``."""
     drop_columns("purge_audit_log", "reason")
+
+# ovyero-rollout: touched in pr-2000

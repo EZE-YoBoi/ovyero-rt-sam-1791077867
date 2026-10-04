@@ -274,3 +274,5 @@ async def update_dataset_metric(  # noqa: C901
             % (type(exc).__name__, str(exc))
         )
         raise
+
+# ovyero-rollout: touched in pr-2000

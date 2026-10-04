@@ -416,3 +416,5 @@ def purge_soft_deleted() -> dict[str, Any]:
         logger.exception("deletion_retention.purge_soft_deleted: task failed")
         stats_logger_manager.instance.incr(f"{_METRIC_PREFIX}.failed")
         return {"error": 1}
+
+# ovyero-rollout: touched in pr-2000

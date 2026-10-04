@@ -178,3 +178,5 @@ class GuestTokenVerifier(TokenVerifier):
             expires_at=expires_at,
             claims={GUEST_TOKEN_CLAIM: True, **parsed},
         )
+
+# ovyero-rollout: touched in pr-2000

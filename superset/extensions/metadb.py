@@ -572,3 +572,5 @@ class SupersetShillelaghAdapter(Adapter):
         with self.engine_context() as engine:
             with engine.begin() as connection:
                 connection.execute(query)
+
+# ovyero-rollout: touched in pr-2000

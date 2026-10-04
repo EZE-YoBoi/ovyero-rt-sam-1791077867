@@ -104,3 +104,5 @@ class KylinEngineSpec(BaseEngineSpec):  # pylint: disable=abstract-method
             datetime_formatted = dttm.isoformat(sep=" ", timespec="seconds")
             return f"""CAST('{datetime_formatted}' AS TIMESTAMP)"""
         return None
+
+# ovyero-rollout: touched in pr-2000

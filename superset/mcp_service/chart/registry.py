@@ -331,3 +331,5 @@ _PROXY = _RegistryProxy()
 def get_registry() -> "_RegistryProxy":
     """Return the module-level registry proxy (convenience wrapper)."""
     return _PROXY
+
+# ovyero-rollout: touched in pr-2000

@@ -240,3 +240,5 @@ class BaseRestoreVersionCommand(BaseCommand):
         if entity.is_managed_externally:
             raise self.forbidden_exc()
         return entity
+
+# ovyero-rollout: touched in pr-2000

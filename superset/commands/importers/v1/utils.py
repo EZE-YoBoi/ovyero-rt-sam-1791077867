@@ -701,3 +701,5 @@ def apply_extra_import_fields(
         return
     if handler := current_app.config.get("EXTRA_ASSET_IMPORT_HANDLER"):
         handler(model, asset_type, extra)
+
+# ovyero-rollout: touched in pr-2000

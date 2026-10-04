@@ -46,3 +46,5 @@ def upgrade():
 def downgrade():
     with op.batch_alter_table("tab_state") as batch_op:
         batch_op.drop_column("hide_left_bar")
+
+# ovyero-rollout: touched in pr-2000

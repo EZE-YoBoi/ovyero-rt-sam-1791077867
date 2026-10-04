@@ -942,3 +942,5 @@ def downgrade() -> None:
     drop_index(SUBJECTS_TABLE, "ix_subjects_role_id")
     drop_index(SUBJECTS_TABLE, "ix_subjects_group_id")
     drop_table(SUBJECTS_TABLE)
+
+# ovyero-rollout: touched in pr-2000

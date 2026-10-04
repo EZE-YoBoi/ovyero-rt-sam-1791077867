@@ -105,3 +105,5 @@ class SeedSystemThemesCommand(BaseCommand):
     def validate(self) -> None:
         """Validate that the command can be executed."""
         pass
+
+# ovyero-rollout: touched in pr-2000

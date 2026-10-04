@@ -653,3 +653,5 @@ class ExtensionStorageDAO(BaseDAO[ExtensionStorage]):
         db.session.delete(entry)
         db.session.flush()
         return True
+
+# ovyero-rollout: touched in pr-2000

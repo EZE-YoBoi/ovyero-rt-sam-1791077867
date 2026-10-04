@@ -533,3 +533,5 @@ class SoftDeleteApiMixin:
     @staticmethod
     def _serialize_deleted_at(value: datetime | None) -> str | None:
         return value.isoformat() if value else None
+
+# ovyero-rollout: touched in pr-2000

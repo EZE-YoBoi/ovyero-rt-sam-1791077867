@@ -39,3 +39,5 @@ class RLSDAO(BaseDAO[RowLevelSecurityFilter]):
         if rule_id is not None:
             query = query.filter(RowLevelSecurityFilter.id != rule_id)
         return not db.session.query(query.exists()).scalar()
+
+# ovyero-rollout: touched in pr-2000

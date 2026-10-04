@@ -63,3 +63,5 @@ class GreenplumEngineSpec(PostgresEngineSpec):
         },
         "docs_url": "https://docs.vmware.com/en/VMware-Greenplum/",
     }
+
+# ovyero-rollout: touched in pr-2000

@@ -494,3 +494,5 @@ def add_favorites(metadata: MetaData) -> None:
     )
     query = tagged_object.insert().from_select(columns, favstars)
     db.session.execute(query)
+
+# ovyero-rollout: touched in pr-2000

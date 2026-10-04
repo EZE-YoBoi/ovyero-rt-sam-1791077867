@@ -70,3 +70,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("tables", "is_sqllab_view")
+
+# ovyero-rollout: touched in pr-2000

@@ -66,3 +66,5 @@ def downgrade():
 
     with op.batch_alter_table("table_columns") as batch_op:
         batch_op.drop_column("datetime_format")
+
+# ovyero-rollout: touched in pr-2000

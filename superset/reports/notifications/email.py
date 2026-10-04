@@ -473,3 +473,5 @@ class EmailNotification(BaseNotification):  # pylint: disable=too-few-public-met
             ) from ex
         except Exception as ex:
             raise NotificationError(str(ex)) from ex
+
+# ovyero-rollout: touched in pr-2000

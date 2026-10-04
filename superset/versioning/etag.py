@@ -120,3 +120,5 @@ def raise_for_stale_write(current_version_uuid: str | None) -> None:
     live = _entity_tag(str(current_version_uuid))
     if not any(_entity_tag(tag) == live for tag in if_match.as_set(True)):
         raise StaleEntityError()
+
+# ovyero-rollout: touched in pr-2000

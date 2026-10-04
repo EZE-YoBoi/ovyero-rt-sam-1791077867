@@ -42,3 +42,5 @@ def downgrade():
         batch_op.alter_column(
             "type", existing_type=sa.TEXT(), type_=sa.VARCHAR(length=32)
         )
+
+# ovyero-rollout: touched in pr-2000

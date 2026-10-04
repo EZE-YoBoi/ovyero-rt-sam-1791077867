@@ -429,3 +429,5 @@ def _convert_to_response(result: QueryResult) -> ExecuteSqlResponse:
         statements=statements,
         multi_statement_warning=multi_statement_warning,
     )
+
+# ovyero-rollout: touched in pr-2000

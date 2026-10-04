@@ -46,3 +46,5 @@ def downgrade():
         op.drop_constraint("_customer_location_uc", "tables", type_="unique")
     except Exception:  # noqa: S110
         pass
+
+# ovyero-rollout: touched in pr-2000

@@ -454,3 +454,5 @@ def escape_like(value: str) -> str:
     Backslash is doubled first to prevent double-escaping.
     """
     return value.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
+
+# ovyero-rollout: touched in pr-2000

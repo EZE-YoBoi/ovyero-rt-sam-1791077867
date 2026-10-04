@@ -193,3 +193,5 @@ def serialize_role_object(
         name=getattr(role, "name", None),
         permissions=permissions,
     )
+
+# ovyero-rollout: touched in pr-2000

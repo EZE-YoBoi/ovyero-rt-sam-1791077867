@@ -37,3 +37,5 @@ class RestoreChartCommand(BaseRestoreCommand[Slice]):
     not_found_exc = ChartNotFoundError
     forbidden_exc = ChartForbiddenError
     restore_failed_exc = ChartRestoreFailedError
+
+# ovyero-rollout: touched in pr-2000

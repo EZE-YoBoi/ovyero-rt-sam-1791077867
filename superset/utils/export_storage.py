@@ -74,3 +74,5 @@ class ExportStorage(Protocol):
         Existence is checked eagerly: raises ``FileNotFoundError`` at call
         time when the object does not exist (e.g. removed by a bucket
         lifecycle rule before the link expired)."""
+
+# ovyero-rollout: touched in pr-2000

@@ -34,3 +34,5 @@ def reference_uuid(reference: Any) -> str:
     """Validate the closed reference shape and canonicalize its UUID."""
     parsed: dict[str, Any] = SemanticViewReferenceSchema().load(reference)
     return str(parsed["uuid"])
+
+# ovyero-rollout: touched in pr-2000

@@ -142,3 +142,5 @@ async def save_sql_query(
             % (str(e), request.database_id)
         )
         raise
+
+# ovyero-rollout: touched in pr-2000

@@ -362,3 +362,5 @@ class TableSchemaView(BaseSupersetView):
         except Exception as ex:  # pylint: disable=broad-except
             db.session.rollback()
             return json_error_response(error_msg_from_exception(ex), 400)
+
+# ovyero-rollout: touched in pr-2000

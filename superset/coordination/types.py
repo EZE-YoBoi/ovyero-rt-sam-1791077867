@@ -83,3 +83,5 @@ class SignalListener:
                 self._wake()
         except Exception:  # pylint: disable=broad-except
             logger.debug("Signal listener wake nudge failed", exc_info=True)
+
+# ovyero-rollout: touched in pr-2000

@@ -1004,3 +1004,5 @@ class ModelGetSchemaCore(BaseCore, Generic[S]):
         except (AttributeError, TypeError, ValueError) as e:
             self._log_error(e, f"getting schema for {self.model_type}")
             raise
+
+# ovyero-rollout: touched in pr-2000

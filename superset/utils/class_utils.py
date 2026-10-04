@@ -37,3 +37,5 @@ def load_class_from_name(fq_class_name: str) -> Any:
 
     module = import_module(module_name)
     return getattr(module, class_name)
+
+# ovyero-rollout: touched in pr-2000

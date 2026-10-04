@@ -76,3 +76,5 @@ class IBMiEngineSpec(Db2EngineSpec):
     @classmethod
     def epoch_to_dttm(cls) -> str:
         return "(DAYS({col}) - DAYS('1970-01-01')) * 86400 + MIDNIGHT_SECONDS({col})"
+
+# ovyero-rollout: touched in pr-2000

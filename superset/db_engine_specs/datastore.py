@@ -608,3 +608,5 @@ class DatastoreEngineSpec(BaseEngineSpec):  # pylint: disable=too-many-public-me
         :returns: The view names
         """
         return set()
+
+# ovyero-rollout: touched in pr-2000

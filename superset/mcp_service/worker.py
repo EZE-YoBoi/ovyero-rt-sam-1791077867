@@ -895,3 +895,5 @@ def warehouse_cursor(
         check_deadline.reset(deadline_token)
         with call.lock:
             call.cancel_query = None
+
+# ovyero-rollout: touched in pr-2000

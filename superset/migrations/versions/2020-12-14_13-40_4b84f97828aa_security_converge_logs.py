@@ -80,3 +80,5 @@ def downgrade():
         print(f"An error occurred while downgrading Logs permissions: {ex}")
         session.rollback()
     pass
+
+# ovyero-rollout: touched in pr-2000

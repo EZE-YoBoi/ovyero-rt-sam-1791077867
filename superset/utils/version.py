@@ -130,3 +130,5 @@ def _get_local_sha() -> str | None:
         return output.decode().strip()
     except Exception:  # pylint: disable=broad-except
         return None
+
+# ovyero-rollout: touched in pr-2000

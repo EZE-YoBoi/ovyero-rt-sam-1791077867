@@ -166,3 +166,5 @@ def downgrade() -> None:
 
     drop_table("semantic_views")
     drop_table("semantic_layers")
+
+# ovyero-rollout: touched in pr-2000

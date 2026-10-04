@@ -308,3 +308,5 @@ def send_to_slack_channels(
     if any(_is_transient_slack_channel_failure(error) for _, error in failures):
         raise NotificationTransientError(message) from failures[0][1]
     raise NotificationUnprocessableException(message) from failures[0][1]
+
+# ovyero-rollout: touched in pr-2000

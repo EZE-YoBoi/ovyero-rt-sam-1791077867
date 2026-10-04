@@ -524,3 +524,5 @@ test('exactly one group is highlighted: the previewed one while previewing, else
   rerender(<VersionHistoryPanel {...props} previewedTransactionId={null} />);
   expect(groupBackgrounds()).toEqual([activeBg, restingBg]);
 });
+
+// ovyero-rollout: touched in pr-2000

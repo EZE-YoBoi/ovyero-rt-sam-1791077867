@@ -507,3 +507,5 @@ class MotherDuckEngineSpec(DuckDBEngineSpec):
                     text("SELECT alias FROM MD_ALL_DATABASES() WHERE is_attached;")
                 )
             }
+
+# ovyero-rollout: touched in pr-2000

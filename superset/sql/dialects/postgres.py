@@ -77,3 +77,5 @@ def normalize_date_trunc_units(expression: str) -> str:
     for start, end, normalized_unit in reversed(replacements):
         expression = f"{expression[:start]}{normalized_unit}{expression[end:]}"
     return expression
+
+# ovyero-rollout: touched in pr-2000

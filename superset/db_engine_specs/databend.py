@@ -437,3 +437,5 @@ def __getattr__(name: str) -> Any:
     if name == "DatabendConnectEngineSpec":
         return DatabendEngineSpec
     raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
+# ovyero-rollout: touched in pr-2000

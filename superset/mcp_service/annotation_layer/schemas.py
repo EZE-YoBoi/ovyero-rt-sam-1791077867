@@ -184,3 +184,5 @@ def serialize_annotation(obj: Any) -> AnnotationInfo | None:
         ),
         layer_id=getattr(obj, "layer_id", None),
     )
+
+# ovyero-rollout: touched in pr-2000

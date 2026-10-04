@@ -132,3 +132,5 @@ test('re-selecting the already-previewed version does not re-enter applying', as
   });
   expect(applying()).toBe(false);
 });
+
+// ovyero-rollout: touched in pr-2000

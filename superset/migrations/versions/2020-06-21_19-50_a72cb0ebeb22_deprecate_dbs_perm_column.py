@@ -37,3 +37,5 @@ def upgrade():
 def downgrade():
     with op.batch_alter_table("dbs") as batch_op:
         batch_op.add_column(sa.Column("perm", sa.String(1000), nullable=True))
+
+# ovyero-rollout: touched in pr-2000

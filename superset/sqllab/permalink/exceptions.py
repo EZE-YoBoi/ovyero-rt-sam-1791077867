@@ -29,3 +29,5 @@ class SqlLabPermalinkCreateFailedError(CreateFailedError):
 
 class SqlLabPermalinkGetFailedError(CommandException):
     message = _("An error occurred while accessing the copy link.")
+
+# ovyero-rollout: touched in pr-2000

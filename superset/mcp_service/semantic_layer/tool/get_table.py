@@ -695,3 +695,5 @@ async def get_table(
             error=f"Internal error executing get_table: {exc}",
             error_type="InternalError",
         )
+
+# ovyero-rollout: touched in pr-2000

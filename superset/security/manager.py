@@ -6543,3 +6543,5 @@ class SupersetSecurityManager(  # pylint: disable=too-many-public-methods
                     "User Registrations",
                 ]:
                     security_menu.childs.remove(item)
+
+# ovyero-rollout: touched in pr-2000

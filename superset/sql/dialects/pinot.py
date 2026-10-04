@@ -172,3 +172,5 @@ class Pinot(MySQL):
             # Pinot doesn't support MySQL's TIMESTAMP() function
             # Use standard CAST syntax instead
             return super(MySQL.Generator, self).cast_sql(expression, safe_prefix)
+
+# ovyero-rollout: touched in pr-2000

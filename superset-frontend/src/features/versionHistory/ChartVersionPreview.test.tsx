@@ -232,3 +232,5 @@ test('malformed snapshot params surface as an error, not a crash', async () => {
   });
   expect(screen.getByRole('alert')).toBeInTheDocument();
 });
+
+// ovyero-rollout: touched in pr-2000

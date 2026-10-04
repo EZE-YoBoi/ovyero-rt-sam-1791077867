@@ -76,3 +76,5 @@ def upgrade():
 def downgrade():
     for foreign_key in foreign_keys:
         redefine(foreign_key)
+
+# ovyero-rollout: touched in pr-2000

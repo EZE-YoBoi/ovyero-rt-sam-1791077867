@@ -664,3 +664,5 @@ test.each(['open', 'closed', 'other chart', 'failed'])(
     expect(refresh).toHaveBeenCalledTimes(scenario === 'open' ? 1 : 0);
   },
 );
+
+// ovyero-rollout: touched in pr-2000

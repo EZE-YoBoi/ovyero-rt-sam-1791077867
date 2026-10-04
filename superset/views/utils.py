@@ -694,3 +694,5 @@ def get_cta_schema_name(
     if not func:
         return None
     return func(database, user, schema, sql)
+
+# ovyero-rollout: touched in pr-2000

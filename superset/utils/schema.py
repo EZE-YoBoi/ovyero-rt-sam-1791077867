@@ -107,3 +107,5 @@ class DiscardIsManagedExternallyMixin(Schema):
         return data
 
     is_managed_externally = fields.Boolean(allow_none=True, dump_default=False)
+
+# ovyero-rollout: touched in pr-2000

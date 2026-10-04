@@ -1484,3 +1484,5 @@ class PrestoEngineSpec(PrestoBaseEngineSpec):
         """
 
         return True
+
+# ovyero-rollout: touched in pr-2000

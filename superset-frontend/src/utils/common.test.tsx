@@ -151,3 +151,5 @@ test('changes formatting of columns selected for formatting', () => {
     applyFormattingToTabularData(originalData, timeFormattedColumns),
   ).toEqual(expectedData);
 });
+
+// ovyero-rollout: touched in pr-2000

@@ -78,3 +78,5 @@ class ArcEngineSpec(BaseEngineSpec):
             "Each Arc database appears as a schema in SQL Lab."
         ),
     }
+
+# ovyero-rollout: touched in pr-2000

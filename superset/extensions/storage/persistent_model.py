@@ -137,3 +137,5 @@ class ExtensionStorage(CoreExtensionStorageEntry, AuditMixinNullable, Model):
             f"<ExtensionStorage {self.extension_id}/"
             f"user={self.user_fk}/res={self.resource_type}/{self.key}>"
         )
+
+# ovyero-rollout: touched in pr-2000

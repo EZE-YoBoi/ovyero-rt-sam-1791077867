@@ -68,3 +68,5 @@ def teardown(  # pylint: disable=unused-argument
         # Ensure session is removed only inside flask app context
         if has_app_context():
             db.session.remove()
+
+# ovyero-rollout: touched in pr-2000

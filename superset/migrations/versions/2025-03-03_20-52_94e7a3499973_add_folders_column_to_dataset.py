@@ -41,3 +41,5 @@ def upgrade():
 
 def downgrade():
     drop_columns("tables", "folders")
+
+# ovyero-rollout: touched in pr-2000

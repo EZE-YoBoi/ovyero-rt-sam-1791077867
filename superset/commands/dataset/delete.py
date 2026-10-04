@@ -55,3 +55,5 @@ class DeleteDatasetCommand(BaseCommand):
                 security_manager.raise_for_editorship(model)
             except SupersetSecurityException as ex:
                 raise DatasetForbiddenError() from ex
+
+# ovyero-rollout: touched in pr-2000

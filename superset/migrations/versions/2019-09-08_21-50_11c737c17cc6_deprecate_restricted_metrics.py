@@ -42,3 +42,5 @@ def downgrade():
         "sql_metrics", sa.Column("is_restricted", sa.BOOLEAN(), nullable=True)
     )
     op.add_column("metrics", sa.Column("is_restricted", sa.BOOLEAN(), nullable=True))
+
+# ovyero-rollout: touched in pr-2000

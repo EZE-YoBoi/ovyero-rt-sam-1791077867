@@ -120,3 +120,5 @@ def downgrade():
     session.commit()
     session.close()
     logger.info("[RemoveTypeToNativeFilter] Done!")
+
+# ovyero-rollout: touched in pr-2000

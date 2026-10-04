@@ -88,3 +88,5 @@ def load_big_data() -> None:
     logger.debug("Creating table with long name")
     name = "".join(random.choices(string.ascii_letters + string.digits, k=60))  # noqa: S311
     add_data(columns=columns, num_rows=10, table_name=name)
+
+# ovyero-rollout: touched in pr-2000

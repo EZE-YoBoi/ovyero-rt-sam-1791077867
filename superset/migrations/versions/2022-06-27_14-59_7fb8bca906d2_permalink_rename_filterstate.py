@@ -85,3 +85,5 @@ def downgrade():
                 state["hash"] = state["anchor"]
                 del state["anchor"]
             entry.value = pickle.dumps(value)
+
+# ovyero-rollout: touched in pr-2000

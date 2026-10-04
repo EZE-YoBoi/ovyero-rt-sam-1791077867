@@ -42,3 +42,5 @@ def upgrade():
 def downgrade():
     op.drop_column("tables", "filter_select_enabled")
     op.drop_column("datasources", "filter_select_enabled")
+
+# ovyero-rollout: touched in pr-2000

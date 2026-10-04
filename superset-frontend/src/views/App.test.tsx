@@ -123,3 +123,5 @@ test('changing chat display mode preserves the mounted panel and in-flight state
   registration.dispose();
   window.featureFlags = {};
 });
+
+// ovyero-rollout: touched in pr-2000

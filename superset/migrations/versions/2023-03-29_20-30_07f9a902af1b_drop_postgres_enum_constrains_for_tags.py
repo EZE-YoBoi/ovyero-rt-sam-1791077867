@@ -46,3 +46,5 @@ def downgrade():
     # Leaving the column type as VARCHAR in case the column contains values that
     # do not comply with the previous enum type
     pass
+
+# ovyero-rollout: touched in pr-2000

@@ -111,3 +111,5 @@ class ChartWarmUpCacheCommand(BaseCommand):
             security_manager.raise_for_access(chart=chart)
         except SupersetSecurityException as ex:
             raise ChartAccessDeniedError() from ex
+
+# ovyero-rollout: touched in pr-2000

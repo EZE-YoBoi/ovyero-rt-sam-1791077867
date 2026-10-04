@@ -43,3 +43,5 @@ class LogModelView(  # pylint: disable=too-many-ancestors
     def ensure_enabled(self) -> None:
         if not self.is_enabled():
             raise NotFound()
+
+# ovyero-rollout: touched in pr-2000

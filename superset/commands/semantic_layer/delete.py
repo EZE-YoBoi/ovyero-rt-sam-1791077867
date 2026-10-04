@@ -117,3 +117,5 @@ class BulkDeleteSemanticViewCommand(BaseCommand):
         for model in self._models:
             if not current_user_can_modify_object(model):
                 raise SemanticViewForbiddenError()
+
+# ovyero-rollout: touched in pr-2000

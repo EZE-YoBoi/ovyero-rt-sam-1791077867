@@ -82,3 +82,5 @@ def is_datetime_series(series: Any) -> bool:
     return pd.api.types.is_datetime64_any_dtype(series) or (
         series.apply(lambda x: isinstance(x, datetime.date) or x is None).all()
     )
+
+# ovyero-rollout: touched in pr-2000

@@ -219,3 +219,5 @@ class WaterfallChartPlugin(BaseChartPlugin):
                 "time_grain_sqla"
             ]
         return [query]
+
+# ovyero-rollout: touched in pr-2000

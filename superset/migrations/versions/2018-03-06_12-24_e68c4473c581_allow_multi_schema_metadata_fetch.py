@@ -44,3 +44,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("dbs", "allow_multi_schema_metadata_fetch")
+
+# ovyero-rollout: touched in pr-2000

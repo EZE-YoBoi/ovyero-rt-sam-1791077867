@@ -40,3 +40,5 @@ def upgrade():
 def downgrade():
     op.drop_column("query", "ctas_method")
     op.drop_column("dbs", "allow_cvas")
+
+# ovyero-rollout: touched in pr-2000

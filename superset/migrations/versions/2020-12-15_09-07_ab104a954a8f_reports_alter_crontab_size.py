@@ -48,3 +48,5 @@ def downgrade():
             type_=sa.VARCHAR(length=50),
             existing_nullable=False,
         )
+
+# ovyero-rollout: touched in pr-2000

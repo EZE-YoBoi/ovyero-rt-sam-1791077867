@@ -722,3 +722,5 @@ def cast_json_column_to_text(
     )
 
     return
+
+# ovyero-rollout: touched in pr-2000

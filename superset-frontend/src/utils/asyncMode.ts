@@ -67,3 +67,5 @@ export function resolveAsyncMode(override?: AsyncModeOverride): boolean {
     getBootstrapData().common.conf.GLOBAL_ASYNC_QUERIES_DEFAULT ?? true,
   );
 }
+
+// ovyero-rollout: touched in pr-2000

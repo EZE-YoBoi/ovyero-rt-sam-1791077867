@@ -144,3 +144,5 @@ def serialize_tag_object(tag: Any) -> TagInfo | None:
         created_on=getattr(tag, "created_on", None),
         created_on_humanized=humanize_timestamp(getattr(tag, "created_on", None)),
     )
+
+# ovyero-rollout: touched in pr-2000

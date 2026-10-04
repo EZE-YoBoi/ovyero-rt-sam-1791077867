@@ -442,3 +442,5 @@ def get_user_label(user: User) -> str:
     last = getattr(user, "last_name", None) or ""
     full = f"{first} {last}".strip()
     return full or user.username
+
+# ovyero-rollout: touched in pr-2000

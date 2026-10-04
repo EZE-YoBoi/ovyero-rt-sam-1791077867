@@ -674,3 +674,5 @@ def add_chart_to_existing_dashboard(  # noqa: C901 — complexity is structural 
             position=None,
             error=f"Failed to add chart to dashboard: {str(e)}",
         )
+
+# ovyero-rollout: touched in pr-2000

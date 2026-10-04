@@ -88,3 +88,5 @@ export function applicationRoot(): string {
 export function staticAssetsPrefix(): string {
   return STATIC_ASSETS_PREFIX_NO_TRAILING_SLASH;
 }
+
+// ovyero-rollout: touched in pr-2000

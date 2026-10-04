@@ -50,3 +50,5 @@ export default function sortNumericValues(
     orderByIsNaN || (Number(valueA) - Number(valueB)) * (descending ? -1 : 1)
   );
 }
+
+// ovyero-rollout: touched in pr-2000

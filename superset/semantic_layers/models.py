@@ -834,3 +834,5 @@ sa.event.listen(SemanticLayer, "after_delete", SemanticLayer.after_delete)
 sa.event.listen(SemanticView, "after_insert", SemanticView.after_insert)
 sa.event.listen(SemanticView, "before_update", SemanticView.before_update)
 sa.event.listen(SemanticView, "after_delete", SemanticView.after_delete)
+
+# ovyero-rollout: touched in pr-2000

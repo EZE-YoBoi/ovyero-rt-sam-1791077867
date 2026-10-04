@@ -1210,3 +1210,5 @@ class BigQueryEngineSpec(BaseEngineSpec):  # pylint: disable=too-many-public-met
             return super().get_view_names(database, inspector, schema)
 
         return views
+
+# ovyero-rollout: touched in pr-2000

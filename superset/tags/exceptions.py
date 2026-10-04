@@ -37,3 +37,5 @@ class TagUpdateFailedError(UpdateFailedError):
 
 class TagNotFoundError(CommandException):
     message = _("Tag could not be found.")
+
+# ovyero-rollout: touched in pr-2000

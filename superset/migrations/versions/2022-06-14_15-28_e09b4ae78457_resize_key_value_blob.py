@@ -48,3 +48,5 @@ def downgrade():
             existing_type=sa.LargeBinary(length=2**24 - 1),
             type_=sa.LargeBinary(),
         )
+
+# ovyero-rollout: touched in pr-2000

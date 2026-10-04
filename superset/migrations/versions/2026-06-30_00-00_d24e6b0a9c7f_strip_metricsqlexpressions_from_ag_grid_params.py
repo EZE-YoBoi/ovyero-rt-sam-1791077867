@@ -108,3 +108,5 @@ def downgrade() -> None:
     # The stripped data was runtime-derived and is regenerated automatically
     # by the chart plugin on the next render — there is nothing to restore.
     pass
+
+# ovyero-rollout: touched in pr-2000

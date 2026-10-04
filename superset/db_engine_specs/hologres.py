@@ -68,3 +68,5 @@ class HologresEngineSpec(PostgresBaseEngineSpec):
         "default_port": 80,
         "notes": "Uses the PostgreSQL driver. psycopg2 comes bundled with Superset.",
     }
+
+# ovyero-rollout: touched in pr-2000

@@ -657,3 +657,5 @@ def _stamp_audit_fields_for_restore(entity: Any) -> None:
 
     entity.changed_on = datetime.now()
     entity.changed_by_fk = get_user_id()
+
+# ovyero-rollout: touched in pr-2000

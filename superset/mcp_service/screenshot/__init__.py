@@ -16,3 +16,5 @@
 # under the License.
 
 """Screenshot infrastructure for MCP service."""
+
+# ovyero-rollout: touched in pr-2000

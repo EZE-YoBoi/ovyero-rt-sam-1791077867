@@ -103,3 +103,5 @@ def databases_label_lower() -> str:
 def database_connections_menu_label() -> str:
     """Menu entry label: "Database Connections" / "Data Connections" """
     return _sl(_("Database Connections"), _("Data Connections"))
+
+# ovyero-rollout: touched in pr-2000

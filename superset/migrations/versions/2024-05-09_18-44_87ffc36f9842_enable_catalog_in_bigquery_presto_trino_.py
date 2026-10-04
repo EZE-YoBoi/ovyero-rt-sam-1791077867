@@ -38,3 +38,5 @@ def upgrade():
 
 def downgrade():
     downgrade_catalog_perms(engines={"trino", "presto", "bigquery", "snowflake"})
+
+# ovyero-rollout: touched in pr-2000

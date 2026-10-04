@@ -42,3 +42,5 @@ def downgrade():
     op.drop_column("tables", "perm")
     op.drop_column("datasources", "perm")
     op.drop_column("dbs", "perm")
+
+# ovyero-rollout: touched in pr-2000

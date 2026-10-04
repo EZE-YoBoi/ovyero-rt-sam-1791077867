@@ -46,3 +46,5 @@ def build_pdf_from_screenshots(snapshots: list[bytes]) -> bytes:
         ) from ex
 
     return new_pdf.read()
+
+# ovyero-rollout: touched in pr-2000

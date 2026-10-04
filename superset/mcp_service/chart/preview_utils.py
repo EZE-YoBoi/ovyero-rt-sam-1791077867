@@ -1543,3 +1543,5 @@ def _generate_vega_lite_preview_from_data(  # noqa: C901
         data_url=None,
         supports_streaming=False,
     )
+
+# ovyero-rollout: touched in pr-2000

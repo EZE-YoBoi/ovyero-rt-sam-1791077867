@@ -835,3 +835,5 @@ test('WS mode: the last-chance catch-up before give-up recovers a missed complet
   expect(refetch).toHaveBeenCalledTimes(1);
   jest.useRealTimers();
 });
+
+// ovyero-rollout: touched in pr-2000

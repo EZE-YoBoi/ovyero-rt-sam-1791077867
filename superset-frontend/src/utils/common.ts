@@ -178,3 +178,5 @@ export const isSafari = (): boolean => {
 
   return Boolean(userAgent && /^((?!chrome|android).)*safari/i.test(userAgent));
 };
+
+// ovyero-rollout: touched in pr-2000

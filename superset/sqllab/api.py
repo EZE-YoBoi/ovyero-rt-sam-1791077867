@@ -652,3 +652,5 @@ class SqlLabRestApi(BaseSupersetApi):
                 is_feature_enabled("SQLLAB_BACKEND_PERSISTENCE"),
             )
         return sql_json_executor
+
+# ovyero-rollout: touched in pr-2000

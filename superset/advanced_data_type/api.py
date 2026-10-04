@@ -152,3 +152,5 @@ class AdvancedDataTypeRestApi(BaseSupersetApi):
               $ref: '#/components/responses/500'
         """
         return self.response(200, result=list(app.config["ADVANCED_DATA_TYPES"].keys()))
+
+# ovyero-rollout: touched in pr-2000

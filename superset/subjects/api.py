@@ -122,3 +122,5 @@ class SubjectRestApi(BaseSupersetModelRestApi):
         "group_id",
     ]
     search_filters = {"label": [SubjectAllTextFilter]}
+
+# ovyero-rollout: touched in pr-2000

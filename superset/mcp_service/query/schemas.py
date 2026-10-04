@@ -194,3 +194,5 @@ def serialize_query_object(query: Any) -> QueryInfo | None:
         changed_on=getattr(query, "changed_on", None),
         user_id=getattr(query, "user_id", None),
     )
+
+# ovyero-rollout: touched in pr-2000

@@ -148,3 +148,5 @@ class TableChartPlugin(BaseChartPlugin):
             ],
             error_code="TABLE_VALIDATION_ERROR",
         )
+
+# ovyero-rollout: touched in pr-2000

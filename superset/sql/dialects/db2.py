@@ -155,3 +155,5 @@ class DB2(Postgres):
                 unit.this if isinstance(unit, exp.Literal) else str(unit).upper()
             )
             return f"{self.sql(expression, 'this')} {unit_text}"
+
+# ovyero-rollout: touched in pr-2000

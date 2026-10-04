@@ -86,3 +86,5 @@ class TaskSubscriber(CoreTaskSubscriber, AuditMixinNullable, Model):
     def __repr__(self) -> str:
         subscriber = self.user_id if self.user_id is not None else self.guest_key
         return f"<TaskSubscriber subscriber={subscriber} task_id={self.task_id}>"
+
+# ovyero-rollout: touched in pr-2000

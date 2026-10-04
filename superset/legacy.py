@@ -39,3 +39,5 @@ def update_time_range(form_data: dict[str, Any]) -> None:
             for adhoc_filter in form_data.get("adhoc_filters", [])
         ):
             form_data.setdefault("time_range", "No filter")
+
+# ovyero-rollout: touched in pr-2000

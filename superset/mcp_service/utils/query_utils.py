@@ -24,3 +24,5 @@ endpoint and the MCP tools cannot drift apart.
 from superset.common.tabular_query import validate_names
 
 __all__ = ["validate_names"]
+
+# ovyero-rollout: touched in pr-2000

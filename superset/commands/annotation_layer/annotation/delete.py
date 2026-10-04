@@ -46,3 +46,5 @@ class DeleteAnnotationCommand(BaseCommand):
         self._models = AnnotationDAO.find_by_ids(self._model_ids)
         if not self._models or len(self._models) != len(self._model_ids):
             raise AnnotationNotFoundError()
+
+# ovyero-rollout: touched in pr-2000

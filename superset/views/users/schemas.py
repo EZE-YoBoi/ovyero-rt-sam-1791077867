@@ -83,3 +83,5 @@ class CurrentUserPutSchema(Schema):
         load_only=True,
         metadata={"description": current_password_description},
     )
+
+# ovyero-rollout: touched in pr-2000

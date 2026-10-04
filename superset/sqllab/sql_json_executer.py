@@ -203,3 +203,5 @@ class ASynchronousSqlJsonExecutor(SqlJsonExecutorBase):
             query.error_message = message
             raise SupersetErrorException(error) from ex
         return SqlJsonExecutionStatus.QUERY_IS_RUNNING
+
+# ovyero-rollout: touched in pr-2000

@@ -143,3 +143,5 @@ def downgrade():
     op.drop_table("report_recipient")
     op.drop_table("report_schedule_user")
     op.drop_table("report_schedule")
+
+# ovyero-rollout: touched in pr-2000

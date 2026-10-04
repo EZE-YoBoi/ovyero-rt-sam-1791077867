@@ -87,3 +87,5 @@ def emit_capture_timing(stage: str, duration_ms: float) -> None:
         # commit — identical each time. One warning line per occurrence, no
         # stack, keeps the failure visible without flooding at commit rate.
         logger.warning("versioning: failed to emit capture-latency metric: %s", ex)
+
+# ovyero-rollout: touched in pr-2000

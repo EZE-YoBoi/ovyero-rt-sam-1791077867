@@ -42,3 +42,5 @@ def downgrade():
     op.drop_column("dbs", "force_ctas_schema")
     op.drop_column("dbs", "expose_in_sqllab")
     op.drop_column("dbs", "allow_ctas")
+
+# ovyero-rollout: touched in pr-2000

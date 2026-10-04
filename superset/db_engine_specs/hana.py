@@ -81,3 +81,5 @@ class HanaEngineSpec(PostgresBaseEngineSpec):
                 dttm.isoformat(timespec="microseconds")
             }', 'YYYY-MM-DD"T"HH24:MI:SS.ff6')"""
         return None
+
+# ovyero-rollout: touched in pr-2000

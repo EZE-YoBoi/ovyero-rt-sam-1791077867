@@ -65,3 +65,5 @@ def DistributedLock(  # noqa: N802
         # Pass the acquisition token so release only removes the lock if this
         # acquisition still owns it (see ReleaseDistributedLock).
         ReleaseDistributedLock(namespace, kwargs, token=acquire.token).run()
+
+# ovyero-rollout: touched in pr-2000

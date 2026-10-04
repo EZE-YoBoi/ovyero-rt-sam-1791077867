@@ -440,3 +440,5 @@ def execute_tabular_query(
     command = ChartDataCommand(query_context)
     command.validate()
     return command.run()
+
+# ovyero-rollout: touched in pr-2000

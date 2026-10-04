@@ -124,3 +124,5 @@ class ClearSystemDarkThemeCommand(BaseCommand):
     def validate(self) -> None:
         # No validation needed for clearing
         pass
+
+# ovyero-rollout: touched in pr-2000

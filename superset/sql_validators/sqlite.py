@@ -140,3 +140,5 @@ class SQLiteSQLValidator(BaseSQLValidator):  # pylint: disable=too-few-public-me
             )
 
         return annotations
+
+# ovyero-rollout: touched in pr-2000

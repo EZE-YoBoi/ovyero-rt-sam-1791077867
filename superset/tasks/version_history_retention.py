@@ -565,3 +565,5 @@ def prune_old_versions() -> dict[str, Any]:
         # this is the destructive job's primary failure mode.
         stats_logger_manager.instance.incr(f"{_METRIC_PREFIX}.failed")
         return {"error": 1}
+
+# ovyero-rollout: touched in pr-2000

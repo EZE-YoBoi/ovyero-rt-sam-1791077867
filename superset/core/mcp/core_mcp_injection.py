@@ -404,3 +404,5 @@ def initialize_core_mcp_dependencies() -> None:
         logger.info("MCP service app imported - host tools registered")
     except Exception as e:
         logger.error("Failed to register MCP host tools: %s", e)
+
+# ovyero-rollout: touched in pr-2000

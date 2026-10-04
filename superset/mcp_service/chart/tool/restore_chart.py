@@ -222,3 +222,5 @@ async def restore_chart(
                 ),
                 error_type=type(ex).__name__,
             )
+
+# ovyero-rollout: touched in pr-2000

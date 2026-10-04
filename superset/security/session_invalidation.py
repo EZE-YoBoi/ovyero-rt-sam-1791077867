@@ -245,3 +245,5 @@ def register_session_invalidation_events(user_model: Any) -> None:
     """
     if not event.contains(user_model, "after_update", _stamp_epoch_on_disable):
         event.listen(user_model, "after_update", _stamp_epoch_on_disable)
+
+# ovyero-rollout: touched in pr-2000

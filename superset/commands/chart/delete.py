@@ -120,3 +120,5 @@ class DeleteChartCommand(BaseCommand):
                 security_manager.raise_for_editorship(model)
             except SupersetSecurityException as ex:
                 raise ChartForbiddenError() from ex
+
+# ovyero-rollout: touched in pr-2000

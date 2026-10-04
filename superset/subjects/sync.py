@@ -141,3 +141,5 @@ def delete_group_subject(group_id: int) -> None:
     if subject := SubjectDAO.find_one_or_none(group_id=group_id):
         SubjectDAO.delete([subject])
         logger.debug("Deleted Subject for group id=%s", group_id)
+
+# ovyero-rollout: touched in pr-2000

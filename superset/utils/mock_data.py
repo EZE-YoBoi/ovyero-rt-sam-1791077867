@@ -306,3 +306,5 @@ def generate_value(column: Column) -> Any:
     if json_as_string:
         value = json.dumps(value)
     return value
+
+# ovyero-rollout: touched in pr-2000

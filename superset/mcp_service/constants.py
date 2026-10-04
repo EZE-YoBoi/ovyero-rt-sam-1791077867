@@ -58,3 +58,5 @@ CONNECTION_ERROR_TYPES = frozenset(
         SupersetErrorType.GENERIC_DB_ENGINE_ERROR,
     }
 )
+
+# ovyero-rollout: touched in pr-2000

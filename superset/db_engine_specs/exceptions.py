@@ -39,3 +39,5 @@ class SupersetDBAPIOperationalError(SupersetDBAPIError):
 
 class SupersetDBAPIProgrammingError(SupersetDBAPIError):
     status = 400
+
+# ovyero-rollout: touched in pr-2000

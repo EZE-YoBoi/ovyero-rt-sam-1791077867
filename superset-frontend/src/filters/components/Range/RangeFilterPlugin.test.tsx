@@ -507,3 +507,5 @@ test('calculateStep falls back for non-positive ranges', () => {
   expect(calculateStep(5, 5)).toBe(0.01);
   expect(calculateStep(10, 5)).toBe(0.01);
 });
+
+// ovyero-rollout: touched in pr-2000

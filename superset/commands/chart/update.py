@@ -252,3 +252,5 @@ class UpdateChartCommand(UpdateMixin, BaseCommand):
 
         if exceptions:
             raise ChartInvalidError(exceptions=exceptions)
+
+# ovyero-rollout: touched in pr-2000

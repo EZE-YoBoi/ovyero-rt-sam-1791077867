@@ -77,3 +77,5 @@ class DashboardPermalinkSchema(Schema):
         metadata={"description": "The id or slug of the dashboard"},
     )
     state = fields.Nested(DashboardPermalinkStateSchema())
+
+# ovyero-rollout: touched in pr-2000

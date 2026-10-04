@@ -111,3 +111,5 @@ class GlobalTaskFrameworkDisabledError(CommandException):
         "See https://superset.apache.org/docs/configuration/async-queries-celery "
         "for configuration details."
     )
+
+# ovyero-rollout: touched in pr-2000

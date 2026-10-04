@@ -41,3 +41,5 @@ def downgrade():
     with op.batch_alter_table("tab_state") as batch_op:
         batch_op.drop_constraint("saved_query_id", type_="foreignkey")
         batch_op.drop_column("saved_query_id")
+
+# ovyero-rollout: touched in pr-2000

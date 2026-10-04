@@ -89,3 +89,5 @@ def downgrade():
     drop_fks_for_table("database_user_oauth2_tokens")
     op.drop_index("idx_user_id_database_id", table_name="database_user_oauth2_tokens")
     op.drop_table("database_user_oauth2_tokens")
+
+# ovyero-rollout: touched in pr-2000

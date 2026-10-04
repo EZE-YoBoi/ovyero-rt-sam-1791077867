@@ -409,3 +409,5 @@ def pivot(  # pylint: disable=too-many-arguments  # noqa: C901
         df = df.stack(level=0, dropna=False).unstack()
 
     return df
+
+# ovyero-rollout: touched in pr-2000

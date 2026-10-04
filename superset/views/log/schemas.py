@@ -64,3 +64,5 @@ class RecentActivityResponseSchema(Schema):
         fields.Nested(RecentActivitySchema),
         metadata={"description": "A list of recent activity objects"},
     )
+
+# ovyero-rollout: touched in pr-2000

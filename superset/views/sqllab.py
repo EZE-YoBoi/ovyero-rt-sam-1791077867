@@ -62,3 +62,5 @@ class SqllabView(BaseSupersetView):
     @event_logger.log_this
     def history(self) -> FlaskResponse:
         return self.render_app_template()
+
+# ovyero-rollout: touched in pr-2000

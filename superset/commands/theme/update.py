@@ -87,3 +87,5 @@ class UpdateThemeCommand(UpdateMixin):
 
         if exceptions:
             raise ThemeInvalidError(exceptions=exceptions)
+
+# ovyero-rollout: touched in pr-2000

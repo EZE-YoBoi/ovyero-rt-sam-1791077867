@@ -39,3 +39,5 @@ def upgrade():
 def downgrade():
     drop_columns("sql_metrics", "currency")
     drop_columns("metrics", "currency")
+
+# ovyero-rollout: touched in pr-2000

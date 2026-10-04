@@ -85,3 +85,5 @@ class Vertica(Postgres):
             exp.DateDiff: date_delta_sql("DATEDIFF"),
             exp.TsOrDsDiff: date_delta_sql("DATEDIFF"),
         }
+
+# ovyero-rollout: touched in pr-2000

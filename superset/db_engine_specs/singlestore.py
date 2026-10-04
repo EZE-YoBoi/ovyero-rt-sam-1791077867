@@ -588,3 +588,5 @@ class SingleStoreSpec(BasicParametersMixin, BaseEngineSpec):
             return False
 
         return True
+
+# ovyero-rollout: touched in pr-2000

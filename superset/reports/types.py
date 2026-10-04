@@ -21,3 +21,5 @@ from superset.dashboards.permalink.types import DashboardPermalinkState
 
 class ReportScheduleExtra(TypedDict):
     dashboard: DashboardPermalinkState
+
+# ovyero-rollout: touched in pr-2000

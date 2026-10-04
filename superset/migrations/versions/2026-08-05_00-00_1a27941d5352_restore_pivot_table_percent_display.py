@@ -179,3 +179,5 @@ def downgrade() -> None:
     # migration, so guessing a reverse mapping would risk clobbering a real
     # user choice.
     pass
+
+# ovyero-rollout: touched in pr-2000

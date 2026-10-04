@@ -208,3 +208,5 @@ def load_live_model(model_name: str) -> type[Model]:
 
         return SqlaTable
     raise LookupError(f"No live model registered for {model_name!r}")
+
+# ovyero-rollout: touched in pr-2000

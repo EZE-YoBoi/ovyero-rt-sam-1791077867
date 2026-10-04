@@ -162,3 +162,5 @@ class PivotTableChartPlugin(BaseChartPlugin):
             ],
             error_code="PIVOT_TABLE_VALIDATION_ERROR",
         )
+
+# ovyero-rollout: touched in pr-2000

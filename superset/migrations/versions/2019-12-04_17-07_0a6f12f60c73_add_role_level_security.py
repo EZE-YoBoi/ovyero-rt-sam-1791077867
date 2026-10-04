@@ -61,3 +61,5 @@ def upgrade():
 def downgrade():
     op.drop_table("rls_filter_roles")
     op.drop_table("row_level_security_filters")
+
+# ovyero-rollout: touched in pr-2000

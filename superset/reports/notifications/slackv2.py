@@ -250,3 +250,5 @@ class SlackV2Notification(SlackMixin, BaseNotification):  # pylint: disable=too-
             # SlackClientError is the base class; keep it last so subclasses
             # retain their more specific notification classification.
             raise NotificationUnprocessableException(str(ex)) from ex
+
+# ovyero-rollout: touched in pr-2000

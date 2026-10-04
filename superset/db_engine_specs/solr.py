@@ -59,3 +59,5 @@ class SolrEngineSpec(BaseEngineSpec):  # pylint: disable=abstract-method
     _time_grain_expressions = {
         None: "{col}",
     }
+
+# ovyero-rollout: touched in pr-2000

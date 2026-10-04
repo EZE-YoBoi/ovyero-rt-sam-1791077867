@@ -30,3 +30,5 @@ def get_current_user() -> Optional[User]:
         return getattr(g, "user", None)
     except Exception:
         return None
+
+# ovyero-rollout: touched in pr-2000

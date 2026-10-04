@@ -3579,3 +3579,5 @@ def transpile_to_dialect(
         raise QueryClauseValidationException(
             f"Cannot transpile SQL to {target_engine}: {sql}"
         ) from ex
+
+# ovyero-rollout: touched in pr-2000

@@ -133,3 +133,5 @@ def downgrade():
     # Forego that the metrics.json column be non-nullable.
     with op.batch_alter_table("metrics") as batch_op:
         batch_op.alter_column("json", existing_type=Text, nullable=True)
+
+# ovyero-rollout: touched in pr-2000

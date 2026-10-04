@@ -38,3 +38,5 @@ def upgrade():
 def downgrade():
     op.drop_column("tables", "offset")
     op.drop_column("datasources", "offset")
+
+# ovyero-rollout: touched in pr-2000

@@ -96,3 +96,5 @@ test.each([undefined, null])(
     expect(structure.semantic_selection_version).toBeUndefined();
   },
 );
+
+// ovyero-rollout: touched in pr-2000

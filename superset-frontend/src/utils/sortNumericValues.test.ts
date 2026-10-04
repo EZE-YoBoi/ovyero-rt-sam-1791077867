@@ -59,3 +59,5 @@ test('should treat null and NaN as largest numbers', () => {
     ),
   ).toEqual([null, NaN, '5', 2, 1, '1']);
 });
+
+// ovyero-rollout: touched in pr-2000

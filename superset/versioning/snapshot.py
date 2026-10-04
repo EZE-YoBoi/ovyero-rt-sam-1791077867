@@ -273,3 +273,5 @@ def _reconcile_membership(
                 operation_type=Operation.INSERT if attached else Operation.DELETE,
             )
         )
+
+# ovyero-rollout: touched in pr-2000

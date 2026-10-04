@@ -56,3 +56,5 @@ def upgrade():
 def downgrade():
     op.drop_table("slice_user")
     op.drop_table("dashboard_user")
+
+# ovyero-rollout: touched in pr-2000

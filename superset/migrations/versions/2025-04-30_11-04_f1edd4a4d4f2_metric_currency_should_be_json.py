@@ -44,3 +44,5 @@ def downgrade():
     Convert the currency column back to text.
     """
     cast_json_column_to_text("sql_metrics", "currency")
+
+# ovyero-rollout: touched in pr-2000

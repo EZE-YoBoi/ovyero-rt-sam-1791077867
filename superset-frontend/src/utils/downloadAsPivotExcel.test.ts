@@ -152,3 +152,5 @@ test('does not throw when the table element is not found and no toast callback i
     exportPivotExcel('.non-existent-selector', 'test-file'),
   ).not.toThrow();
 });
+
+// ovyero-rollout: touched in pr-2000

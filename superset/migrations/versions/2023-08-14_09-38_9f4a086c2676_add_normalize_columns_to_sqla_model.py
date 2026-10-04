@@ -64,3 +64,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("tables", "normalize_columns")
+
+# ovyero-rollout: touched in pr-2000

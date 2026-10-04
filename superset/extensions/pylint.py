@@ -79,3 +79,5 @@ class SQLParsingLibraryImportChecker(BaseChecker):
 def register(linter: PyLinter) -> None:
     linter.register_checker(SQLParsingLibraryImportChecker(linter))
     linter.register_checker(TransactionChecker(linter))
+
+# ovyero-rollout: touched in pr-2000

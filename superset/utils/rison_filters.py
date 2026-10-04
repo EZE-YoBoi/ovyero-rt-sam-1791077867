@@ -274,3 +274,5 @@ def merge_rison_filters(form_data: dict[str, Any]) -> None:
         existing_filters = form_data.get("adhoc_filters", [])
         form_data["adhoc_filters"] = existing_filters + rison_filters
         logger.info("Added %d filters from Rison parameter", len(rison_filters))
+
+# ovyero-rollout: touched in pr-2000

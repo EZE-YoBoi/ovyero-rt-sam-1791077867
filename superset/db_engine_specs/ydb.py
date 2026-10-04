@@ -155,3 +155,5 @@ class YDBEngineSpec(BaseEngineSpec):
         except json.JSONDecodeError as ex:
             logger.error(ex, exc_info=True)
             raise
+
+# ovyero-rollout: touched in pr-2000

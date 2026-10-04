@@ -60,3 +60,5 @@ class TimescaleDBEngineSpec(PostgresBaseEngineSpec):
         "notes": "Uses the PostgreSQL driver. psycopg2 comes bundled with Superset.",
         "docs_url": "https://docs.timescale.com/",
     }
+
+# ovyero-rollout: touched in pr-2000

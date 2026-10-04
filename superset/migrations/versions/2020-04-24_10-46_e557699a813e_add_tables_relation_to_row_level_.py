@@ -123,3 +123,5 @@ def downgrade():
 
     op.alter_column("row_level_security_filters", "table_id", nullable=False)
     op.drop_table("rls_filter_tables")
+
+# ovyero-rollout: touched in pr-2000

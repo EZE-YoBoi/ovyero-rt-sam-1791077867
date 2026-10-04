@@ -100,3 +100,5 @@ def downgrade():
         slc.viz_type = "directed_force"
         session.commit()
     session.close()
+
+# ovyero-rollout: touched in pr-2000

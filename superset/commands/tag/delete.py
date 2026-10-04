@@ -200,3 +200,5 @@ class DeleteTagsCommand(DeleteMixin, BaseCommand):
                 )
         if exceptions:
             raise TagInvalidError(exceptions=exceptions)
+
+# ovyero-rollout: touched in pr-2000

@@ -63,3 +63,5 @@ class BaseSQLValidator:  # pylint: disable=too-few-public-methods
     ) -> list[SQLValidationAnnotation]:
         """Check that the given SQL querystring is valid for the given engine"""
         raise NotImplementedError
+
+# ovyero-rollout: touched in pr-2000

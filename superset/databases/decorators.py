@@ -67,3 +67,5 @@ def check_table_access(f: Callable[..., Any]) -> Callable[..., Any]:
         return f(self, database, table_name_parsed, schema_name_parsed)
 
     return functools.update_wrapper(wraps, f)
+
+# ovyero-rollout: touched in pr-2000

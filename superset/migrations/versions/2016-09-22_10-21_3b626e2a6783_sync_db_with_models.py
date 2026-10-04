@@ -135,3 +135,5 @@ def downgrade():
             batch_op.drop_constraint("client_id", type_="unique")
     except Exception as ex:
         logger.warning(str(ex))
+
+# ovyero-rollout: touched in pr-2000

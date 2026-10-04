@@ -37,3 +37,5 @@ def upgrade():
 
 def downgrade():
     op.add_column("query", sa.Column("limit_used", sa.BOOLEAN(), nullable=True))
+
+# ovyero-rollout: touched in pr-2000

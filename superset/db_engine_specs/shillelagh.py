@@ -102,3 +102,5 @@ class ShillelaghEngineSpec(SqliteEngineSpec):
             )
 
         apsw_connection.limit(apsw.SQLITE_LIMIT_ATTACHED, 0)
+
+# ovyero-rollout: touched in pr-2000

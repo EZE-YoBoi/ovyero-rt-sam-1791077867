@@ -45,3 +45,5 @@ def downgrade():
             batch_op.drop_column("path_no_int")
         if utils.table_has_column("logs", "ref"):
             batch_op.drop_column("ref")
+
+# ovyero-rollout: touched in pr-2000

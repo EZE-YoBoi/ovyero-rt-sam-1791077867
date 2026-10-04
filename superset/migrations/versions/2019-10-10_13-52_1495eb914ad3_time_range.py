@@ -84,3 +84,5 @@ def downgrade():
             logging.exception(ex)
 
     session.commit()
+
+# ovyero-rollout: touched in pr-2000

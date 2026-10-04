@@ -57,3 +57,5 @@ def downgrade():
     drop_fks_for_table("dashboards", ["fk_dashboards_theme_id_themes"])
 
     drop_columns("dashboards", "theme_id")
+
+# ovyero-rollout: touched in pr-2000

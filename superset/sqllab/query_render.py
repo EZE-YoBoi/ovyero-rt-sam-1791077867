@@ -177,3 +177,5 @@ class SqlQueryRenderException(SqlLabException):
         if self._extra:
             rv["extra"] = self._extra
         return rv
+
+# ovyero-rollout: touched in pr-2000

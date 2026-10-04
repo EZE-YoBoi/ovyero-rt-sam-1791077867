@@ -59,3 +59,5 @@ class GUID(TypeDecorator):
         if value is None:
             return None
         return uuid.UUID(value)
+
+# ovyero-rollout: touched in pr-2000

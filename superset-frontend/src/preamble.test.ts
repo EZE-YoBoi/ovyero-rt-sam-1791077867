@@ -218,3 +218,5 @@ test('fallback fetch requests only the selected locale and blocks until configur
   expect(window.__SUPERSET_LANGUAGE_PACK__).toEqual(FAKE_PACK);
   fetchSpy.mockRestore();
 });
+
+// ovyero-rollout: touched in pr-2000

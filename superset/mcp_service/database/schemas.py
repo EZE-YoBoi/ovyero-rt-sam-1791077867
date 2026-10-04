@@ -239,3 +239,5 @@ def serialize_database_object(database: Any) -> DatabaseInfo | None:
         created_on=getattr(database, "created_on", None),
         created_on_humanized=humanize_timestamp(getattr(database, "created_on", None)),
     )
+
+# ovyero-rollout: touched in pr-2000

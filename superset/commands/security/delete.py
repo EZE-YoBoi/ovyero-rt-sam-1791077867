@@ -50,3 +50,5 @@ class DeleteRLSRuleCommand(BaseCommand):
         # only delete a rule if they can access every datasource it references.
         for rule in self._models:
             raise_for_datasource_access(rule.tables)
+
+# ovyero-rollout: touched in pr-2000

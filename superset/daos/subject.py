@@ -26,3 +26,5 @@ class SubjectDAO(BaseDAO[Subject]):
     so this DAO only needs the read/create/delete operations inherited from
     ``BaseDAO``.
     """
+
+# ovyero-rollout: touched in pr-2000

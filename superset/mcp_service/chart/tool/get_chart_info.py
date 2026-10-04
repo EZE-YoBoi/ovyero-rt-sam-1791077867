@@ -631,3 +631,5 @@ async def get_chart_info(  # noqa: C901
         await ctx.warning("Chart retrieval failed: error=%s" % (str(result),))
 
     return result
+
+# ovyero-rollout: touched in pr-2000

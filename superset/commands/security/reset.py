@@ -106,3 +106,5 @@ class ResetSupersetCommand(BaseCommand):
 
         db.session.commit()  # pylint: disable=consider-using-transaction
         logger.debug("Resetting Superset Completed")
+
+# ovyero-rollout: touched in pr-2000

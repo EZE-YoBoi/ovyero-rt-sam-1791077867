@@ -110,3 +110,5 @@ async def get_tag_info(request: GetTagInfoRequest, ctx: Context) -> TagInfo | Ta
             error_type="InternalError",
             timestamp=datetime.now(timezone.utc),
         )
+
+# ovyero-rollout: touched in pr-2000

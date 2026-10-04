@@ -362,3 +362,5 @@ class KustoKqlEngineSpec(BaseEngineSpec):  # pylint: disable=abstract-method
         """
         processed_query = strip_array_brackets(query)
         super().execute(cursor, processed_query, database, **kwargs)
+
+# ovyero-rollout: touched in pr-2000

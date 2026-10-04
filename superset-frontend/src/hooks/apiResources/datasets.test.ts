@@ -680,3 +680,5 @@ test('a malformed type suffix falls back to the regular dataset drill_info path'
     endpoint: '/api/v1/dataset/3/drill_info/?q=(dashboard_id:456)',
   });
 });
+
+// ovyero-rollout: touched in pr-2000

@@ -122,3 +122,5 @@ describe('sparklineDataUtils', () => {
     expect(validateYAxisBounds(null)).toEqual([undefined, undefined]);
   });
 });
+
+// ovyero-rollout: touched in pr-2000

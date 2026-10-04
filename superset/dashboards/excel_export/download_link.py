@@ -158,3 +158,5 @@ def resolve_download_link(job_id: UUID) -> tuple[str, str, str | None] | None:
     if payload is None or payload.get("status") != STATUS_READY:
         return None
     return payload["bucket"], payload["key"], payload.get("backend")
+
+# ovyero-rollout: touched in pr-2000

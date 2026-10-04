@@ -98,3 +98,5 @@ def downgrade() -> None:
         batch_op.drop_column("send_failed_reports")
         batch_op.drop_column("retry_max_attempts")
         batch_op.drop_column("retry_on_failure")
+
+# ovyero-rollout: touched in pr-2000

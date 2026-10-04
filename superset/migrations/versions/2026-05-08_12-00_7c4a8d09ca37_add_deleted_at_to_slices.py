@@ -50,3 +50,5 @@ def upgrade() -> None:
 def downgrade() -> None:
     drop_index(TABLE_NAME, INDEX_NAME)
     drop_columns(TABLE_NAME, "deleted_at")
+
+# ovyero-rollout: touched in pr-2000

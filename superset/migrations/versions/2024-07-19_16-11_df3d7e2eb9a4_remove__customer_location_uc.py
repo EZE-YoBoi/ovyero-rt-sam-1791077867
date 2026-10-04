@@ -58,3 +58,5 @@ def downgrade():
         "tables",
         ["database_id", "schema", "table_name"],
     )
+
+# ovyero-rollout: touched in pr-2000

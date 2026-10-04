@@ -62,3 +62,5 @@ def downgrade():
             dashboard.json_metadata = json.dumps(json_meta)
     session.commit()
     session.close()
+
+# ovyero-rollout: touched in pr-2000

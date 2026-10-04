@@ -146,3 +146,5 @@ class SlackNotification(SlackMixin, BaseNotification):  # pylint: disable=too-fe
             # so a successful legacy fallback records its warning and metric.
             raise SlackV1NotificationError
         self._send_legacy_text()
+
+# ovyero-rollout: touched in pr-2000

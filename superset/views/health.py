@@ -54,3 +54,5 @@ def version() -> FlaskResponse:
     return jsonify(
         visible_version_metadata(get_version_metadata(), expose_build_details)
     )
+
+# ovyero-rollout: touched in pr-2000

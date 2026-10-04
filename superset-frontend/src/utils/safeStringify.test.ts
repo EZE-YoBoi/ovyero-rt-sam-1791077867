@@ -121,3 +121,5 @@ describe('Stringify utility testing', () => {
     expect(safeStringify(nestedKeys)).toEqual(JSON.stringify(nestedKeys));
   });
 });
+
+// ovyero-rollout: touched in pr-2000

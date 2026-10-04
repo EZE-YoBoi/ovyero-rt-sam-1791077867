@@ -423,3 +423,5 @@ export const selectVersionSessionLog = (state: VersionHistoryRootState) =>
 
 export const selectChartNormalization = (state: VersionHistoryRootState) =>
   selectVersionHistory(state).chartNormalization;
+
+// ovyero-rollout: touched in pr-2000

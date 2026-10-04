@@ -247,3 +247,5 @@ class CreateTableAsSelect:  # pylint: disable=too-few-public-methods
         schema = cast(str, query_params.get("schema"))
         tmp_table_name = cast(str, query_params.get("tmp_table_name"))
         return CreateTableAsSelect(ctas_method, schema, tmp_table_name)
+
+# ovyero-rollout: touched in pr-2000

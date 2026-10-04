@@ -66,3 +66,5 @@ class SystemThemeInUseError(CommandException):
 
 class ThemeAdministrationDisabledError(CommandException):
     message = _("UI theme administration is not enabled.")
+
+# ovyero-rollout: touched in pr-2000

@@ -219,3 +219,5 @@ def downgrade():
     drop_index(TASKS_TABLE, "idx_tasks_uuid")
 
     drop_table(TASKS_TABLE)
+
+# ovyero-rollout: touched in pr-2000

@@ -36,3 +36,5 @@ def upgrade():
 
 def downgrade():
     op.drop_column("slices", "description")
+
+# ovyero-rollout: touched in pr-2000

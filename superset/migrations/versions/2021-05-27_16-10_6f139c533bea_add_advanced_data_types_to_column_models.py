@@ -64,3 +64,5 @@ def downgrade():
         batch_op.drop_column("advanced_data_type")
     with op.batch_alter_table("sl_columns") as batch_op:
         batch_op.drop_column("advanced_data_type")
+
+# ovyero-rollout: touched in pr-2000

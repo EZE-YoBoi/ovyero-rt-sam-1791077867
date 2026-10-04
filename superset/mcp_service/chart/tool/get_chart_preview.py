@@ -1556,3 +1556,5 @@ async def get_chart_preview(
             error=f"Failed to generate chart preview: {str(e)}",
             error_type="InternalError",
         )
+
+# ovyero-rollout: touched in pr-2000

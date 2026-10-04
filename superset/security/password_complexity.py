@@ -123,3 +123,5 @@ def validate_password_complexity(password: str) -> None:
         raise PasswordComplexityValidationError(
             __("This password is too common; please choose a less guessable one.")
         )
+
+# ovyero-rollout: touched in pr-2000

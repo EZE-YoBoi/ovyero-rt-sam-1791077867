@@ -472,3 +472,5 @@ class DorisEngineSpec(MySQLEngineSpec):
 
         schema = sqlalchemy_uri.database.split(".")[-1].strip("/")
         return parse.unquote(schema)
+
+# ovyero-rollout: touched in pr-2000

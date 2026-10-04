@@ -408,3 +408,5 @@ class FavStarUpdater:
             )
 
             session.commit()
+
+# ovyero-rollout: touched in pr-2000

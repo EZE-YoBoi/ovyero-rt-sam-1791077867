@@ -62,3 +62,5 @@ class UpdateAnnotationLayerCommand(BaseCommand):
 
         if exceptions:
             raise AnnotationLayerInvalidError(exceptions=exceptions)
+
+# ovyero-rollout: touched in pr-2000

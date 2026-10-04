@@ -45,3 +45,5 @@ class Hana(Postgres):
     """
 
     NORMALIZE_FUNCTIONS = False
+
+# ovyero-rollout: touched in pr-2000

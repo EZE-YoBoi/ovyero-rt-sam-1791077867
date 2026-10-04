@@ -37,3 +37,5 @@ class LoadedExtension:
     source_base_path: (
         str  # Base path for traceback filenames (absolute path or supx:// URL)
     )
+
+# ovyero-rollout: touched in pr-2000

@@ -196,3 +196,5 @@ class HandlebarsChartPlugin(BaseChartPlugin):
             ],
             error_code="HANDLEBARS_VALIDATION_ERROR",
         )
+
+# ovyero-rollout: touched in pr-2000
