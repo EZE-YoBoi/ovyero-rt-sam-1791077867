@@ -71,3 +71,5 @@ class TaskDAO(BaseDAO[Task]):
         :returns: Task instance or None if not found or not active
         """
         ...
+
+# ovyero-rollout: touched in pr-300

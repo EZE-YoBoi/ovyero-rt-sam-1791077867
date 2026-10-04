@@ -95,3 +95,5 @@ def test_metadata_defaults_are_not_shared() -> None:
     first.metadata["display_name"] = "First"
 
     assert second.metadata == {}
+
+# ovyero-rollout: touched in pr-300

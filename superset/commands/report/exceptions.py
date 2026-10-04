@@ -451,3 +451,5 @@ class ReportScheduleCeleryNotConfiguredError(CommandException):
         "Report Schedule execution requires a Celery backend to be configured. "
         "Please configure a Celery broker (Redis or RabbitMQ) and worker processes."
     )
+
+# ovyero-rollout: touched in pr-300

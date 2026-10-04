@@ -237,3 +237,5 @@ class SemanticQuery:
     offset: int | None = None
     group_limit: GroupLimit | None = None
     selection_identity_version: str | None = None
+
+# ovyero-rollout: touched in pr-300

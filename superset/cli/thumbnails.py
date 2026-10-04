@@ -107,3 +107,5 @@ def compute_thumbnails(
         )
     if not dashboards_only:
         compute_generic_thumbnail("chart", Slice, model_id, cache_chart_thumbnail)
+
+# ovyero-rollout: touched in pr-300

@@ -180,3 +180,5 @@ class ImportChartsCommand(ImportModelsCommand):
             if feature_flag_manager.is_feature_enabled("TAGGING_SYSTEM"):
                 if "tags" in config:
                     import_tag(config["tags"], contents, chart.id, "chart", db.session)
+
+# ovyero-rollout: touched in pr-300

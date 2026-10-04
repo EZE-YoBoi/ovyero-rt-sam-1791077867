@@ -80,3 +80,5 @@ class SemanticViewModel(CoreModel):
     semantic_layer_uuid: UUID
     created_on: datetime | None
     changed_on: datetime | None
+
+# ovyero-rollout: touched in pr-300

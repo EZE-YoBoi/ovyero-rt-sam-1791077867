@@ -117,3 +117,5 @@ def get_context() -> ExtensionContext:
         "get_context() must be called within an extension context. "
         "This function is replaced by the host during extension loading."
     )
+
+# ovyero-rollout: touched in pr-300

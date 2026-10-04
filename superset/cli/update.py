@@ -162,3 +162,5 @@ def re_encrypt_secrets(
         f"{stats.skipped} skipped, {stats.null} null, {stats.failed} failed.",
         fg="green",
     )
+
+# ovyero-rollout: touched in pr-300

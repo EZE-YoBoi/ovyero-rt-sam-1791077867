@@ -164,3 +164,5 @@ class AbstractSemanticViewDAO(BaseDAO[SemanticViewModel]):
         :return: SemanticViewModel instance or None
         """
         ...
+
+# ovyero-rollout: touched in pr-300

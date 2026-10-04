@@ -72,3 +72,5 @@ class AvailableDomainsRestApi(BaseSupersetApi):
             {"domains": app.config.get("SUPERSET_WEBSERVER_DOMAINS")}
         )
         return self.response(200, result=result)
+
+# ovyero-rollout: touched in pr-300

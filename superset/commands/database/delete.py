@@ -100,3 +100,5 @@ class DeleteDatabaseCommand(BaseCommand):
             raise DatabaseDeleteDatasetsExistFailedError()
         if has_any:
             raise DatabaseDeleteSoftDeletedDatasetsExistFailedError()
+
+# ovyero-rollout: touched in pr-300

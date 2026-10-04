@@ -97,3 +97,5 @@ def semantic_layer(
         "Semantic layer decorator not initialized. "
         "This decorator should be replaced during Superset startup."
     )
+
+# ovyero-rollout: touched in pr-300

@@ -226,3 +226,5 @@ class TaskDependency(CoreModel):
     changed_on: datetime | None
     created_by_fk: int | None
     changed_by_fk: int | None
+
+# ovyero-rollout: touched in pr-300

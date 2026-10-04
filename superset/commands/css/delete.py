@@ -46,3 +46,5 @@ class DeleteCssTemplateCommand(BaseCommand):
         self._models = CssTemplateDAO.find_by_ids(self._model_ids)
         if not self._models or len(self._models) != len(self._model_ids):
             raise CssTemplateNotFoundError()
+
+# ovyero-rollout: touched in pr-300

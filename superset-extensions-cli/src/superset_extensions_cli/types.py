@@ -47,3 +47,5 @@ class ExtensionNames(TypedDict):
 
     # Backend entry point (e.g., "my_org.dashboard_widgets.entrypoint")
     backend_entry: str
+
+# ovyero-rollout: touched in pr-300

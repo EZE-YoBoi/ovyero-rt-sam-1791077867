@@ -243,3 +243,5 @@ class DatasetForbiddenDataURI(ImportFailedError):  # noqa: N818
 class WarmUpCacheTableNotFoundError(CommandException):
     status = 404
     message = _("The provided table was not found in the provided database")
+
+# ovyero-rollout: touched in pr-300

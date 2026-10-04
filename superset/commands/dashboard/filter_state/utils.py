@@ -33,3 +33,5 @@ def check_access(resource_id: int) -> None:
         raise TemporaryCacheResourceNotFoundError from ex
     except DashboardAccessDeniedError as ex:
         raise TemporaryCacheAccessDeniedError from ex
+
+# ovyero-rollout: touched in pr-300

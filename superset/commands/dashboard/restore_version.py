@@ -43,3 +43,5 @@ class RestoreDashboardVersionCommand(BaseRestoreVersionCommand):
     not_found_exc = DashboardNotFoundError
     forbidden_exc = DashboardForbiddenError
     failed_exc = DashboardUpdateFailedError
+
+# ovyero-rollout: touched in pr-300

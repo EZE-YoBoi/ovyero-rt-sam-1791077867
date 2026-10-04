@@ -29,3 +29,5 @@ class DatasetMetricDeleteFailedError(CommandException):
 
 class DatasetMetricForbiddenError(CommandException):
     message = _("Changing this dataset is forbidden.")
+
+# ovyero-rollout: touched in pr-300

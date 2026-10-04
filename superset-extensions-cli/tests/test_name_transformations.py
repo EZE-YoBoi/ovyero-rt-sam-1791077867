@@ -497,3 +497,5 @@ def test_generate_names_uses_suggested_technical_names():
 
     # Module Federation name should use underscore format with camelCase
     assert names["mf_name"] == "testOrg_helloWorld"
+
+# ovyero-rollout: touched in pr-300

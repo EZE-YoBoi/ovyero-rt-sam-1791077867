@@ -82,3 +82,5 @@ class RestoreDashboardCommand(BaseRestoreCommand[Dashboard]):
         rows; see its docstring for the dialect caveat).
         """
         return not DashboardDAO.validate_update_slug_uniqueness(model.id, model.slug)
+
+# ovyero-rollout: touched in pr-300

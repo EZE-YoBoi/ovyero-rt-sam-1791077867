@@ -255,3 +255,5 @@ def test_bundle_command_output_options(
     assert result.exit_code == 0
     assert f"✅ Bundle created: {filename}" in result.output
     assert_file_exists(isolated_filesystem / filename)
+
+# ovyero-rollout: touched in pr-300

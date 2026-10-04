@@ -498,3 +498,5 @@ class AnnotationRestApi(BaseSupersetModelRestApi):
             return self.response_404()
         except AnnotationDeleteFailedError as ex:
             return self.response_422(message=str(ex))
+
+# ovyero-rollout: touched in pr-300

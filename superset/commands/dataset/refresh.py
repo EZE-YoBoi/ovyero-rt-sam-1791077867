@@ -104,3 +104,5 @@ class RefreshDatasetCommand(BaseCommand):
         # externally managed dataset's columns are owned by the external
         # sync, which would overwrite (or fight) the refresh.
         raise_if_managed_externally(self._model, DatasetForbiddenError)
+
+# ovyero-rollout: touched in pr-300

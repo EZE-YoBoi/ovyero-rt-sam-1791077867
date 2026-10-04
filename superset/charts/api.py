@@ -2022,3 +2022,5 @@ class ChartRestApi(SoftDeleteApiMixin, BaseSupersetModelRestApi):
         return restore_version_endpoint(
             self, Slice, RestoreChartVersionCommand, uuid_str, version_uuid_str
         )
+
+# ovyero-rollout: touched in pr-300

@@ -103,3 +103,5 @@ class ChartDataCommand(BaseCommand):
 
     def validate(self) -> None:
         self._query_context.raise_for_access()
+
+# ovyero-rollout: touched in pr-300

@@ -270,3 +270,5 @@ def test_validate_fails_on_license_mismatch(
     assert result.exit_code != 0
     assert "Metadata mismatch" in result.output
     assert "license" in result.output
+
+# ovyero-rollout: touched in pr-300

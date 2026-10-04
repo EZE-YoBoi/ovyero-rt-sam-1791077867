@@ -52,3 +52,5 @@ class AddFavoriteChartCommand(BaseCommand):
         except SupersetSecurityException as ex:
             raise ChartAccessDeniedError() from ex
         self._chart = chart
+
+# ovyero-rollout: touched in pr-300

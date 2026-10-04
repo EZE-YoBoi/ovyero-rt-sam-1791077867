@@ -170,3 +170,5 @@ def test_update_rejects_invalid_version(
     # Verify extension.json was not modified
     ext = read_json(isolated_filesystem / "extension.json")
     assert ext["version"] == "1.0.0"
+
+# ovyero-rollout: touched in pr-300

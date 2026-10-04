@@ -43,3 +43,5 @@ def check_access(
         raise TemporaryCacheResourceNotFoundError from ex
     except (ChartAccessDeniedError, DatasetAccessDeniedError) as ex:
         raise TemporaryCacheAccessDeniedError from ex
+
+# ovyero-rollout: touched in pr-300

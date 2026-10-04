@@ -1273,3 +1273,5 @@ def _delete_dataset_permission(
         None, session.connection(), "datasource_access", permission_name
     )
     logger.debug("deletion_retention: removed dataset permission for id=%s", entity_id)
+
+# ovyero-rollout: touched in pr-300

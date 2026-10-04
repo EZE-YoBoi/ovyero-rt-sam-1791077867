@@ -423,3 +423,5 @@ def legacy_export_datasource_schema(back_references: bool) -> None:
 
     data = dict_import_export.export_schema_to_dict(back_references=back_references)
     yaml.safe_dump(data, sys.stdout, default_flow_style=False)
+
+# ovyero-rollout: touched in pr-300

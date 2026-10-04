@@ -38,3 +38,5 @@ class AnnotationAllTextFilter(BaseFilter):  # pylint: disable=too-few-public-met
                 Annotation.long_descr.ilike(ilike_value),
             )
         )
+
+# ovyero-rollout: touched in pr-300

@@ -52,3 +52,5 @@ class ImportAnnotationLayersCommand(ImportModelsCommand):
         for file_name, config in configs.items():
             if file_name.startswith("annotation_layers/"):
                 import_annotation_layer(config, overwrite=overwrite)
+
+# ovyero-rollout: touched in pr-300

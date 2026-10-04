@@ -106,3 +106,5 @@ def sync_subjects() -> None:
         click.echo(f"Removed {len(orphaned)} orphaned subjects.")
 
     click.echo("Subject sync complete.")
+
+# ovyero-rollout: touched in pr-300

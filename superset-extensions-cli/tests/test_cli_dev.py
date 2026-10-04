@@ -247,3 +247,5 @@ def test_backend_watcher_function_coverage(isolated_filesystem):
 
         # Backend watcher should only call rebuild_backend
         mock_rebuild.assert_called_once_with(isolated_filesystem)
+
+# ovyero-rollout: touched in pr-300

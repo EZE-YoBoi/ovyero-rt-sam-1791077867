@@ -390,3 +390,5 @@ def get_session() -> scoped_session:
     :returns: The SQLAlchemy scoped session instance.
     """
     raise NotImplementedError("Function will be replaced during initialization")
+
+# ovyero-rollout: touched in pr-300
