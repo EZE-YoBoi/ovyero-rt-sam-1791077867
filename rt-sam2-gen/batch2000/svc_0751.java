@@ -1,0 +1,22 @@
+// Service module 751 (codemod batch b2000)
+package com.example.svc;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+public final class Record751 {
+    public final String key;
+    public final int value;
+
+    public Record751(String key, int value) { this.key = key; this.value = value; }
+
+    public static List<Record751> normalize(List<Map<String, Object>> items) {
+        List<Record751> out = new ArrayList<>();
+        for (Map<String, Object> it : items) {
+            if (it == null) continue;
+            out.add(new Record751(String.valueOf(it.getOrDefault("key", "")), (Integer) it.getOrDefault("value", 0)));
+        }
+        return out;
+    }
+}
