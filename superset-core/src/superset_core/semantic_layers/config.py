@@ -71,3 +71,5 @@ def check_dependencies(
     """
     dependencies = prop_schema.get("x-dependsOn", [])
     return all(getattr(configuration, dep, None) for dep in dependencies)
+
+# ovyero-rollout: touched in pr-300

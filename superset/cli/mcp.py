@@ -42,3 +42,5 @@ def run(host: str, port: int, debug: bool) -> None:
             err=True,
         )
         raise click.ClickException("MCP service not available") from e
+
+# ovyero-rollout: touched in pr-300

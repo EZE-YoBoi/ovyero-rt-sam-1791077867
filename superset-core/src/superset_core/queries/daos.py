@@ -55,3 +55,5 @@ class SavedQueryDAO(BaseDAO[SavedQuery]):
     model_cls = None
     base_filter = None
     id_column_name = "id"
+
+# ovyero-rollout: touched in pr-300

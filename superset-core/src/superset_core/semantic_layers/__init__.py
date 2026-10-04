@@ -16,3 +16,5 @@
 # under the License.
 
 """Semantic layer contracts for extension authors."""
+
+# ovyero-rollout: touched in pr-300

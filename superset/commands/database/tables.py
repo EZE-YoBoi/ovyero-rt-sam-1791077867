@@ -212,3 +212,5 @@ class TablesDatabaseCommand(BaseCommand):
 
         if not accessible:
             raise DatabaseSchemaNotFoundError()
+
+# ovyero-rollout: touched in pr-300

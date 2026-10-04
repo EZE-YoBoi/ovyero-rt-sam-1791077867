@@ -150,3 +150,5 @@ class Manifest(BaseExtension):
         default=None,
         description="Backend manifest",
     )
+
+# ovyero-rollout: touched in pr-300

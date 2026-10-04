@@ -367,3 +367,5 @@ def test_database_connectivity(console: Console, engine: Engine) -> None:
                 console.print(f"[red]Test failed: {ex}")
                 console.print("[bold]Exiting...")
                 sys.exit(1)
+
+# ovyero-rollout: touched in pr-300

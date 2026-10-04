@@ -81,3 +81,5 @@ def factory_reset(
     except Exception as ex:  # pylint: disable=broad-except
         click.secho(f"Factory reset failed: {ex}", fg="red")
         sys.exit(1)
+
+# ovyero-rollout: touched in pr-300

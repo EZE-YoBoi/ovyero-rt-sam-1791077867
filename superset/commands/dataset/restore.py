@@ -58,3 +58,5 @@ class RestoreDatasetCommand(BaseRestoreCommand[SqlaTable]):
         if DatasetDAO.has_active_logical_duplicate(model):
             raise DatasetLogicalDuplicateError()
         return model
+
+# ovyero-rollout: touched in pr-300

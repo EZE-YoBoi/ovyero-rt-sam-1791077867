@@ -232,3 +232,5 @@ def export_example(  # noqa: C901
 
     click.echo("\nTo load this example, ensure the folder is in superset/examples/")
     click.echo("and it will be picked up by load_examples_from_configs().")
+
+# ovyero-rollout: touched in pr-300

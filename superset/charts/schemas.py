@@ -2155,3 +2155,5 @@ CHART_SCHEMAS = (
     ChartCacheScreenshotResponseSchema,
     GetFavStarIdsSchema,
 )
+
+# ovyero-rollout: touched in pr-300

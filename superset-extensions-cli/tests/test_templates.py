@@ -365,3 +365,5 @@ def test_template_context_edge_cases(jinja_env):
     assert parsed["displayName"] == "Minimal"
     assert "frontend" not in parsed
     assert "backend" not in parsed
+
+# ovyero-rollout: touched in pr-300

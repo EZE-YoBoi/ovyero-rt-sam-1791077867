@@ -307,3 +307,5 @@ class ChartDeletedStateFilter(  # pylint: disable=too-few-public-methods
 
     arg_name = "chart_deleted_state"
     model = Slice
+
+# ovyero-rollout: touched in pr-300

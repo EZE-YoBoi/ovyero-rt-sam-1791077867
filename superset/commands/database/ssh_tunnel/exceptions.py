@@ -83,3 +83,5 @@ class SSHTunnelHostKeyVerificationError(CommandInvalidError, SSHTunnelError):
     message = _(
         "The SSH server host key could not be verified against the expected key."
     )
+
+# ovyero-rollout: touched in pr-300

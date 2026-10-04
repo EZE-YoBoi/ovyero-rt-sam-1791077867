@@ -503,3 +503,5 @@ def _sweep_orphan_transactions(
     if orphaned := tx_ids - still_referenced:
         for chunk in _chunked(orphaned):
             session.execute(sa.delete(tx).where(tx.c.id.in_(chunk)))
+
+# ovyero-rollout: touched in pr-300

@@ -102,3 +102,5 @@ def version(verbose: bool) -> None:
     if verbose:
         print("[DB] : " + f"{db.engine}")
     print(Style.RESET_ALL)
+
+# ovyero-rollout: touched in pr-300

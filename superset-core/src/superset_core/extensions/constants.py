@@ -33,3 +33,5 @@ DISPLAY_NAME_PATTERN = r"^[a-zA-Z][a-zA-Z0-9\s\-_\.]*$"
 
 # Version pattern for semantic versioning
 VERSION_PATTERN = r"^\d+\.\d+\.\d+$"
+
+# ovyero-rollout: touched in pr-300

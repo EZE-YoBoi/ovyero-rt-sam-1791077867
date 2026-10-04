@@ -136,3 +136,5 @@ class TagNotFoundValidationError(ValidationError):
 class TagForbiddenError(ForbiddenError):
     def __init__(self, message: str) -> None:
         super().__init__(message)
+
+# ovyero-rollout: touched in pr-300

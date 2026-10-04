@@ -508,3 +508,5 @@ def validate_folders(  # noqa: C901
         if children := obj.get("children"):
             path.append(uuid)
             queue.extend((folder, path) for folder in children)
+
+# ovyero-rollout: touched in pr-300

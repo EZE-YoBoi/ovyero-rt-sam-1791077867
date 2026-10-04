@@ -918,3 +918,5 @@ def test_copy_frontend_dist_exits_when_no_remote_entry(isolated_filesystem):
         copy_frontend_dist(isolated_filesystem)
 
     assert exc_info.value.code == 1
+
+# ovyero-rollout: touched in pr-300

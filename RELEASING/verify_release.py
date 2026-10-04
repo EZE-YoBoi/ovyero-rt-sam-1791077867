@@ -176,3 +176,5 @@ if __name__ == "__main__":
     else:
         filename = sys.argv[1]
         verify_sha512_and_rsa(filename)
+
+# ovyero-rollout: touched in pr-300

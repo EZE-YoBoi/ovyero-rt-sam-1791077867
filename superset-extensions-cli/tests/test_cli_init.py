@@ -529,3 +529,5 @@ def test_init_non_interactive_validates_technical_name(cli_runner, isolated_file
 
     assert result.exit_code == 1
     assert "must start with a letter" in result.output.lower()
+
+# ovyero-rollout: touched in pr-300

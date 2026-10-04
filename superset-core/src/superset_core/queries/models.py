@@ -71,3 +71,5 @@ class SavedQuery(CoreModel):
     database_id: int | None
     description: str | None
     user_id: int | None
+
+# ovyero-rollout: touched in pr-300

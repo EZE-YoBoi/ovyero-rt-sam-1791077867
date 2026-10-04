@@ -168,3 +168,5 @@ class AsyncQueryHandle:
         :returns: True if cancellation was successful
         """
         raise NotImplementedError("Method will be replaced during initialization")
+
+# ovyero-rollout: touched in pr-300

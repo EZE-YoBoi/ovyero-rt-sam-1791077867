@@ -67,3 +67,5 @@ if os.environ.get("SUPERSET_FEATURE_EMBEDDED_SUPERSET", "").strip().lower() == "
     # the standard read-only viewer role — so the embedded flow can authenticate
     # and load dashboard data in local dev.
     PUBLIC_ROLE_LIKE = "Gamma"
+
+# ovyero-rollout: touched in pr-300

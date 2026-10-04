@@ -206,3 +206,5 @@ def extension_with_versions():
             (backend_dir / "pyproject.toml").write_text(tomli_w.dumps(pyproject))
 
     return _create
+
+# ovyero-rollout: touched in pr-300

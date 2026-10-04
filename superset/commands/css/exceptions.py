@@ -25,3 +25,5 @@ class CssTemplateDeleteFailedError(DeleteFailedError):
 
 class CssTemplateNotFoundError(CommandException):
     message = _("CSS template not found.")
+
+# ovyero-rollout: touched in pr-300

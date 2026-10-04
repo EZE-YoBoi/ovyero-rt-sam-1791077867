@@ -20,3 +20,5 @@ class ExtensionNameError(Exception):
     """Raised when extension name validation fails."""
 
     pass
+
+# ovyero-rollout: touched in pr-300

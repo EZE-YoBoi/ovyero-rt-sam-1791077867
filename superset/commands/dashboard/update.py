@@ -388,3 +388,5 @@ class UpdateDashboardColorsConfigCommand(UpdateDashboardCommand):
             self._model.changed_on = original_changed_on
 
         return self._model
+
+# ovyero-rollout: touched in pr-300

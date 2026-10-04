@@ -52,3 +52,5 @@ def revoke_guest_tokens() -> None:
         f"Revoked outstanding guest tokens. Revocation version is now {new_version}.",
         fg="green",
     )
+
+# ovyero-rollout: touched in pr-300

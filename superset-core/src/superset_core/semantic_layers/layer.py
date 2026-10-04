@@ -128,3 +128,5 @@ class SemanticLayer(ABC, Generic[ConfigT, SemanticViewT]):
         """
         Get a specific semantic view by its name and additional configuration.
         """
+
+# ovyero-rollout: touched in pr-300

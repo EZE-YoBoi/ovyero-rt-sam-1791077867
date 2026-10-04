@@ -315,3 +315,5 @@ class AlertCommand(BaseCommand):
             self._validate_not_null(rows)
             return
         self._validate_operator(rows)
+
+# ovyero-rollout: touched in pr-300

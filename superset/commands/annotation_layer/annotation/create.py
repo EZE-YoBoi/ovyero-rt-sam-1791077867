@@ -70,3 +70,5 @@ class CreateAnnotationCommand(BaseCommand):
 
         if exceptions:
             raise AnnotationInvalidError(exceptions=exceptions)
+
+# ovyero-rollout: touched in pr-300

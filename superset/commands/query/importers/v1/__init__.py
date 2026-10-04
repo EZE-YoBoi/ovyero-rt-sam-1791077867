@@ -69,3 +69,5 @@ class ImportSavedQueriesCommand(ImportModelsCommand):
             ):
                 config["db_id"] = database_ids[config["database_uuid"]]
                 import_saved_query(config, overwrite=overwrite)
+
+# ovyero-rollout: touched in pr-300

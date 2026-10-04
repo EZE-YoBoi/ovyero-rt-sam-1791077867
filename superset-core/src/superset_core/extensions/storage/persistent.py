@@ -241,3 +241,5 @@ class PersistentState:
     #: WARNING: Do not store user-specific or sensitive data here.
     #: Host implementations will replace this during initialization.
     shared: ClassVar[PersistentStateAccessor] = _UnconfiguredPersistentStateAccessor()
+
+# ovyero-rollout: touched in pr-300

@@ -294,3 +294,5 @@ class TestConnectionDatabaseCommand(BaseCommand):
                 raise SSHTunnelingNotEnabledError()
             if not self._context.get("port"):
                 raise SSHTunnelDatabasePortError()
+
+# ovyero-rollout: touched in pr-300
